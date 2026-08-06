@@ -1,30 +1,44 @@
-from utils.extractor import extract_text_from_pdf
+from utils.extractor import extract_text
 from utils.cleaner import clean_text
 from utils.segmenter import segment_clauses
 from utils.embedder import generate_embeddings
 from utils.vectordb import store_clauses
 
-pdf_path = "data/rental_agreement.pdf"
+# ===== CHANGED =====
+# List of contracts to ingest.
+contracts = {
+    "employment_contract": "data/employment_contract.txt",
+    "rental_contract": "data/rental_contract.txt",
+    "nda_contract": "data/nda_contract.txt",
+    "service_contract": "data/service_contract.txt"
+}
 
-print("\nStarting document ingestion...\n")
+# ===== CHANGED =====
+# Ingest each contract into its own ChromaDB collection.
+for collection_name, contract_path in contracts.items():
 
-# Extract text
-raw_text = extract_text_from_pdf(pdf_path)
+    print(f"\nStarting ingestion for '{collection_name}'...\n")
 
-# Clean extracted text
-cleaned_text = clean_text(raw_text)
+    # Extract text
+    raw_text = extract_text(contract_path)
 
-# Segment clauses
-clauses = segment_clauses(cleaned_text)
+    # Clean extracted text
+    cleaned_text = clean_text(raw_text)
 
-print(f"Total clauses found: {len(clauses)}")
+    # Segment clauses
+    clauses = segment_clauses(cleaned_text)
 
-# Generate embeddings
-embeddings = generate_embeddings(clauses)
+    print(f"Total clauses found: {len(clauses)}")
 
-print("Embeddings generated successfully.")
+    # Generate embeddings
+    embeddings = generate_embeddings(clauses)
 
-# Store in ChromaDB
-store_clauses(clauses, embeddings)
+    print("Embeddings generated successfully.")
 
-print("Clauses stored successfully in ChromaDB.")
+    # ===== CHANGED =====
+    # Store clauses in the corresponding ChromaDB collection.
+    store_clauses(clauses, embeddings, collection_name)
+
+    print(f"Clauses stored successfully in '{collection_name}'.")
+
+print("\nAll contracts have been ingested successfully.")

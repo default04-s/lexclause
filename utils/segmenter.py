@@ -2,10 +2,18 @@ import re
 
 def segment_clauses(text):
 
-    # Pattern for numbered clauses
-    pattern = r'(\d{1,2}\.\s.*?Clause)'
+    # ===== CHANGED =====
+    # Detect numbered clause headings.
+    pattern = r'^\d{1,2}\.\s+.*$'
 
-    matches = list(re.finditer(pattern, text))
+    # ===== CHANGED =====
+    # Search across multiple lines.
+    matches = list(re.finditer(pattern, text, re.MULTILINE))
+
+    # ===== CHANGED =====
+    # If no numbered clauses are found, return the whole document.
+    if not matches:
+        return [text.strip()]
 
     # Capture content before first clause as metadata
     first_clause_start = matches[0].start()
@@ -21,8 +29,6 @@ def segment_clauses(text):
 
         start = matches[i].start()
 
-        # If not last clause,
-        # end at next clause start
         if i + 1 < len(matches):
             end = matches[i + 1].start()
         else:

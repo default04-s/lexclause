@@ -1,13 +1,10 @@
-import fitz
+# ===== CHANGED =====
+# Renamed to support different document types in the future.
+def extract_text(file_path):
 
-def extract_text_from_pdf(pdf_path):
-
-    doc = fitz.open(pdf_path)
-
-    full_text = ""
-
-    for page in doc:
-        text = page.get_text()
-        full_text += text + "\n"
+    # ===== CHANGED =====
+    # Read text directly from a .txt file.
+    with open(file_path, "r", encoding="utf-8") as file:
+        full_text = file.read()
 
     return full_text
