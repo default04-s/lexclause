@@ -1,0 +1,215 @@
+EMPLOYMENT AGREEMENT
+
+This Employment Agreement (hereinafter referred to as the “Agreement”)
+is entered into on this 15th day of July, 2026.
+
+BY AND BETWEEN
+
+TechNova Solutions Private Limited, a company incorporated under the
+Companies Act, 2013, having its registered office at 5th Floor, Orion
+Tech Park, Whitefield Main Road, Bengaluru, Karnataka – 560066,
+hereinafter referred to as the “Company” or “Employer”, which expression
+shall, unless repugnant to the context or meaning thereof, include its
+successors, administrators, and permitted assigns;
+
+AND
+
+Ms. Priya Nair, daughter of Mr. Ramesh Nair, aged 27 years, residing at
+Flat No. 405, Silver Heights Apartments, HSR Layout, Bengaluru,
+Karnataka – 560102, hereinafter referred to as the “Employee”, which
+expression shall, unless repugnant to the context or meaning thereof,
+include her legal heirs and permitted assigns.
+
+WHEREAS
+
+• The Employer is engaged in the business of software development, cloud
+computing services, and technology consulting. • The Employer has agreed
+to employ the Employee, and the Employee has agreed to accept such
+employment upon the terms and conditions set forth herein.
+
+NOW, THEREFORE, in consideration of the mutual covenants and agreements
+contained herein, the parties agree as follows:
+
+1.  Interpretation
+
+For the purposes of this Agreement, the following expressions shall have
+the meanings assigned to them:
+
+a.  “Company”
+
+Means TechNova Solutions Private Limited and includes its successors and
+permitted assigns.
+
+b.  “Confidential Information”
+
+Means all proprietary, technical, financial, commercial, customer,
+software, product, and business information belonging to the Company
+that is not publicly available.
+
+2.  Position
+
+a.  The Employee is appointed as Software Engineer in the Technology
+    Division of the Company.
+
+b.  The Employee shall report directly to the Engineering Manager or any
+    other person designated by the Company.
+
+c.  The Company may reasonably modify the Employee’s duties, reporting
+    structure, or work location based on business requirements.
+
+3.  Term and Probation
+
+a.  Employment shall commence on 15th July, 2026.
+
+b.  The first six (6) months shall constitute the probation period.
+
+c.  During probation, either party may terminate employment by giving
+    seven (7) days’ written notice.
+
+d.  Upon successful completion of probation, the Employee shall become a
+    confirmed employee subject to the Company’s policies.
+
+4.  Duties and Responsibilities
+
+a.  The Employee shall devote her full working time and attention to the
+    business of the Company.
+
+b.  The Employee shall perform assigned duties diligently, honestly,
+    maintain professional conduct, and comply with all lawful
+    instructions issued by the Employer.
+
+5.  Working Hours and Place of Work
+
+a.  The Employee shall ordinarily work from Monday to Friday between
+    9:30 A.M. and 6:30 P.M., subject to reasonable changes as determined
+    by the Company.
+
+b.  The Employee’s primary place of work shall be the Company’s
+    Bengaluru office unless otherwise communicated by the Employer.
+
+c.  The Company may permit remote or hybrid working arrangements based
+    on business requirements and applicable Company policies. Such
+    arrangements may be modified or withdrawn at the Company’s
+    discretion.
+
+6.  Compensation
+
+a.  The Employee shall receive an annual Cost to Company (CTC) of INR
+    8,40,000 (Rupees Eight Lakh Forty Thousand Only).
+
+b.  Salary shall be paid monthly through electronic bank transfer after
+    statutory deductions.
+
+c.  The Employee shall be eligible for annual performance reviews and
+    salary revisions at the discretion of the Company.
+
+7.  Leave and Benefits
+
+a.  The Employee shall be entitled to 18 days of paid annual leave and
+    12 days of sick leave per calendar year.
+
+b.  The Employee shall also be entitled to public holidays declared by
+    the Company.
+
+8.  Confidentiality
+
+a.  During the course of employment, the Employee may have access to
+    Confidential Information belonging to the Company.
+
+b.  The Employee agrees not to disclose, reproduce, copy, or use such
+    Confidential Information except for the proper performance of
+    official duties.
+
+c.  This obligation shall continue even after termination of employment.
+
+9.  Data Protection and Information Security
+
+a.  The Employee shall comply with all Company policies relating to
+    information security, data protection, and acceptable use of
+    information technology resources.
+
+b.  The Employee shall take reasonable precautions to prevent
+    unauthorized access, disclosure, alteration, or loss of Company
+    data.
+
+c.  Any actual or suspected data breach or security incident shall be
+    reported to the Company immediately upon becoming aware of it.
+
+10. Intellectual Property
+
+a.  All software, documentation, inventions, designs, source code,
+    reports, and work products created by the Employee during the course
+    of employment shall remain the exclusive property of the Company.
+
+b.  The Employee agrees to execute all documents necessary to transfer
+    intellectual property rights to the Company.
+
+11. Non-Solicitation
+
+a.  During the Employee’s employment and for a period of six (6) months
+    following the termination of employment, the Employee shall not,
+    directly or indirectly, solicit or induce any employee of the
+    Company to leave the Company’s employment.
+
+b.  During the same period, the Employee shall not solicit or attempt to
+    solicit any client or customer of the Company with whom the Employee
+    had material business dealings during the course of employment for
+    the purpose of providing competing services.
+
+c.  Nothing in this clause shall prevent the Employee from accepting
+    employment with another organization, provided that the Employee
+    complies with the confidentiality and intellectual property
+    obligations contained in this Agreement.
+
+12. Termination
+
+a.  Either party may terminate this Agreement by providing thirty (30)
+    days’ written notice after confirmation of employment.
+
+b.  The Company may terminate employment immediately in cases involving
+    fraud, misconduct, theft, breach of confidentiality, or other
+    serious violations of Company policy.
+
+c.  Upon termination, the Employee shall immediately return all Company
+    property, identification cards, laptops, documents, and confidential
+    materials.
+
+13. Governing Law and Dispute Resolution
+
+a.  This Agreement shall be governed by the laws of India.
+
+b.  Any dispute arising from this Agreement shall first be resolved
+    through mutual discussion.
+
+c.  If the dispute remains unresolved, it shall be referred to
+    arbitration under the Arbitration and Conciliation Act, 1996.
+
+d.  The seat of arbitration shall be Bengaluru, Karnataka.
+
+14. Entire Agreement
+
+This Agreement constitutes the complete understanding between the
+Employer and the Employee concerning employment and supersedes all prior
+communications, negotiations, and understandings.
+
+Any amendment shall be valid only if made in writing and signed by both
+parties.
+
+IN WITNESS WHEREOF
+
+The parties have executed this Agreement on the day and year first above
+written.
+
+Employee
+
+Priya Nair
+
+Signature: __________________
+
+Employer
+
+TechNova Solutions Private Limited
+
+Authorized Signatory: __________________
+
+Date: 15th July, 2026

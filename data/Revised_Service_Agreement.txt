@@ -1,0 +1,94 @@
+SERVICE AGREEMENT
+This Service Agreement (hereinafter referred to as the "Agreement") is entered into on this 10th day of September, 2026.
+BY AND BETWEEN
+TechNova Solutions Private Limited, a company incorporated under the Companies Act, 2013, having its registered office at 5th Floor, Orion Tech Park, Whitefield Main Road, Bengaluru, Karnataka – 560066, hereinafter referred to as the "Service Provider", which expression shall, unless repugnant to the context or meaning thereof, include its successors and permitted assigns;
+AND
+GreenLeaf Retail Private Limited, a company incorporated under the Companies Act, 2013, having its registered office at 12, Business Plaza, MG Road, Bengaluru, Karnataka – 560001, hereinafter referred to as the "Client", which expression shall, unless repugnant to the context or meaning thereof, include its successors and permitted assigns.
+The Service Provider and the Client shall hereinafter collectively be referred to as the "Parties" and individually as a "Party."
+
+WHEREAS
+The Client desires to engage the Service Provider for the design, development, implementation, and maintenance of a custom web-based inventory management system.
+The Service Provider represents that it possesses the necessary expertise, personnel, and technical capabilities required to perform the Services.
+NOW, THEREFORE, in consideration of the mutual covenants and agreements contained herein, the Parties hereby agree as follows:
+
+1. Interpretation
+For the purposes of this Agreement, the following terms shall have the meanings assigned to them:
+a) "Services"
+Means the software development, implementation, testing, deployment, maintenance, and related technical services to be provided by the Service Provider under this Agreement.
+b) "Deliverables"
+Means all reports, documentation, software modules, source code, user manuals, and other work products delivered to the Client.
+c) "Project"
+Means the development of a web-based inventory management system for the Client.
+
+2. Scope of Services
+a. The Service Provider shall design, develop, test, deploy, and maintain the Project in accordance with the specifications mutually agreed upon by the Parties.
+b. The Services shall include requirement analysis, software development, quality assurance testing, deployment assistance, user training, and post-deployment technical support.
+c. Any additional services requested by the Client outside the agreed scope shall require prior written approval and may result in additional charges.
+
+3. Responsibilities of the Service Provider
+a. The Service Provider shall perform the Services with reasonable skill, care, and professional competence.
+b. The Service Provider shall assign qualified personnel for execution of the Project.
+c. The Service Provider shall provide periodic progress reports to the Client.
+d. The Service Provider shall make reasonable efforts to complete the Project within the agreed timeline.
+
+4. Responsibilities of the Client
+a. The Client shall provide all information, documentation, approvals, and access reasonably required for the successful completion of the Project.
+b. The Client shall review Deliverables and provide feedback within seven (7) business days of submission.
+c. The Client shall ensure timely payment of all invoices issued under this Agreement.
+
+5. Fees and Payment
+a. The Client agrees to pay the Service Provider a total contract value of INR 12,50,000 (Rupees Twelve Lakh Fifty Thousand Only).
+b. Payments shall be made according to the following schedule:
+30% upon execution of this Agreement. 
+40% upon successful completion of software development. 
+30% upon final delivery and acceptance of the Project. 
+c. Any payment delayed beyond 15 days from the invoice due date shall attract interest at 12% per annum until payment is received.
+
+6. Confidentiality
+a. During the course of this Agreement, either Party may disclose confidential business, technical, or commercial information.
+b. Both Parties agree to maintain the confidentiality of such information and shall not disclose it to any third party without prior written consent.
+c. The confidentiality obligations shall survive termination of this Agreement for a period of five (5) years.
+
+7. Intellectual Property
+a. Upon receipt of full payment, all intellectual property rights relating to the final Deliverables specifically developed for the Client shall vest in the Client.
+b. The Service Provider shall retain ownership of its pre-existing software libraries, development frameworks, methodologies, tools, and proprietary technologies used during the Project.
+c. The Client shall not reproduce, modify, or distribute proprietary software belonging to the Service Provider without prior written permission.
+
+8. Acceptance of Deliverables
+a. The Client shall review and conduct acceptance testing of the Deliverables within a reasonable review period after delivery.
+b. If the Deliverables do not materially conform to the agreed specifications, the Client shall notify the Service Provider in writing, stating the reasons for rejection and any requested revisions.
+c. The Service Provider shall use reasonable efforts to address valid revision requests and resubmit the Deliverables for further review.
+d. If the Client does not reject the Deliverables with written reasons within the applicable review period, the Deliverables shall be deemed accepted.
+
+9. Term and Termination
+a. This Agreement shall remain in force until completion of the Services unless terminated earlier in accordance with this Agreement.
+b. Either Party may terminate this Agreement by providing thirty (30) days' written notice.
+c. Either Party may terminate this Agreement immediately in the event of a material breach that remains unremedied for fifteen (15) days after written notice.
+d. Upon termination, the Client shall pay for all Services satisfactorily performed up to the date of termination.
+
+10. Limitation of Liability
+a. Neither Party shall be liable for any indirect, incidental, consequential, or special damages arising out of this Agreement.
+b. The aggregate liability of the Service Provider shall not exceed the total amount paid under this Agreement.
+
+11. Warranty and Support
+a. The Service Provider shall provide a reasonable post-delivery warranty period for the Deliverables.
+b. During the warranty period, the Service Provider shall correct defects attributable to its work at no additional charge.
+c. The Service Provider shall provide basic technical support during the warranty period in accordance with the terms of this Agreement.
+
+12. Force Majeure
+Neither Party shall be liable for any delay or failure in performing its obligations due to events beyond its reasonable control, including natural disasters, war, pandemics, government restrictions, cyber-attacks, or power failures.
+The affected Party shall promptly notify the other Party and resume performance as soon as reasonably practicable.
+
+13. Governing Law and Dispute Resolution
+a. This Agreement shall be governed by and construed in accordance with the laws of India.
+b. The Parties shall first attempt to resolve disputes through mutual discussion and negotiation.
+c. If the dispute cannot be resolved amicably within thirty (30) days, it shall be referred to arbitration in accordance with the Arbitration and Conciliation Act, 1996.
+d. The seat and venue of arbitration shall be Bengaluru, Karnataka, and the proceedings shall be conducted in the English language.
+
+14. Entire Agreement
+This Agreement constitutes the complete understanding between the Parties regarding the Services and supersedes all prior negotiations, representations, and agreements.
+No amendment or modification shall be valid unless made in writing and signed by authorized representatives of both Parties.
+
+IN WITNESS WHEREOF
+The Parties have executed this Agreement on the day and year first above written.
+Date: 10th September, 2026
