@@ -3,28 +3,42 @@ from utils.legal_segmenter import segment_legal_sections
 from utils.embedder import generate_embeddings
 from utils.vectordb import store_legal_sections
 
-legal_path = "data/legal_knowledge.txt"
 
-print("\nStarting legal knowledge ingestion...\n")
+# ===== CHANGED =====
+# Function to ingest the legal knowledge base.
+def ingest_legal():
 
-# Load legal text
-with open(legal_path, "r", encoding="utf-8") as file:
-    raw_text = file.read()
+    legal_path = "data/legal_text.txt"
 
-# Clean text
-cleaned_text = clean_text(raw_text)
+    print("\nStarting legal knowledge ingestion...\n")
 
-# Segment legal sections
-sections = segment_legal_sections(cleaned_text)
+    # Load legal text
+    with open(legal_path, "r", encoding="utf-8") as file:
+        raw_text = file.read()
 
-print(f"Total legal sections found: {len(sections)}")
+    # Clean text
+    cleaned_text = clean_text(raw_text)
 
-# Generate embeddings
-embeddings = generate_embeddings(sections)
+    # Segment legal sections
+    sections = segment_legal_sections(cleaned_text)
 
-print("Legal embeddings generated successfully.")
+    print(f"Total legal sections found: {len(sections)}")
 
-# Store in ChromaDB
-store_legal_sections(sections, embeddings)
+    # Generate embeddings
+    embeddings = generate_embeddings(sections)
 
-print("Legal sections stored successfully.")
+    print("Legal embeddings generated successfully.")
+
+    # Store legal sections in the legal_knowledge collection
+    store_legal_sections(sections, embeddings)
+
+    print("Legal sections stored successfully.")
+
+    print("\nAll legal sections ingested successfully.")
+
+
+# ===== CHANGED =====
+# Only runs when this file is executed directly.
+if __name__ == "__main__":
+
+    ingest_legal()

@@ -1,11 +1,43 @@
 import streamlit as st
+from utils.reranker import rerank_results
 
 from utils.embedder import generate_query_embedding
 
 from utils.vectordb import (
     search_clauses,
-    search_legal_sections
+    search_legal_sections,
+    collection_has_data
 )
+
+from ingest import ingest_contracts
+from legal_ingest import ingest_legal
+
+# ---------------------------------------------------
+# DATABASE CHECK
+# ---------------------------------------------------
+
+contracts = {
+    "employment_contract": "data/employment_contract.txt",
+    "rental_contract": "data/rental_contract.txt",
+    "nda_contract": "data/nda_contract.txt",
+    "service_contract": "data/service_contract.txt"
+}
+
+for collection_name, contract_path in contracts.items():
+
+    if not collection_has_data(collection_name):
+
+        print(f"{collection_name} missing. Running ingestion...")
+
+        ingest_contracts({
+            collection_name: contract_path
+        })
+
+if not collection_has_data("legal_knowledge"):
+
+    print("legal_knowledge missing. Running legal ingestion...")
+
+    ingest_legal()
 
 from utils.prompt_builder import build_prompt
 
@@ -230,8 +262,9 @@ st.title("⚖️ LexClause")
 st.markdown(
     """
     <div class="small-muted">
-    AI-powered legal assistant for rental agreements with
-    semantic retrieval, legal grounding, and conversational memory.
+    AI-powered legal assistant for analyzing employment, residential rental,
+    non-disclosure, and service agreements using semantic retrieval and
+    relevant provisions of the Indian Contract Act, 1872.
     </div>
     """,
     unsafe_allow_html=True
@@ -239,11 +272,12 @@ st.markdown(
 
 st.markdown("---")
 
+
 # ---------------------------------------------------
 # MODE SELECTOR
 # ---------------------------------------------------
 
-mode_col1, mode_col2, mode_col3 = st.columns([1.2, 4, 1])
+mode_col1, mode_col2 = st.columns(2)
 
 with mode_col1:
 
@@ -255,6 +289,26 @@ with mode_col1:
         ]
     )
 
+with mode_col2:
+
+    contract_type = st.selectbox(
+        "Contract Type",
+        [
+            "Employment Agreement",
+            "Residential Rental Agreement",
+            "Mutual Non-Disclosure Agreement (NDA)",
+            "Service Agreement"
+        ]
+    )
+
+collection_map = {
+    "Employment Agreement": "employment_contract",
+    "Residential Rental Agreement": "rental_contract",
+    "Mutual Non-Disclosure Agreement (NDA)": "nda_contract",
+    "Service Agreement": "service_contract"
+}
+
+selected_collection = collection_map[contract_type]
 # ---------------------------------------------------
 # MODE BADGE
 # ---------------------------------------------------
@@ -318,7 +372,7 @@ with st.form("question_form", clear_on_submit=True):
 if submitted and question:
 
     with st.spinner(
-        "Analyzing agreement and legal provisions..."
+        "Analyzing contract and legal provisions..."
     ):
 
         # Embedding
@@ -328,10 +382,16 @@ if submitted and question:
 
         # Clause retrieval
         clause_results = search_clauses(
-            query_embedding
+            query_embedding,
+            selected_collection
         )
 
         retrieved_clauses = clause_results["documents"][0]
+        retrieved_clauses = rerank_results(
+            question,
+            retrieved_clauses,
+            top_k=3
+   )
 
         # Legal retrieval
         legal_results = search_legal_sections(
@@ -339,6 +399,11 @@ if submitted and question:
         )
 
         retrieved_legal_sections = legal_results["documents"][0]
+        retrieved_legal_sections = rerank_results(
+            question,
+            retrieved_legal_sections,
+            top_k=2
+   )
 
         # Prompt
         prompt = build_prompt(
@@ -402,24 +467,23 @@ if not st.session_state.latest_answer:
 
         Ask questions about:
         <ul>
-        <li>Rent payment obligations</li>
-        <li>Termination conditions</li>
-        <li>Security deposits</li>
-        <li>Property maintenance responsibilities</li>
-        <li>Penalty clauses and breaches</li>
+        <li>Employment agreements</li>
+        <li>Residential rental agreements</li>
+        <li>Non-disclosure agreements (NDAs)</li>
+        <li>Service agreements</li>
+        <li>Contract obligations, payments, confidentiality, termination, and dispute resolution</li>
         </ul>
 
         The assistant retrieves:
         <ul>
-        <li>Relevant rental agreement clauses</li>
-        <li>Applicable Indian contract law provisions</li>
+        <li>Relevant contract clauses</li>
+        <li>Applicable provisions of the Indian Contract Act, 1872</li>
         </ul>
 
         </div>
         """,
         unsafe_allow_html=True
     )
-
 # ---------------------------------------------------
 # RENDER RESULTS
 # ---------------------------------------------------
@@ -472,7 +536,7 @@ if st.session_state.latest_answer:
 
     with right_col:
 
-        st.subheader("Retrieved Rental Clauses")
+        st.subheader(f"Retrieved {contract_type} Clauses")
 
         for title, clause in zip(
             st.session_state.latest_clause_titles,

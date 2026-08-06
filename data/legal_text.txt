@@ -1,7 +1,6 @@
 Employment Agreement
-Relevant Sections of the Indian Contract Act, 1872
 
-SECTION 10 OF THE INDIAN CONTRACT ACT, 1872 – What agreements are contracts
+SECTION 10 OF THE INDIAN CONTRACT ACT, 1872 - What agreements are contracts
 
 All agreements are contracts if they are made by the free consent of parties competent to contract, for a lawful consideration and with a lawful object, and are not expressly declared void under law.
 
@@ -14,7 +13,7 @@ contract formation
 validity of appointment
 employment offer acceptance
 
-SECTION 11 OF THE INDIAN CONTRACT ACT, 1872 – Who are competent to contract
+SECTION 11 OF THE INDIAN CONTRACT ACT, 1872 - Who are competent to contract
 
 Every person is competent to contract who is of the age of majority according to the law applicable to them, is of sound mind, and is not disqualified from contracting by any law to which they are subject.
 
@@ -25,7 +24,8 @@ employer competency
 legal capacity
 competent parties
 employment contract eligibility
-SECTION 13 OF THE INDIAN CONTRACT ACT, 1872 – "Consent" defined
+
+SECTION 13 OF THE INDIAN CONTRACT ACT, 1872 - "Consent" defined
 
 Two or more persons are said to consent when they agree upon the same thing in the same sense.
 
@@ -37,7 +37,7 @@ mutual agreement
 joining employment
 contract acceptance
 
-SECTION 14 OF THE INDIAN CONTRACT ACT, 1872 – "Free consent" defined
+SECTION 14 OF THE INDIAN CONTRACT ACT, 1872 - "Free consent" defined
 
 Consent is free when it is not caused by coercion, undue influence, fraud, misrepresentation or mistake.
 
@@ -48,7 +48,8 @@ free consent
 employment acceptance
 joining agreement
 employment negotiations
-SECTION 23 OF THE INDIAN CONTRACT ACT, 1872 – What considerations and objects are lawful, and what not
+
+SECTION 23 OF THE INDIAN CONTRACT ACT, 1872 - What considerations and objects are lawful, and what not
 
 The consideration and object of an agreement must be lawful. Agreements having unlawful consideration or unlawful object are void.
 
@@ -60,7 +61,7 @@ employment purpose
 lawful object
 valid employment agreement
 
-SECTION 37 OF THE INDIAN CONTRACT ACT, 1872 – Obligation of parties to contracts
+SECTION 37 OF THE INDIAN CONTRACT ACT, 1872 - Obligation of parties to contracts
 
 The parties to a contract must either perform, or offer to perform, their respective promises unless such performance is excused under the provisions of law.
 
@@ -76,7 +77,7 @@ work responsibilities
 salary obligations
 notice obligations
 
-SECTION 39 OF THE INDIAN CONTRACT ACT, 1872 – Effect of refusal of party to perform promise wholly
+SECTION 39 OF THE INDIAN CONTRACT ACT, 1872 - Effect of refusal of party to perform promise wholly
 
 If a party to a contract refuses to perform or becomes incapable of performing their promise entirely, the other party may terminate the contract unless they have accepted the continuation of the contract through words or conduct.
 
@@ -92,9 +93,7 @@ employer termination
 dismissal
 abandonment of employment
 
-
-
-SECTION 40 OF THE INDIAN CONTRACT ACT, 1872 – Person by whom promise is to be performed
+SECTION 40 OF THE INDIAN CONTRACT ACT, 1872 - Person by whom promise is to be performed
 
 Where the nature of the promise requires personal performance, the promisor must perform it personally. In other cases, performance may be made by a competent representative unless the contract indicates otherwise.
 
@@ -106,7 +105,7 @@ assigned duties
 work obligations
 performance of duties
 
-SECTION 53 OF THE INDIAN CONTRACT ACT, 1872 – Liability of party preventing event on which the contract is to take effect
+SECTION 53 OF THE INDIAN CONTRACT ACT, 1872 - Liability of party preventing event on which the contract is to take effect
 
 When a contract contains reciprocal promises, and one party prevents the other from performing their promise, the contract becomes voidable at the option of the affected party. The affected party is also entitled to compensation for any loss suffered as a result of such non-performance.
 
@@ -120,8 +119,7 @@ compensation for prevented performance
 reciprocal promises
 non-performance caused by other party
 
-
-SECTION 54 OF THE INDIAN CONTRACT ACT, 1872 – Effect of default as to that promise which should be first performed
+SECTION 54 OF THE INDIAN CONTRACT ACT, 1872 - Effect of default as to that promise which should be first performed
 
 Where a contract consists of reciprocal promises, and the party who is required to perform the first promise fails to do so, that party cannot demand performance of the corresponding promise from the other party and must compensate the other party for any loss resulting from such non-performance.
 
@@ -135,10 +133,7 @@ dependent contractual promises
 compensation for non-performance
 performance dependency
 
-
-
-
-SECTION 55 OF THE INDIAN CONTRACT ACT, 1872 – Effect of failure to perform at fixed time
+SECTION 55 OF THE INDIAN CONTRACT ACT, 1872 - Effect of failure to perform at fixed time
 
 When a party promises to perform an act at or before a specified time and fails to do so, the contract may become voidable if time is of the essence of the contract.
 
@@ -151,7 +146,7 @@ reporting deadlines
 employment timelines
 delayed performance
 
-SECTION 56 OF THE INDIAN CONTRACT ACT, 1872 – Agreement to do impossible act
+SECTION 56 OF THE INDIAN CONTRACT ACT, 1872 - Agreement to do impossible act
 
 An agreement to do an act that is impossible in itself is void. A contract also becomes void when performance becomes impossible or unlawful due to circumstances beyond the promisor's control after the contract has been formed. Where a person knowingly promises to perform an impossible or unlawful act, they must compensate the other party for any loss caused by such non-performance.
 
@@ -165,7 +160,7 @@ force majeure
 non-performance due to impossibility
 compensation for impossible performance
 
-SECTION 62 OF THE INDIAN CONTRACT ACT, 1872 – Effect of novation, rescission and alteration of contract
+SECTION 62 OF THE INDIAN CONTRACT ACT, 1872 - Effect of novation, rescission and alteration of contract
 
 If the parties agree to substitute a new contract, rescind it, or alter its terms, the original contract need not be performed.
 
@@ -178,7 +173,7 @@ revised employment agreement
 role change
 contract modification
 
-SECTION 63 OF THE INDIAN CONTRACT ACT, 1872 – Promise may dispense with or remit performance of promise
+SECTION 63 OF THE INDIAN CONTRACT ACT, 1872 - Promise may dispense with or remit performance of promise
 
 A promisee may wholly or partly waive, reduce, or extend the performance obligations of another party.
 
@@ -193,7 +188,7 @@ flexible performance
 employer waiver
 employee waiver
 
-SECTION 64 OF THE INDIAN CONTRACT ACT, 1872 – Consequences of rescission of voidable contract
+SECTION 64 OF THE INDIAN CONTRACT ACT, 1872 - Consequences of rescission of voidable contract
 
 When a voidable contract is lawfully rescinded, the other party is discharged from performing any remaining obligations under the contract. Any benefit received under the contract must, as far as possible, be restored to the party from whom it was received.
 
@@ -207,7 +202,7 @@ return of benefits
 lawful rescission
 contract cancellation
 
-SECTION 73 OF THE INDIAN CONTRACT ACT, 1872 – Compensation for loss or damage caused by breach of contract
+SECTION 73 OF THE INDIAN CONTRACT ACT, 1872 - Compensation for loss or damage caused by breach of contract
 
 When a contract is broken, the party suffering from the breach is entitled to receive compensation for losses or damages that naturally arise from such breach or were reasonably foreseeable when the contract was made.
 
@@ -222,7 +217,9 @@ financial loss
 compensation
 employee liability
 employer damages
-SECTION 74 OF THE INDIAN CONTRACT ACT, 1872 – Compensation for breach of contract where penalty stipulated
+
+
+SECTION 74 OF THE INDIAN CONTRACT ACT, 1872 - Compensation for breach of contract where penalty stipulated
 
 When a contract specifies a penalty or a fixed amount payable in case of breach, the affected party is entitled to receive reasonable compensation not exceeding the amount or penalty specified in the contract.
 
@@ -236,7 +233,8 @@ bond amount
 breach penalty
 employment penalty clause
 liquidated damages
-SECTION 75 OF THE INDIAN CONTRACT ACT, 1872 – Party rightfully rescinding contract entitled to compensation
+
+SECTION 75 OF THE INDIAN CONTRACT ACT, 1872 - Party rightfully rescinding contract entitled to compensation
 
 A person who rightfully rescinds a contract is entitled to compensation for any damage sustained through the non-fulfilment of the contract.
 
@@ -256,9 +254,8 @@ employment damages
 
 
 Residential Rental Agreement
-Relevant Sections of the Indian Contract Act, 1872
 
-SECTION 10 OF THE INDIAN CONTRACT ACT, 1872 – What agreements are contracts
+SECTION 10 OF THE INDIAN CONTRACT ACT, 1872 - What agreements are contracts
 
 All agreements are contracts if they are made by the free consent of parties competent to contract, for a lawful consideration and with a lawful object, and are not expressly declared void under law.
 
@@ -271,7 +268,7 @@ tenancy agreement
 enforceable lease
 contract formation
 
-SECTION 11 OF THE INDIAN CONTRACT ACT, 1872 – Who are competent to contract
+SECTION 11 OF THE INDIAN CONTRACT ACT, 1872 - Who are competent to contract
 
 Every person is competent to contract who is of the age of majority according to the law applicable to them, is of sound mind, and is not disqualified from contracting by any law to which they are subject.
 
@@ -283,7 +280,7 @@ legal capacity
 valid lease agreement
 contracting parties
 
-SECTION 13 OF THE INDIAN CONTRACT ACT, 1872 – "Consent" defined
+SECTION 13 OF THE INDIAN CONTRACT ACT, 1872 - "Consent" defined
 
 Two or more persons are said to consent when they agree upon the same thing in the same sense.
 
@@ -295,7 +292,7 @@ tenancy agreement
 landlord consent
 tenant acceptance
 
-SECTION 14 OF THE INDIAN CONTRACT ACT, 1872 – "Free consent" defined
+SECTION 14 OF THE INDIAN CONTRACT ACT, 1872 - "Free consent" defined
 
 Consent is free when it is not caused by coercion, undue influence, fraud, misrepresentation, or mistake.
 
@@ -307,7 +304,7 @@ free consent
 lease execution
 valid consent
 
-SECTION 23 OF THE INDIAN CONTRACT ACT, 1872 – What considerations and objects are lawful, and what not
+SECTION 23 OF THE INDIAN CONTRACT ACT, 1872 - What considerations and objects are lawful, and what not
 
 The consideration and object of an agreement must be lawful. Agreements having unlawful consideration or unlawful object are void.
 
@@ -319,7 +316,7 @@ residential tenancy
 lawful consideration
 rental purpose
 
-SECTION 37 OF THE INDIAN CONTRACT ACT, 1872 – Obligation of parties to contracts
+SECTION 37 OF THE INDIAN CONTRACT ACT, 1872 - Obligation of parties to contracts
 
 The parties to a contract must either perform, or offer to perform, their respective promises unless such performance is excused under the provisions of law.
 
@@ -335,7 +332,7 @@ property upkeep
 lease obligations
 contractual duties
 
-SECTION 39 OF THE INDIAN CONTRACT ACT, 1872 – Effect of refusal of party to perform promise wholly
+SECTION 39 OF THE INDIAN CONTRACT ACT, 1872 - Effect of refusal of party to perform promise wholly
 
 If a party to a contract refuses to perform or becomes incapable of performing their promise entirely, the other party may terminate the contract unless they have accepted the continuation of the contract through words or conduct.
 
@@ -351,7 +348,7 @@ eviction due to breach
 landlord termination rights
 tenant default
 
-SECTION 55 OF THE INDIAN CONTRACT ACT, 1872 – Effect of failure to perform at fixed time
+SECTION 55 OF THE INDIAN CONTRACT ACT, 1872 - Effect of failure to perform at fixed time
 
 When a party promises to perform an act at or before a specified time and fails to do so, the contract may become voidable if time is of the essence of the contract.
 
@@ -364,7 +361,7 @@ lease expiry
 notice period
 contractual deadlines
 
-SECTION 62 OF THE INDIAN CONTRACT ACT, 1872 – Effect of novation, rescission and alteration of contract
+SECTION 62 OF THE INDIAN CONTRACT ACT, 1872 - Effect of novation, rescission and alteration of contract
 
 If the parties to a contract agree to substitute a new contract, rescind it, or alter its terms, the original contract need not be performed.
 
@@ -377,7 +374,7 @@ modified tenancy
 extension of lease
 revised lease terms
 
-SECTION 63 OF THE INDIAN CONTRACT ACT, 1872 – Promise may dispense with or remit performance of promise
+SECTION 63 OF THE INDIAN CONTRACT ACT, 1872 - Promise may dispense with or remit performance of promise
 
 A promisee may wholly or partly waive, reduce, or extend the performance obligations of another party. A promisee may also accept partial satisfaction instead of complete performance.
 
@@ -397,7 +394,7 @@ partial fulfillment of obligations
 landlord accepting delayed payments
 temporary relaxation of payment obligations
 
-SECTION 65 OF THE INDIAN CONTRACT ACT, 1872 – Obligation of person who has received advantage under void agreement, or contract that becomes void
+SECTION 65 OF THE INDIAN CONTRACT ACT, 1872 - Obligation of person who has received advantage under void agreement, or contract that becomes void
 
 When an agreement is discovered to be void, or a contract becomes void, any person who has received an advantage under such agreement must restore it or make compensation.
 
@@ -410,7 +407,7 @@ restoration of benefits
 lease becoming void
 refund obligations
 
-SECTION 67 OF THE INDIAN CONTRACT ACT, 1872 – Effect of neglect of promisee to afford promisor reasonable facilities for performance
+SECTION 67 OF THE INDIAN CONTRACT ACT, 1872 - Effect of neglect of promisee to afford promisor reasonable facilities for performance
 
 If a promisee neglects or refuses to provide the promisor with reasonable facilities necessary for the performance of the contract, the promisor is excused from performing the obligation to the extent that such non-performance is caused by the promisee's neglect or refusal.
 
@@ -427,7 +424,7 @@ refusal to provide access
 obstruction of performance
 property inspections
 
-SECTION 73 OF THE INDIAN CONTRACT ACT, 1872 – Compensation for loss or damage caused by breach of contract
+SECTION 73 OF THE INDIAN CONTRACT ACT, 1872 - Compensation for loss or damage caused by breach of contract
 
 When a contract is broken, the party suffering from the breach is entitled to receive compensation for losses or damages that naturally arise from such breach or were reasonably foreseeable when the contract was made.
 
@@ -446,7 +443,7 @@ landlord breach
 property damage
 unpaid rent
 
-SECTION 74 OF THE INDIAN CONTRACT ACT, 1872 – Compensation for breach of contract where penalty is stipulated
+SECTION 74 OF THE INDIAN CONTRACT ACT, 1872 - Compensation for breach of contract where penalty is stipulated
 
 When a contract specifies a penalty or a fixed amount payable in case of breach, the affected party is entitled to receive reasonable compensation not exceeding the amount or penalty stated in the contract, even if actual loss is not fully proven.
 
@@ -464,7 +461,7 @@ reasonable compensation
 security deposit deductions
 rent default charges
 
-SECTION 75 OF THE INDIAN CONTRACT ACT, 1872 – Party rightfully rescinding contract entitled to compensation
+SECTION 75 OF THE INDIAN CONTRACT ACT, 1872 - Party rightfully rescinding contract entitled to compensation
 
 A person who rightfully rescinds a contract is entitled to compensation for any damage sustained through the non-fulfilment of the contract.
 
@@ -486,9 +483,8 @@ compensation following cancellation
 
 
 Mutual Non-Disclosure Agreement (NDA)
-Relevant Sections of the Indian Contract Act, 1872
 
-SECTION 10 OF THE INDIAN CONTRACT ACT, 1872 – What agreements are contracts
+SECTION 10 OF THE INDIAN CONTRACT ACT, 1872 - What agreements are contracts
 
 All agreements are contracts if they are made by the free consent of parties competent to contract, for a lawful consideration and with a lawful object, and are not expressly declared void under law.
 
@@ -500,7 +496,7 @@ lawful contract
 contract formation
 confidentiality agreement
 
-SECTION 11 OF THE INDIAN CONTRACT ACT, 1872 – Who are competent to contract
+SECTION 11 OF THE INDIAN CONTRACT ACT, 1872 - Who are competent to contract
 
 Every person is competent to contract who is of the age of majority according to the law applicable to them, is of sound mind, and is not disqualified from contracting by any law to which they are subject.
 
@@ -512,7 +508,7 @@ legal capacity
 business agreements
 authorized signatories
 
-SECTION 13 OF THE INDIAN CONTRACT ACT, 1872 – "Consent" defined
+SECTION 13 OF THE INDIAN CONTRACT ACT, 1872 - "Consent" defined
 
 Two or more persons are said to consent when they agree upon the same thing in the same sense.
 
@@ -523,7 +519,7 @@ execution of NDA
 acceptance of confidentiality obligations
 contract acceptance
 
-SECTION 14 OF THE INDIAN CONTRACT ACT, 1872 – "Free consent" defined
+SECTION 14 OF THE INDIAN CONTRACT ACT, 1872 - "Free consent" defined
 
 Consent is free when it is not caused by coercion, undue influence, fraud, misrepresentation, or mistake.
 
@@ -535,7 +531,7 @@ free consent
 business negotiations
 execution of NDA
 
-SECTION 23 OF THE INDIAN CONTRACT ACT, 1872 – What considerations and objects are lawful, and what not
+SECTION 23 OF THE INDIAN CONTRACT ACT, 1872 - What considerations and objects are lawful, and what not
 
 The consideration and object of an agreement must be lawful. Agreements having unlawful consideration or unlawful object are void.
 
@@ -547,7 +543,7 @@ lawful commercial purpose
 protection of confidential information
 enforceable NDA
 
-SECTION 37 OF THE INDIAN CONTRACT ACT, 1872 – Obligation of parties to contracts
+SECTION 37 OF THE INDIAN CONTRACT ACT, 1872 - Obligation of parties to contracts
 
 The parties to a contract must either perform, or offer to perform, their respective promises unless such performance is excused under the provisions of law.
 
@@ -562,7 +558,7 @@ disclosing party obligations
 contract performance
 contractual duties
 
-SECTION 39 OF THE INDIAN CONTRACT ACT, 1872 – Effect of refusal of party to perform promise wholly
+SECTION 39 OF THE INDIAN CONTRACT ACT, 1872 - Effect of refusal of party to perform promise wholly
 
 If a party to a contract refuses to perform or becomes incapable of performing their promise entirely, the other party may terminate the contract unless they have accepted the continuation of the contract through words or conduct.
 
@@ -577,7 +573,7 @@ termination of confidentiality agreement
 material breach
 non-performance
 
-SECTION 62 OF THE INDIAN CONTRACT ACT, 1872 – Effect of novation, rescission and alteration of contract
+SECTION 62 OF THE INDIAN CONTRACT ACT, 1872 - Effect of novation, rescission and alteration of contract
 
 If the parties to a contract agree to substitute a new contract, rescind it, or alter its terms, the original contract need not be performed.
 
@@ -589,7 +585,7 @@ extension of agreement
 contract modification
 revised disclosure terms
 
-SECTION 63 OF THE INDIAN CONTRACT ACT, 1872 – Promise may dispense with or remit performance of promise
+SECTION 63 OF THE INDIAN CONTRACT ACT, 1872 - Promise may dispense with or remit performance of promise
 
 A promisee may wholly or partly waive, reduce, or extend the performance obligations of another party. A promisee may also accept partial satisfaction instead of complete performance.
 
@@ -601,7 +597,7 @@ extension of compliance period
 consent to disclose
 relaxation of obligations
 
-SECTION 65 OF THE INDIAN CONTRACT ACT, 1872 – Obligation of person who has received advantage under void agreement, or contract that becomes void
+SECTION 65 OF THE INDIAN CONTRACT ACT, 1872 - Obligation of person who has received advantage under void agreement, or contract that becomes void
 
 When an agreement is discovered to be void, or a contract becomes void, any person who has received an advantage under such agreement must restore it or make compensation.
 
@@ -613,7 +609,7 @@ void confidentiality agreement
 restoration of information
 return of materials
 
-SECTION 73 OF THE INDIAN CONTRACT ACT, 1872 – Compensation for loss or damage caused by breach of contract
+SECTION 73 OF THE INDIAN CONTRACT ACT, 1872 - Compensation for loss or damage caused by breach of contract
 
 When a contract is broken, the party suffering from the breach is entitled to receive compensation for losses or damages that naturally arise from such breach or were reasonably foreseeable when the contract was made.
 
@@ -631,7 +627,7 @@ compensation
 disclosure of trade secrets
 business losses
 
-SECTION 74 OF THE INDIAN CONTRACT ACT, 1872 – Compensation for breach of contract where penalty is stipulated
+SECTION 74 OF THE INDIAN CONTRACT ACT, 1872 - Compensation for breach of contract where penalty is stipulated
 
 When a contract specifies a penalty or a fixed amount payable in case of breach, the affected party is entitled to receive reasonable compensation not exceeding the amount or penalty stated in the contract, even if actual loss is not fully proven.
 
@@ -648,7 +644,7 @@ contractual penalties
 compensation clauses
 unauthorized disclosure penalties
 
-SECTION 75 OF THE INDIAN CONTRACT ACT, 1872 – Party rightfully rescinding contract entitled to compensation
+SECTION 75 OF THE INDIAN CONTRACT ACT, 1872 - Party rightfully rescinding contract entitled to compensation
 
 A person who rightfully rescinds a contract is entitled to compensation for any damage sustained through the non-fulfilment of the contract.
 
@@ -670,9 +666,8 @@ lawful cancellation
 
 
 Service Agreement
-Relevant Sections of the Indian Contract Act, 1872
 
-SECTION 10 OF THE INDIAN CONTRACT ACT, 1872 – What agreements are contracts
+SECTION 10 OF THE INDIAN CONTRACT ACT, 1872 - What agreements are contracts
 
 All agreements are contracts if they are made by the free consent of parties competent to contract, for a lawful consideration and with a lawful object, and are not expressly declared void under law.
 
@@ -685,7 +680,7 @@ contract formation
 professional services
 contractual relationship
 
-SECTION 11 OF THE INDIAN CONTRACT ACT, 1872 – Who are competent to contract
+SECTION 11 OF THE INDIAN CONTRACT ACT, 1872 - Who are competent to contract
 
 Every person is competent to contract who is of the age of majority according to the law applicable to them, is of sound mind, and is not disqualified from contracting by any law to which they are subject.
 
@@ -697,7 +692,7 @@ contracting parties
 legal capacity
 business contracts
 
-SECTION 13 OF THE INDIAN CONTRACT ACT, 1872 – "Consent" defined
+SECTION 13 OF THE INDIAN CONTRACT ACT, 1872 - "Consent" defined
 
 Two or more persons are said to consent when they agree upon the same thing in the same sense.
 
@@ -709,7 +704,7 @@ contract execution
 client approval
 service engagement
 
-SECTION 14 OF THE INDIAN CONTRACT ACT, 1872 – "Free consent" defined
+SECTION 14 OF THE INDIAN CONTRACT ACT, 1872 - "Free consent" defined
 
 Consent is free when it is not caused by coercion, undue influence, fraud, misrepresentation, or mistake.
 
@@ -721,7 +716,7 @@ service negotiations
 contract execution
 professional engagement
 
-SECTION 23 OF THE INDIAN CONTRACT ACT, 1872 – What considerations and objects are lawful, and what not
+SECTION 23 OF THE INDIAN CONTRACT ACT, 1872 - What considerations and objects are lawful, and what not
 
 The consideration and object of an agreement must be lawful. Agreements having unlawful consideration or unlawful object are void.
 
@@ -733,7 +728,7 @@ commercial purpose
 valid service agreement
 lawful object
 
-SECTION 37 OF THE INDIAN CONTRACT ACT, 1872 – Obligation of parties to contracts
+SECTION 37 OF THE INDIAN CONTRACT ACT, 1872 - Obligation of parties to contracts
 
 The parties to a contract must either perform, or offer to perform, their respective promises unless such performance is excused under the provisions of law.
 
@@ -749,7 +744,7 @@ payment obligations
 contractual duties
 performance of services
 
-SECTION 39 OF THE INDIAN CONTRACT ACT, 1872 – Effect of refusal of party to perform promise wholly
+SECTION 39 OF THE INDIAN CONTRACT ACT, 1872 - Effect of refusal of party to perform promise wholly
 
 If a party to a contract refuses to perform or becomes incapable of performing their promise entirely, the other party may terminate the contract unless they have accepted the continuation of the contract through words or conduct.
 
@@ -764,7 +759,7 @@ material breach
 non-performance
 contract termination
 
-SECTION 40 OF THE INDIAN CONTRACT ACT, 1872 – Person by whom promise is to be performed
+SECTION 40 OF THE INDIAN CONTRACT ACT, 1872 - Person by whom promise is to be performed
 
 Where the nature of the promise requires personal performance, the promisor must perform it personally. In other cases, performance may be made by a competent representative unless the contract indicates otherwise.
 
@@ -777,7 +772,7 @@ personal performance
 service delivery
 assigned responsibilities
 
-SECTION 55 OF THE INDIAN CONTRACT ACT, 1872 – Effect of failure to perform at fixed time
+SECTION 55 OF THE INDIAN CONTRACT ACT, 1872 - Effect of failure to perform at fixed time
 
 When a party promises to perform an act at or before a specified time and fails to do so, the contract may become voidable if time is of the essence of the contract.
 
@@ -790,7 +785,7 @@ delayed delivery
 contractual schedules
 implementation deadlines
 
-SECTION 62 OF THE INDIAN CONTRACT ACT, 1872 – Effect of novation, rescission and alteration of contract
+SECTION 62 OF THE INDIAN CONTRACT ACT, 1872 - Effect of novation, rescission and alteration of contract
 
 If the parties to a contract agree to substitute a new contract, rescind it, or alter its terms, the original contract need not be performed.
 
@@ -802,7 +797,8 @@ contract amendment
 project extension
 service modification
 revised agreement
-SECTION 63 OF THE INDIAN CONTRACT ACT, 1872 – Promise may dispense with or remit performance of promise
+
+SECTION 63 OF THE INDIAN CONTRACT ACT, 1872 - Promise may dispense with or remit performance of promise
 
 A promisee may wholly or partly waive, reduce, or extend the performance obligations of another party. A promisee may also accept partial satisfaction instead of complete performance.
 
@@ -815,7 +811,7 @@ delayed deliverables
 revised obligations
 partial performance
 
-SECTION 67 OF THE INDIAN CONTRACT ACT, 1872 – Effect of neglect of promisee to afford promisor reasonable facilities for performance
+SECTION 67 OF THE INDIAN CONTRACT ACT, 1872 - Effect of neglect of promisee to afford promisor reasonable facilities for performance
 
 If the promisee neglects or refuses to provide reasonable facilities required by the promisor for performing the promise, the promisor is excused from performance to that extent.
 
@@ -828,7 +824,7 @@ delayed approvals
 client responsibilities
 dependency on client information
 
-SECTION 73 OF THE INDIAN CONTRACT ACT, 1872 – Compensation for loss or damage caused by breach of contract
+SECTION 73 OF THE INDIAN CONTRACT ACT, 1872 - Compensation for loss or damage caused by breach of contract
 
 When a contract is broken, the party suffering from the breach is entitled to receive compensation for losses or damages that naturally arise from such breach or were reasonably foreseeable when the contract was made.
 
@@ -846,7 +842,7 @@ compensation
 delayed delivery
 non-performance
 
-SECTION 74 OF THE INDIAN CONTRACT ACT, 1872 – Compensation for breach of contract where penalty is stipulated
+SECTION 74 OF THE INDIAN CONTRACT ACT, 1872 - Compensation for breach of contract where penalty is stipulated
 
 When a contract specifies a penalty or a fixed amount payable in case of breach, the affected party is entitled to receive reasonable compensation not exceeding the amount or penalty stated in the contract, even if actual loss is not fully proven.
 
@@ -864,7 +860,7 @@ late delivery charges
 payment default
 compensation clauses
 
-SECTION 75 OF THE INDIAN CONTRACT ACT, 1872 – Party rightfully rescinding contract entitled to compensation
+SECTION 75 OF THE INDIAN CONTRACT ACT, 1872 - Party rightfully rescinding contract entitled to compensation
 
 A person who rightfully rescinds a contract is entitled to compensation for any damage sustained through the non-fulfilment of the contract.
 

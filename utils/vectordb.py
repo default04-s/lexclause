@@ -7,20 +7,31 @@ client = chromadb.PersistentClient(path="chroma_storage")
 # ===== CHANGED =====
 # Returns (or creates) the contract collection requested.
 # Example:
-# employment_agreement
-# rental_agreement
-# nda_agreement
-# service_agreement
+# employment_contract
+# rental_contract
+# nda_contract
+# service_contract
 def get_contract_collection(collection_name):
     return client.get_or_create_collection(
         name=collection_name
     )
 
 
-# Legal knowledge collection (unchanged)
+# Legal knowledge collection
 legal_collection = client.get_or_create_collection(
     name="legal_knowledge"
 )
+
+
+# ===== CHANGED =====
+# Checks whether a collection exists and contains documents.
+def collection_has_data(collection_name):
+
+    try:
+        collection = client.get_collection(name=collection_name)
+        return collection.count() > 0
+    except:
+        return False
 
 
 # ===== CHANGED =====
@@ -38,15 +49,15 @@ def store_clauses(clauses, embeddings, collection_name):
         )
 
 
-# Store legal sections (unchanged)
+# Store legal sections
 def store_legal_sections(sections, embeddings):
 
-    for i, (section, embedding) in enumerate(zip(sections, embeddings)):
+    for i, (section, embedding) in enumerate(zip(sections, embeddings), start=1):
 
         legal_collection.add(
             documents=[section],
             embeddings=[embedding.tolist()],
-            ids=[f"legal_section_{i+1}"]
+            ids=[f"legal_section_{i}"]
         )
 
 
@@ -58,18 +69,18 @@ def search_clauses(query_embedding, collection_name):
 
     results = contract_collection.query(
         query_embeddings=[query_embedding.tolist()],
-        n_results=3
+        n_results=5
     )
 
     return results
 
 
-# Search legal sections (unchanged)
+# Search legal sections
 def search_legal_sections(query_embedding):
 
     results = legal_collection.query(
         query_embeddings=[query_embedding.tolist()],
-        n_results=2
+        n_results=5
     )
 
     return results

@@ -1,12 +1,18 @@
-from utils.segmenter import segment_clauses
+from utils.reranker import rerank_results
 
-with open("data/rental_contract.txt", "r", encoding="utf-8") as f:
-      text = f.read()
+documents = [
+    "Clause 12. Termination: Either party may terminate employment by giving thirty days' notice.",
+    "Clause 6. Compensation: The employee shall receive an annual salary of INR 8,40,000.",
+    "Clause 8. Confidentiality: The employee shall not disclose confidential information.",
+    "Clause 11. Non-Solicitation: The employee shall not solicit clients after termination.",
+    "Clause 3. Probation: The first six months shall constitute the probation period."
+]
 
-clauses = segment_clauses(text)
+query = "What causes termination of employment?"
 
-print(f"Found {len(clauses)} clauses\n")
+ranked = rerank_results(query, documents, top_k=3)
 
-for i, clause in enumerate(clauses, 1):
-    print(f"\n--- Clause {i} ---")
-    print(clause[:200])  # Print first 200 characters
+print("\nTop 3 reranked clauses:\n")
+
+for i, doc in enumerate(ranked, start=1):
+    print(f"{i}. {doc}\n")

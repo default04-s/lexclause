@@ -4,41 +4,48 @@ from utils.segmenter import segment_clauses
 from utils.embedder import generate_embeddings
 from utils.vectordb import store_clauses
 
-# ===== CHANGED =====
-# List of contracts to ingest.
-contracts = {
-    "employment_contract": "data/employment_contract.txt",
-    "rental_contract": "data/rental_contract.txt",
-    "nda_contract": "data/nda_contract.txt",
-    "service_contract": "data/service_contract.txt"
-}
 
 # ===== CHANGED =====
-# Ingest each contract into its own ChromaDB collection.
-for collection_name, contract_path in contracts.items():
+# Function to ingest one or more contracts.
+def ingest_contracts(contracts):
 
-    print(f"\nStarting ingestion for '{collection_name}'...\n")
+    for collection_name, contract_path in contracts.items():
 
-    # Extract text
-    raw_text = extract_text(contract_path)
+        print(f"\nStarting ingestion for '{collection_name}'...\n")
 
-    # Clean extracted text
-    cleaned_text = clean_text(raw_text)
+        # Extract text
+        raw_text = extract_text(contract_path)
 
-    # Segment clauses
-    clauses = segment_clauses(cleaned_text)
+        # Clean extracted text
+        cleaned_text = clean_text(raw_text)
 
-    print(f"Total clauses found: {len(clauses)}")
+        # Segment clauses
+        clauses = segment_clauses(cleaned_text)
 
-    # Generate embeddings
-    embeddings = generate_embeddings(clauses)
+        print(f"Total clauses found: {len(clauses)}")
 
-    print("Embeddings generated successfully.")
+        # Generate embeddings
+        embeddings = generate_embeddings(clauses)
 
-    # ===== CHANGED =====
-    # Store clauses in the corresponding ChromaDB collection.
-    store_clauses(clauses, embeddings, collection_name)
+        print("Embeddings generated successfully.")
 
-    print(f"Clauses stored successfully in '{collection_name}'.")
+        # Store clauses in the corresponding ChromaDB collection.
+        store_clauses(clauses, embeddings, collection_name)
 
-print("\nAll contracts have been ingested successfully.")
+        print(f"Clauses stored successfully in '{collection_name}'.")
+
+    print("\nAll contracts have been ingested successfully.")
+
+
+# ===== CHANGED =====
+# Only runs when this file is executed directly.
+if __name__ == "__main__":
+
+    contracts = {
+        "employment_contract": "data/employment_contract.txt",
+        "rental_contract": "data/rental_contract.txt",
+        "nda_contract": "data/nda_contract.txt",
+        "service_contract": "data/service_contract.txt"
+    }
+
+    ingest_contracts(contracts)
