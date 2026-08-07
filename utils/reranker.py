@@ -1,10 +1,15 @@
+import streamlit as st
 from sentence_transformers import CrossEncoder
 
-# Load the reranker model once
-reranker = CrossEncoder(
-    "cross-encoder/ms-marco-MiniLM-L-6-v2"
-)
 
+@st.cache_resource
+def load_reranker():
+    return CrossEncoder(
+        "cross-encoder/ms-marco-MiniLM-L-6-v2"
+    )
+
+
+reranker = load_reranker()
 
 def rerank_results(query, retrieved_documents, top_k=3):
     """

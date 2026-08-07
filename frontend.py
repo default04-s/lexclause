@@ -1,6 +1,6 @@
 import streamlit as st
-from utils.reranker import rerank_results
 
+from utils.reranker import rerank_results
 from utils.embedder import generate_query_embedding
 
 from utils.vectordb import (
@@ -47,7 +47,6 @@ from utils.source_formatter import (
     extract_clause_titles,
     extract_legal_titles
 )
-
 # ---------------------------------------------------
 # PAGE CONFIG
 # ---------------------------------------------------

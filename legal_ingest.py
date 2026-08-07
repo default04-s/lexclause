@@ -8,6 +8,8 @@ from utils.vectordb import store_legal_sections
 # Function to ingest the legal knowledge base.
 def ingest_legal():
 
+    from utils.embedder import generate_embeddings
+
     legal_path = "data/legal_text.txt"
 
     print("\nStarting legal knowledge ingestion...\n")

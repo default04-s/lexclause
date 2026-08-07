@@ -1,13 +1,15 @@
 from utils.extractor import extract_text
 from utils.cleaner import clean_text
 from utils.segmenter import segment_clauses
-from utils.embedder import generate_embeddings
+
 from utils.vectordb import store_clauses
 
 
 # ===== CHANGED =====
 # Function to ingest one or more contracts.
 def ingest_contracts(contracts):
+
+    from utils.embedder import generate_embeddings
 
     for collection_name, contract_path in contracts.items():
 

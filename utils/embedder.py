@@ -1,7 +1,13 @@
+import streamlit as st
 from sentence_transformers import SentenceTransformer
 
-# Load embedding model once
-model = SentenceTransformer("BAAI/bge-small-en")
+
+@st.cache_resource
+def load_embedding_model():
+    return SentenceTransformer("BAAI/bge-small-en")
+
+
+model = load_embedding_model()
 
 def generate_embeddings(clauses):
 
