@@ -24,6 +24,6 @@ def segment_legal_sections(text):
         contract_sections = re.findall(section_pattern, contract_text, re.DOTALL)
 
         for section in contract_sections:
-            sections.append(f"CONTRACT TYPE: {contract_name}\n\n{section.strip()}")
+            sections.append(f"{contract_name}\n\n{section.strip()}")
 
     return sections

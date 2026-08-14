@@ -197,6 +197,61 @@ SOURCE CARDS
 }
 
 /* ---------------------------------------------------
+SOURCE HEADER CARD
+--------------------------------------------------- */
+
+.source-card {
+    background-color: #111827;
+    border: 1px solid #334155;
+    border-radius: 14px;
+    padding: 0.9rem 1rem;
+    margin-bottom: 0.6rem;
+}
+
+.source-title {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #f8fafc;
+}
+
+.source-subtitle {
+    font-size: 0.85rem;
+    color: #94a3b8;
+    margin-top: 0.2rem;
+}
+
+/* ---------------------------------------------------
+SESSION BANNER
+--------------------------------------------------- */
+
+.session-banner {
+
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    background: #111827;
+
+    border: 1px solid #334155;
+
+    border-radius: 12px;
+
+    padding: 10px 16px;
+
+    margin-top: 8px;
+    margin-bottom: 18px;
+
+    font-size: 0.95rem;
+}
+
+.status-ready {
+
+    color: #4ade80;
+    font-weight: 600;
+
+}
+
+/* ---------------------------------------------------
 CLAUSE PANEL
 --------------------------------------------------- */
 
@@ -253,6 +308,43 @@ EXPANDERS
 """, unsafe_allow_html=True)
 
 # ---------------------------------------------------
+# SIDEBAR
+# ---------------------------------------------------
+
+with st.sidebar:
+
+    st.header("⚙️ Session Settings")
+
+    mode = st.selectbox(
+        "Assistant Mode",
+        [
+            "General User",
+            "Professional"
+        ]
+    )
+
+    contract_type = st.selectbox(
+        "Contract Type",
+        [
+            "Employment Agreement",
+            "Residential Rental Agreement",
+            "Mutual Non-Disclosure Agreement (NDA)",
+            "Service Agreement"
+        ]
+    )
+
+    collection_map = {
+        "Employment Agreement": "employment_contract",
+        "Residential Rental Agreement": "rental_contract",
+        "Mutual Non-Disclosure Agreement (NDA)": "nda_contract",
+        "Service Agreement": "service_contract"
+    }
+
+    selected_collection = collection_map[contract_type]
+
+    st.markdown("---")
+
+# ---------------------------------------------------
 # TITLE
 # ---------------------------------------------------
 
@@ -271,62 +363,23 @@ st.markdown(
 
 st.markdown("---")
 
-
-# ---------------------------------------------------
-# MODE SELECTOR
-# ---------------------------------------------------
-
-mode_col1, mode_col2 = st.columns(2)
-
-with mode_col1:
-
-    mode = st.selectbox(
-        "Assistant Mode",
-        [
-            "General User",
-            "Professional"
-        ]
-    )
-
-with mode_col2:
-
-    contract_type = st.selectbox(
-        "Contract Type",
-        [
-            "Employment Agreement",
-            "Residential Rental Agreement",
-            "Mutual Non-Disclosure Agreement (NDA)",
-            "Service Agreement"
-        ]
-    )
-
-collection_map = {
-    "Employment Agreement": "employment_contract",
-    "Residential Rental Agreement": "rental_contract",
-    "Mutual Non-Disclosure Agreement (NDA)": "nda_contract",
-    "Service Agreement": "service_contract"
-}
-
-selected_collection = collection_map[contract_type]
-# ---------------------------------------------------
-# MODE BADGE
-# ---------------------------------------------------
-
-badge_color = (
-    "#1e3a8a"
-    if mode == "General User"
-    else "#7c2d12"
-)
-
 st.markdown(
     f"""
-    <div class="mode-badge"
-    style="background-color:{badge_color};">
-    Current Mode: {mode}
-    </div>
-    """,
+<div class="session-banner">
+    <span>📄 <b>{contract_type}</b></span>
+    <span>•</span>
+    <span>⚖️ <b>{mode}</b></span>
+    <span>•</span>
+    <span class="status-ready">🟢 Knowledge Base Ready</span>
+</div>
+""".strip(),
     unsafe_allow_html=True
 )
+
+st.markdown("<br>", unsafe_allow_html=True)
+
+
+
 
 # ---------------------------------------------------
 # SESSION STATE
@@ -351,18 +404,14 @@ if "latest_legal_sections" not in st.session_state:
     st.session_state.latest_legal_sections = []
 
 # ---------------------------------------------------
-# INPUT FORM
+# CHAT INPUT
 # ---------------------------------------------------
 
-with st.form("question_form", clear_on_submit=True):
+question = st.chat_input(
+    "Ask a question about the selected contract..."
+)
 
-    question = st.text_input(
-        "Ask a legal question"
-    )
-
-    submitted = st.form_submit_button(
-        "Submit"
-    )
+submitted = question is not None
 
 # ---------------------------------------------------
 # GENERATION PIPELINE
@@ -390,7 +439,7 @@ if submitted and question:
             question,
             retrieved_clauses,
             top_k=3
-   )
+        )
 
         # Legal retrieval
         legal_results = search_legal_sections(
@@ -409,7 +458,7 @@ if submitted and question:
             question,
             retrieved_clauses,
             retrieved_legal_sections,
-            st.session_state.conversation_history,
+            st.session_state.conversation_history[-3:],
             mode
         )
 
@@ -428,7 +477,7 @@ if submitted and question:
         clause_titles = extract_clause_titles(
             retrieved_clauses
         )
-
+    
         legal_titles = extract_legal_titles(
             retrieved_legal_sections
         )
@@ -443,7 +492,7 @@ if submitted and question:
         st.session_state.latest_clauses = (
             retrieved_clauses
         )
-
+        
         st.session_state.latest_legal_titles = (
             legal_titles
         )
@@ -484,89 +533,120 @@ if not st.session_state.latest_answer:
         unsafe_allow_html=True
     )
 # ---------------------------------------------------
-# RENDER RESULTS
+# RENDER CONVERSATION
 # ---------------------------------------------------
 
-if st.session_state.latest_answer:
+if st.session_state.conversation_history:
 
-    left_col, right_col = st.columns([2, 1])
+    for chat in st.session_state.conversation_history:
 
-    # ---------------------------------------------------
-    # LEFT
-    # ---------------------------------------------------
-
-    with left_col:
-
-        st.subheader("Answer")
+        # ---------------------------------------------------
+        # USER MESSAGE
+        # ---------------------------------------------------
 
         st.markdown(
             f"""
-            <div class="answer-box">
-            {st.session_state.latest_answer}
+            <div class="history-box">
+                <b>👤 You</b><br><br>
+                {chat['user']}
             </div>
             """,
             unsafe_allow_html=True
         )
 
-        st.subheader("Conversation History")
+        # ---------------------------------------------------
+        # ASSISTANT MESSAGE
+        # ---------------------------------------------------
 
-        history_to_show = reversed(
-            st.session_state.conversation_history[-3:]
+        st.markdown(
+            f"""
+            <div class="answer-box">
+                <b>⚖️ LexClause</b><br><br>
+                {chat['assistant']}
+            </div>
+            """,
+            unsafe_allow_html=True
         )
 
-        for chat in history_to_show:
+        # ---------------------------------------------------
+        # CONTRACT SOURCES
+        # ---------------------------------------------------
+
+        if chat.get("clauses"):
 
             st.markdown(
-                f"""
-                <div class="history-box">
-                <b>User:</b><br>
-                {chat['user']}
-                <br><br>
-                <b>Assistant:</b><br>
-                {chat['assistant']}
-                </div>
-                """,
-                unsafe_allow_html=True
+                "### 📄 Contract Clauses"
             )
 
-    # ---------------------------------------------------
-    # RIGHT
-    # ---------------------------------------------------
-
-    with right_col:
-
-        st.subheader(f"Retrieved {contract_type} Clauses")
-
-        for title, clause in zip(
-            st.session_state.latest_clause_titles,
-            st.session_state.latest_clauses
-        ):
-
-            with st.expander(title):
+            for title, clause in zip(
+                chat.get("clause_titles", []),
+                chat.get("clauses", [])
+            ):
 
                 st.markdown(
                     f"""
-                    <div class="source-box clause-panel">
-                    {clause}
+                    <div class="source-card">
+                        <div class="source-title">
+                            {title}
+                        </div>
+                        <div class="source-subtitle">
+                            Contract clause supporting this answer.
+                        </div>
                     </div>
                     """,
                     unsafe_allow_html=True
                 )
 
-        st.subheader("Retrieved Legal Provisions")
+                with st.expander("View Clause"):
 
-        for title, section in zip(
-            st.session_state.latest_legal_titles,
-            st.session_state.latest_legal_sections
-        ):
+                    st.markdown(
+                        f"""
+                        <div class="source-box clause-panel">
+                            {clause}
+                        </div>
+                        """,
+                        unsafe_allow_html=True
+                    )
 
-            with st.expander(title):
+        # ---------------------------------------------------
+        # LEGAL SOURCES
+        # ---------------------------------------------------
+
+        if chat.get("legal_sections"):
+
+            st.markdown(
+                "### ⚖️ Legal Provisions"
+            )
+
+            for title, section in zip(
+                chat.get("legal_titles", []),
+                chat.get("legal_sections", [])
+            ):
 
                 st.markdown(
                     f"""
-                    <div class="source-box legal-panel">
-                    {section}
+                    <div class="source-card">
+                        <div class="source-title">
+                            {title}
+                        </div>
+                        <div class="source-subtitle">
+                            Legal provision supporting this answer.
+                        </div>
                     </div>
                     """,
                     unsafe_allow_html=True
                 )
+
+                with st.expander("View Provision"):
+
+                    st.markdown(
+                        f"""
+                        <div class="source-box legal-panel">
+                            {section}
+                        </div>
+                        """,
+                        unsafe_allow_html=True
+                    )
+
+        st.markdown("---")
+   
