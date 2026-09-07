@@ -1,0 +1,683 @@
+EMPLOYMENT AGREEMENT 
+BY AND BETWEEN  
+(COMPANY) 
+AND 
+ (EMPLOYEE)
+
+ 
+ 
+ 
+CONTENTS 
+1.Definitions and interpretation ...................................................................................... 1 
+2.Employment ................................................................................................................. 4 
+3.Non-competition and non-solicitation ......................................................................... 5 
+4.Confidentiality ............................................................................................................. 5 
+5.Intellectual property ..................................................................................................... 6 
+6.Term ............................................................................................................................. 6 
+7.Compensation ............................................................................................................... 6 
+8.Termination of employment ......................................................................................... 6 
+9.The company property – employee’s duty to return .................................................... 7 
+10.Indebtedness ............................................................................................................... 8 
+11.Notices ........................................................................................................................ 8 
+12.Waiver ........................................................................................................................ 9 
+13.Acknowledgments ...................................................................................................... 9 
+14.Dispute resolution ...................................................................................................... 9 
+15.Miscellaneous ............................................................................................................. 9 
+16.Governing law and jurisdiction ................................................................................ 10 
+ANNEXURE 1: Scope of Services 
+ANNEXURE 2: Compensation Schedule 
+
+ 
+ 
+ 
+EMPLOYMENT AGREEMENT 
+This Employment Agreement (from now on referred to as this "Agreement") is made 
+on this DDMMYYYY: 
+BY AND BETWEEN: 
+Company Name, a company incorporated under the provisions of the Companies Act, 
+1956 and having its registered office at Address, City - Pincode, State, India, 
+(hereinafter referred to as the “Company”, which expression shall, unless repugnant 
+to the context or meaning thereof, be deemed to mean and include its successors in 
+interest, administrators and permitted assigns), of the FIRST PART and 
+Name, a citizen of India and presently residing at address, city – Pincode, (from now 
+on referred to as the “Employee”). 
+WHEREAS: 
+1. The Company is in the business of …..... 
+2. The Company, in the course of its business, has acquired or may acquire confidential 
+property, information, and trade secrets, made or will make discoveries and 
+improvements or developments, which it desires to keep confidential.  
+3. The Company undertakes several assignments on behalf of clients that involve the 
+development of Intellectual Property (as defined hereinafter) and which also entail 
+confidentiality obligations. The Company must respect the Intellectual Property and 
+confidentiality obligations of its clients and therefore, in turn, the employees are also 
+expected to respect the same.  
+4. The Company wishes to safeguard its goodwill, business and proprietary 
+information to which the Employee may have access. 
+5. The Company desires to engage the Employee on the terms and conditions outlined 
+in this Agreement.  
+NOW, THEREFORE, in consideration of the mutual promises set forth herein, the 
+Company and the Employee at this moment agree as follows:  
+1. DEFINITIONS AND INTERPRETATION 
+In this Agreement, unless the context otherwise requires: 
+
+ 
+ 
+ 
+ "Agreement" means this Agreement including any Annexures and Schedules 
+attached to this Agreement and as may be amended and modified from time to 
+time.
+
+  
+ 
+ 
+ “Business” means …...... 
+ “Compensation Letter” means the letter issued by the Company to the 
+Employee setting out the details and manner of the compensation, as amended 
+from time to time.  
+ "Competitor” means and includes all such Persons (as defined hereinafter) 
+whether domestic or foreign, which carry on or which are likely to carry on 
+similar Business.  
+ “Confidential Information” includes but is not limited to information which 
+is or fairly be considered to be of a confidential nature, which is obtained whether 
+(without limitation) in graphic, written, electronic or machine readable form or 
+orally, by the Employee; and whether or not the information is expressly stated to 
+be confidential or marked as such, in writing, and also includes all Intellectual 
+Property, but is not limited to:  
+ Information of value or significance to the Company or its competitors 
+(present or potential) such as: 
+ 
+ Customer data, in particular, names, addresses, sales figures and sales 
+conditions  
+           of the Company and its clients. 
+ Distribution data, in particular, names, addresses, sales figures and sales  
+           conditions of distributors, agents and licensees of the Company. 
+ Manufacturing data, in particular, procurement and manufacturing 
+procedures,  
+           the fees, discounts, commissions and other credits relating to the software. 
+  Supplier’s data, in particular, names, addresses, sales figures, and sales  
+            condition of suppliers of software and hardware to the Company, whether in  
+                India or abroad. 
+ Business data, particularly data relating to new products, promotion 
+campaigns,  
+           distribution strategies, license agreements and joint ventures in which the  
+           Company is involved. 
+ Software data, particularly information relating to the software and the 
+modules  
+           thereof as well as any devices designed by the Company to prevent 
+unauthorized   
+
+  
+ 
+ 
+            copying. 
+ Research and development data, particularly information relating to the 
+software  
+           and hardware developments of the Company. 
+ Financial data, in particular, concerning budgets, the fees and revenue  
+           calculations, sales figures, financial statements, profit expectations and 
+           inventories of the Company.  
+ Original information supplied by the Company; 
+ Information not known to competitors of the Company nor intended by the  
+         Company for general dissemination, including but not limited to, policies,  
+         strategies, the identity of various product-suppliers or service-providers, 
+billing  
+         schedules, needs of its clients, information as to the profitability of specific  
+         accounts, and information about the Company itself and its executives, 
+officers,  
+         directors and employees; 
+ Any business or technical information relating to the Company, including 
+but not 
+         limited to financial information, equipment, documentation, strategies, 
+marketing  
+         plans, prospective leads or target accounts, pricing information, information  
+         relating to existing, previous and potential customers and contracts disclosed 
+by 
+          the Company to the Employee; 
+ Any copies of the above-mentioned information; but do not include: 
+a) that which is in the public domain other than by the Employee’s breach, 
+of this  
+    The agreement, or of any other confidentiality agreement;  
+b) that which was previously known as established by written records of the 
+    Employee prior to receipt from the Company;  
+c) that which was lawfully obtained by the Employee from a third Party; and 
+d) that which was developed independently by the Employee who had no 
+access  
+    to the Confidential Information provided by the Company. 
+ "Intellectual Property" includes:  
+ all patents, trademarks, business processes, domain names, works of  
+        authorship, designs, utility models, copyrights whether registered or  
+
+  
+ 
+ 
+              unregistered, which are owned by the Company or acquired or developed by 
+the 
+              Company in the course of its business, including, but not limited to moral 
+rights  
+              and any similar rights in any country, whether negotiable or not and also 
+includes  
+              any applications for any of the preceding and the right to apply for them in 
+any  
+              part of the world; and 
+ all processes, inventions, ideas, programs, codes, software, algorithms,  
+        discoveries, correspondence, trade secrets, databases, know-how, creations or 
+        improvements upon, additions or any research effort relating to any of the 
+above,  
+        whether registrable or not. 
+ “Person” means an individual, corporation, partnership, limited liability 
+company, 
+       association, trust or other entity or organization, including a government or  
+       the political subdivision or an agency or instrumentality thereof. 
+ “Property” includes, but is not limited to the following:  
+ 
+internal memoranda, computer equipment (including software), training 
+materials,  
+       rules, books, and all other like property, including all copies, duplications, 
+       replications, and derivatives of such property;   
+ any residential accommodation, furniture, fixtures, fittings and furnishings,  
+        communication equipment, automobile and all other items; and, 
+ any tangible expression of Confidential Information, including, without 
+limitation, 
+        photographs, plans, notes, renderings, journals, notebooks, computer 
+programs  
+        and samples relating thereto. 
+ “Rules” means the Company’s manual, which lays down the policies,  
+      procedures, rules etc. in connection with the day-to-day operations of the  
+      Company, the behavior of its employees, the overall management of the  
+      Company and its clients/customers, as amended from time to time by the 
+      Company.  
+ “Termination Date” means the date on which the employment of the 
+Employee  
+       is ended and which shall in the case of termination by the Company be 
+effective  
+
+  
+ 
+ 
+       from the date on which the Notice Period (as defined hereinafter), if any, is 
+over 
+       and in the case of termination by the Employee, be effective from the date on  
+       which Notice period is over or, in the event the Notice Period is waived 
+under  
+       Section 8.3, the date of which the Company permits the Employee to leave  
+        service. 
+ Unless the context otherwise requires, (a) words importing one gender 
+include  
+       the other gender; (b) words importing the singular include the plural and vice  
+       versa; (c) any reference to a statutory provision shall be deemed to include a   
+       reference to any statutory modification or re-enactment; (d) the Section  
+       headings do not form part of this Agreement and shall not be taken into 
+account  
+       in its construction or interpretation and (e) any reference to the Employee 
+shall,  
+       if appropriate, include his personal representatives. 
+2. EMPLOYMENT 
+ The Company hereby employs the Employee, upon the terms and conditions 
+set  
+       forth in this Agreement and in the Rules of the Company.  
+ The Company can transfer the Employee to any other office of the Company 
+in 
+       India or overseas or to any associate or subsidiary of the Company, at the  
+       discretion of the Company. In such case, the Employee shall also be bound 
+by  
+       any policy of the Company, in existence at the date of this Agreement or that  
+       may be subsequently framed by the Company. 
+ The Employee shall perform such duties and obligations as may from time to 
+time  
+      be assigned to him by the Company. Annexure 1 hereto describes the scope 
+of  
+      services of the Employee).  During the term of the Agreement, the Employee 
+shall  
+      be bound by the Agreement, the Rules of the Company and other documents 
+of  
+      the Company, as amended from time to time. 
+
+  
+ 
+ 
+3. NON-COMPETITION AND NON-SOLICITATION 
+ 
+ During the term of the employment with the Company and for a period of 
+one (1) 
+      year following the Termination Date in case of Competitors world wide, the  
+      Employee shall not, directly or indirectly, either as an individual on his own  
+      account or as a partner, employee, consultant, advisor, agent, contractor, 
+director,  
+      trustee, committee member, office bearer, or shareholder (or in a similar 
+capacity  
+      or function)  
+ 
+ 
+own or operate in India a business in competition with the business of the  
+       Company; 
+ solicit the employment of or advise any other employee of the Company to 
+terminate  
+       his contract or relationship with the Company or accept any contract (directly 
+or  
+       indirectly) or another arrangement for providing services to any other person 
+or  
+       organization; or,  
+ 
+contact any of the existing or prospective clients of the Company, to 
+entice such  
+       clients away from the Company or to damage in any way their business  
+       relationship with the Company. 
+ The Company may, however, relieve the Employee, from complying with the  
+     provisions of this Section in whole or in part.  
+4. CONFIDENTIALITY 
+ 
+ The Employee shall not disclose, any time, to any Person or Competitor who 
+is 
+       not employed, part of or associated with the Company; or use for any 
+purpose 
+       that is not within the scope of his services, any Confidential Information, 
+except  
+       in accordance with any written exception made by the Company. 
+
+  
+ 
+ 
+ Notwithstanding the aforesaid provisions of this Section, the Employee may  
+     disclose Confidential Information were compelled to do so, by any 
+government,  
+     judicial or quasi-judicial authority;  
+Provided however, that the Employee shall in such a case give the Company 
+reasonable notice of any prospective disclosure and shall assist the Company in 
+obtaining an exemption or protective order preventing such disclosure.  
+5. INTELLECTUAL PROPERTY 
+ 
+ All Intellectual Property conceived (whether during regular business hours or 
+not), 
+     discovered, or made by Employee during the course of his employment with 
+the  
+     Company, and other ideas, techniques or principles related to the business of 
+the  
+     Company, shall be promptly disclosed in writing to the Company. 
+ All rights in the Intellectual Property shall belong to the Company 
+immediately  
+     upon the formation of such rights, whether or not the final work / mark / 
+invention  
+     in which the Intellectual Property vests is formed or completed, for the full 
+term of  
+     each and every such right, including renewal or extension of any such term. 
+The  
+     Employee shall perform all acts, including execution of documents and 
+assistance  
+      in legal proceedings that are necessary to defend or establish the rights of the          
+     Company in the Intellectual Property in any country. 
+ The Employee irrevocably assigns to the Company, the Intellectual Property 
+in all  
+     works developed during the course of his employment, free from 
+encumbrances of 
+     any kind. 
+ The Employee explicitly waives all moral rights in any of the works 
+developed for  
+      the company during the course of his employment with the Company. 
+ The Employee represents and warrants that he has not violated the Intellectual  
+
+  
+ 
+ 
+      Property rights of any Person and covenants that he shall not violate the  
+      Intellectual Property rights of any person in the course of his employment 
+with  
+      the Company. 
+Provided that in the event the Company is held liable for the violation of any 
+Intellectual Property rights by the Employee, the Employee undertakes to indemnify 
+the Company against any and all losses, liabilities, claims, actions, costs, and 
+expenses, including reasonable attorney’s fees and court fees resulting therefrom. 
+6.  TERM 
+Subject to the provisions of termination as from now on provided, the term of this 
+Agreement shall begin on DDMMYYY  and shall continue until terminated by either 
+Party following either Section 8 or Section 2 hereof. The obligations of the Employee 
+under this Agreement will survive both the execution of this Agreement and the 
+Termination Date.   
+7. COMPENSATION 
+The Company shall compensate the Employee as per the Compensation Letter 
+attached hereto as Annexure 2 (as revised from time to time) for the services of the 
+Employee by this Agreement.  
+8. TERMINATION OF EMPLOYMENT 
+ 
+ The Company may terminate the Employee’s employment with the Company 
+under 
+     this Agreement, with immediate effect, in the event of misconduct, or 
+fraudulent,  
+     dishonest or undisciplined conduct of the Employee, or insolvency or 
+conviction of  
+     the Employee for any offense involving moral turpitude, or breach of any 
+terms of  
+     this Agreement or Rules of the Company or other documents or directions of 
+the  
+     A company by the Employee, or any unauthorized absence of the Employee 
+from  
+     the place of work for more than seven (7) consecutive working days, or 
+closure of  
+
+  
+ 
+ 
+     the business of the Company, or redundancy of the post of the Employee in 
+the  
+     Company.    
+ Notwithstanding anything mentioned in this Agreement, the Company may, 
+by  
+     giving reasonable cause, terminate the Employee’s employment under this  
+     Agreement upon written notice to the Employee, following the  
+     provisions of this Section:  
+ 
+The termination would be effective after thirty (30) days from the date of 
+the  
+        receipt (by the Employee) of such notice (from now on referred to as the 
+“Notice  
+        Period”). Alternatively, the Company may terminate the Employee’s 
+employment  
+        with immediate effect, upon giving the Employee one (1) months’ salary in 
+lieu  
+        of notice or pro-rated salary for the balance Notice Period in case the 
+Employee  
+         has been permitted to work during the Notice Period. 
+ 
+ If the Employee has been in continuous employment 
+with the Company for a 
+        period of not less than one year, the Company may at its sole discretion, give 
+the  
+        Employee a service compensation amounting to fifteen days average salary 
+for  
+        each year of continuous employment. 
+ If the employee is on probation, the Notice Period referred to in Section 
+8.2.1  
+        is dispensed with and the Company may, without assigning a cause, 
+terminate the  
+        Employee’s employment with immediate effect. 
+ The Employee may, without assigning any cause, resign from his/her 
+employment 
+      under this Agreement upon written notice to the Company and completion of  
+      the Notice Period.  However, the Employee may have to give an exit 
+interview, at  
+      the request of the Company. The Company may, at its sole discretion, permit 
+the 
+      Employee to leave service during the Notice Period. 
+
+  
+ 
+ 
+ If the termination is found to be wrongful, the maximum liability of the 
+Company 
+      shall be equivalent to the Employee's three (3) months' salary. 
+9. THE COMPANY PROPERTY – EMPLOYEE’S DUTY TO RETURN 
+ 
+ The Company’s Intellectual Property and Property acquired by the Employee 
+after 
+      signing this Agreement shall be returned to the Company not later than the 
+final 
+      date of his employment with the Company.  
+ Until such time as all the Property is returned to the Company, the Company 
+shall, 
+      in addition to initiating legal proceedings for recovery, be entitled to withhold 
+any  
+      salary, emoluments or other dues of the Employee and may further, at its 
+      discretion, deduct therefrom, the full value of the Property calculated at it is 
+then  
+      replacement price.  In addition, the Company may also take any other legal 
+action  
+      against the Employee and shall have the right to recover the full amount of 
+the  
+      replacement price, if the dues of the Employee are not sufficient to cover the  
+      replacement price. Further, the Employee shall compensate the Company for 
+any  
+      misuse or damage to the property of the Company. 
+ 
+10. INDEBTEDNESS 
+If, during the Employee’s employment under this Agreement, the Employee becomes 
+indebted to the Company for any reason, the Company may, if it so elects, set off any 
+sum due to the Company from the Employee against the compensation payable to the 
+Employee and collect any remaining balance from him.  
+11. NOTICES 
+ 
+ All notices given pursuant to this Agreement shall be in writing and shall be 
+
+  
+ 
+ 
+      deemed to be served as follows: (a) in the case of any notice delivered by 
+hand,  
+      when so delivered; (b) if sent by pre-paid post or courier, on the third clear 
+day  
+       after the date of posting; (c) in the case of any notice sent by facsimile, upon 
+the  
+       receipt of a confirmation copy at the sender’s facsimile machine; and (d) if 
+sent  
+       by e-mail, 24 hours after the e-mail is sent. 
+ Any notice to the company to be given by any Party to this Agreement shall 
+be  
+       deemed to be duly served if delivered by prepaid registered post or through a  
+       delivery service/courier, by hand delivery, by fax or by email to the 
+following  
+       address: 
+ 
+If to the Company: 
+ 
+Company Address : 
+Designation : 
+E-mail:   
+ 
+If to the Employee: 
+Address with pin code 
+ 
+Any change in the address of either party shall be notified to the other party in the 
+same manner mentioned hereinabove. 
+12. WAIVER 
+Any waiver by the Company of a breach or threatened breach of this Agreement by 
+Employee shall not be construed as a waiver of any subsequent breach by Employee.  
+13. ACKNOWLEDGMENTS 
+
+  
+ 
+ 
+Employee acknowledges that he has been provided with a copy of this Agreement for 
+review prior to signing it, that he has reviewed it and that he understands the purposes 
+and effects of this Agreement, and that he has been given a signed copy of this 
+Agreement for his own records.  
+14. DISPUTE RESOLUTION 
+ 
+ 
+The Company and the Employee hereby agree that they intend to 
+discharge their  
+      obligations in the utmost good faith. They, therefore, agree that they will, at 
+all times,  
+      act in good faith, and make all attempts to resolve all differences howsoever  
+       arising out of or in connection with this Agreement by discussion failing 
+which,  
+         fifteen (15) days of the commencement of the discussions, by arbitration. 
+  The Parties shall be bound to submit all disputes and differences howsoever  
+        arising out of and in connection with this Agreement to arbitration in 
+accordance  
+         with the Arbitration and Conciliation, provided that: 
+ There shall be one arbitrator nominated jointly by the Parties, failing which 
+          there shall be three (3) arbitrators, one each nominated by the Company and  
+          Employee and the other chosen by the two (2) arbitrators so nominated 
+          shall be persons of professional repute and who are not directly or indirectly  
+          connected with the parties) whose appointment shall be agreed between the  
+          parties within seven (7) days of the service of an arbitration notice; 
+ The Parties agree that until the arbitration proceedings are complete, they 
+shall  
+          not take their disputes to a court of law. 
+ All hearings shall be held in Mumbai, India, in English. 
+ Notwithstanding anything contained in this Agreement the Company may  
+       approach any court within India for injunctive relief when it feels that any of 
+the  
+       terms of this Agreement are breached or likely to be breached by the 
+Employee. 
+ 
+15. MISCELLANEOUS 
+ 
+
+  
+ 
+ 
+ Entire Agreement: This Agreement constitutes the entire agreement between 
+the  
+       signatories and shall supersede all negotiations, preliminary agreements, and 
+all  
+              prior and contemporaneous discussions and understandings of the signatories  
+              connection with the subject matter hereof. 
+ Amendments: No change, modification, or termination of any of the terms,  
+        provisions, or conditions of this Agreement shall be effective unless made in  
+        writing and signed or initialed by all signatories to this Agreement.  
+ Severability: If any paragraph, subparagraph, or provision of this 
+Agreement, or  
+        the application of such paragraph, sub-paragraph, or provision, is held 
+invalid by  
+               a court of competent jurisdiction, the remainder of this Agreement, and the  
+               application of such paragraph, sub-paragraph, or provision to persons, or  
+               circumstances other than those with respect to which it is held invalid shall 
+not  
+               be affected. 
+ Parties To Act With Due Diligence And In Good Faith: The Parties hereto 
+shall  
+        dutifully perform all covenants of this Agreement in letter and spirit and 
+shall  
+        otherwise act with due diligence and in good faith.  
+16. GOVERNING LAW AND JURISDICTION 
+ 
+ This Agreement shall, in all respects, be governed by and construed in all 
+        respects in accordance with the laws of India. 
+ In relation to any legal action or proceeding to enforce this Agreement, the  
+       Employee irrevocably submits to the exclusive jurisdiction of any competent 
+court 
+       and waives any objection to such proceedings on grounds of venue or on the  
+       grounds that the proceedings have been brought in an inconvenient forum. 
+ 
+IN WITNESS WHEREOF, the signatories have executed this Employment 
+Agreement as the day and year first above written. 
+ 
+
+  
+ 
+ 
+For Company Name 
+Candidate Name 
+ 
+ 
+ 
+ 
+ 
+Name: 
+ 
+Title: 
+  
+ 
+
+  
+ 
+ 
+ANNEXURE 1 
+SCOPE OF SERVICES 
+The Employee of the Company shall be bound by this Agreement to fulfill the 
+following services for the Company: 
+Title:  
+Responsibilities & Duties: 
+ 
+ 
+
+  
+ 
+ 
+ANNEXURE 2 
+COMPENSATION LETTER 
+The Employee shall be entitled to receive compensation in accordance with the 
+terms set forth in this Compensation Letter for any and all the services of every 
+nature rendered and to be rendered by the Employee in connection with his 
+employment with the Company as laid down in this Agreement in India. The 
+Employee shall be bound by the terms and conditions set forth in this Agreement. 
+Annual Compensation 
+Your total annual compensation and benefits (the total cost to company) shall be 
+equivalent to Rs. In figures (Rupees In words) as specifically defined below: 
+ 
+s Company name  
+ CTC Breakup (With PF)  
+Name of Employee:  
+  
+  
+  
+Designation 
+ 
+  
+  
+Level  
+ 
+  
+  
+Date of Joining:   
+ 
+  
+  
+ Sr. No.  
+ Particulars  
+ 
+Amount 
+(Monthly)  
+ 
+Amount 
+(Yearly)  
+1 
+Basic Salary 
+ 
+ 
+2 
+House Rent Allowance 
+ 
+ 
+3 
+Conveyance Allowance 
+ 
+ 
+4 
+Medical reimbursement 
+ 
+ 
+
+  
+ 
+ 
+5 
+Special allowance 
+ 
+ 
+ Monthly 
+Gross  
+ 
+ 
+ 
+6 
+Medical 
+reimbursement 
+(Quarterly) 
+ 
+ 
+7 
+Leave Travel Allowance 
+ 
+ 
+8 
+Provident 
+Fund 
+(Employer 
+Contribution) 
+ 
+ 
+Annual Gross  
+ 
+ 
+ 
+10 
+Gratuity (Payable after 5 years 
+service) 
+ 
+ 
+Cost to Company  
+ 
+ 
+ 
+Other Benefits  
+As applicable

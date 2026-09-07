@@ -1,0 +1,786 @@
+[
+    {
+        "clause_id": null,
+        "parent_clause": null,
+        "section": null,
+        "section_title": null,
+        "text": "EMPLOYMENT AGREEMENT\n\nThis Employment Agreement (“Agreement”) is made on April 01, 2021 by and between:\n\nTaskUs India Private Limited, a private limited company incorporated under the provisions of the\nCompanies Act, 1956/2013 and having its CIN: U74999MH2019FTC318980 and Registered Office: 1102\nLevel 11, Tower B, Peninsula Business Park, S.B. Road, Lower Parel, Mumbai 400013, India. Hereinafter referred to as “Company”, which expression shall, unless it is contrary to the context or meaning thereof,\nbe deemed to mean and include its successors and assigns; and\n\nKanak Nagar residing at D/O Netram Nagar, 28, Ward No 03, Village Parkhedi, Obaidullaganj, VTC:\nGenhukheda, PO: Tamot, Sub District: Goharganj, District : Raisen, State: Madhya Pradesh - 464990,\nwith identification type Aadhar and no. 900116426813 hereinafter referred to as the “Employee”.\n\nThe Company and Employee shall hereinafter jointly be referred to as the “Parties” and severally as the\n“Party”.\n\nRecitals:\n\nA.\nWhereas, the Company is engaged in the business of, inter alia, business process outsourcing\n(“Business”); and\nB.\nBased on the disclosures and representations made by the Employee, including, but not limited to,\nacademic education, background and work experience, the Company desires to engage the\nEmployee and the Employee desires employment at the Company; upon the terms and conditions contained in this Agreement and the Company’s Policies (as defined hereinafter).\nNOW, THEREFORE, IN CONSIDERATION OF THE MUTUAL PROMISES SET FORTH HEREIN, THE\nCOMPANY AND THE EMPLOYEE HEREBY AGREE AS FOLLOWS:",
+        "type": "document"
+    },
+    {
+        "clause_id": "1.1",
+        "parent_clause": "1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.1 “Affiliate” means any Person that directly or indirectly through one or more intermediaries, controls or is controlled by or is under the common control as that of the Company;",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.2",
+        "parent_clause": "1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.2 “Competitor” means and includes all such Persons whether domestic or foreign, which carry on or which are likely to carry on business similar to the Business as defined herein above and/or directly or indirectly compete or have the potential to compete with the Company;",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.3",
+        "parent_clause": "1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.3 “Confidential Information” means and includes, information which is confidential and proprietary to the Company and/or Affiliates and/or to certain third parties with which the Company and/or\nAffiliates has relationships, and disclosed to or obtained by the Employee from the Company and/or\nAffiliates and/or such third parties, whether (without limitation) in graphic, written, electronic or machine readable form on any media or orally and whether or not the information is expressly stated to be confidential or marked as such and includes, but is not limited to information of value or significance to the Company and/or Affiliates and/or its Competitors (present or potential) such as Company’s Intellectual Property; content; data; techniques; plans; designs; programs; customer information; identity and job descriptions of Company personnel; the Company’s organizational structure; financing relationships or terms; service provider or vendor relationships or terms;\nprocesses; methodologies; compensation or bonus data; the terms of this Agreement; or other information not in the public domain pertaining to the Business or affairs of the Company or of any of its Affiliates; but does not include information: (i) that is in the public domain other than by\nEmployee’s breach of this Agreement and/or of any other agreement to which the Employee is\n\nbound by; (ii) that was previously known by Employee, as established by written records of the\nEmployee prior to receipt of such information from the Company and (iii) that was lawfully obtained by the Employee from a third party without any obligations of confidentiality to Company;",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.4",
+        "parent_clause": "1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.4 “Company Policies” shall mean the policies and procedures of the Company as specified in\nClause 10 of this Agreement;",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.5",
+        "parent_clause": "1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.5 “Intellectual\nProperty”\nincludes ideas,\nconcepts,\ncreations,\ndiscoveries,\ninventions,\nimprovements, know how, trade or business secrets; trademarks, service marks, designs, utility models, tools, devices, models, methods, procedures, processes, systems, principles, algorithms,\nworks of authorship, flowcharts, drawings, books, papers, models, sketches, formulas, teaching techniques, electronic codes, proprietary techniques, research projects, and other confidential and proprietary information, computer programming code, databases, software programs, data,\ndocuments, instruction manuals, records, memoranda, notes, user guides; in either printed or machine-readable form, the whether or not copyrightable or patentable, or any written or verbal instructions or comments;",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.6",
+        "parent_clause": "1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.6 “Intellectual Property Rights” or “IPRs” include (i) all rights, title, and interest under any statute or under common law including patent rights; copyrights including moral rights; and any similar rights in respect of Intellectual Property, anywhere in the world, whether negotiable or not; (ii) any licenses, permissions and grants in connection therewith; (iii) applications for any of the foregoing and the right to apply for them in any part of the world; (iv) right to obtain and hold appropriate registrations in Intellectual Property and, (v) all extensions and renewals thereof; (vi) causes of action in the past, present or future, related thereto including the rights to damages and profits, due or accrued, arising out of past, present or future infringements or violations thereof and the right to sue for and recover the same;",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.7",
+        "parent_clause": "1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.7 “Person” or “Persons” means an individual, corporation, partnership, limited liability company,\nassociation, trust or other entity or organization, including a government or political subdivision or an agency or instrumentality thereof that is not a party to this Agreement;",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.8",
+        "parent_clause": "1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.8 “Property” includes, but is not limited to the:",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.8.1",
+        "parent_clause": "1.8",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.8.1 internal memoranda, computer equipment (including software), training materials, books,\nand all other like property, including all copies, duplications, replications, and derivatives of such property which embody Confidential Information and Intellectual Property or any other information concerning the Business of the Company, whether such documents have been prepared by the Company or any other Person;",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.8.2",
+        "parent_clause": "1.8",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.8.2 papers, blueprints, drawings, specifications, pen drives, laptops, keys, pass cards,\nidentification cards, photographs, charts, graphs, notebooks, customer lists, computer disks, tapes or printouts, sound recordings and other printed, typewritten or handwritten documents, sample products, prototypes and models or any other property belonging to the Company and/or its Affiliates.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.8.3",
+        "parent_clause": "1.8",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.8.3 any residential accommodation, automobile, furniture, fixtures, fittings and furnishings,\ncommunication equipment, and all other items; and,",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.8.4",
+        "parent_clause": "1.8",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.8.4 any tangible expression of Confidential Information, including, without limitation,\nphotographs, plans, notes, renderings, journals, notebooks, computer programs and samples relating thereto;",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.9",
+        "parent_clause": "1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.9 Unless the context of this Agreement otherwise requires (i) words of any gender include each other gender; (ii) words using the singular or plural number also include the plural or singular number,\nrespectively; (iii) the terms “hereof,” “herein,” “hereby” and derivative or similar words refer to this\n\nentire Agreement; (iv) whenever this Agreement refers to a number of days, such number shall refer to calendar days unless otherwise specified; (v) headings are used for convenience only and shall not affect the interpretation of this Agreement; and (vi) references to the Recitals, Clauses and Appendices shall be deemed to be a reference to the recitals, clauses and appendices of this\nAgreement.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "2.1",
+        "parent_clause": "2",
+        "section": "2",
+        "section_title": "CONDITIONAL EMPLOYMENT, DESIGNATION AND PROBATIONARY PERIOD",
+        "text": "2.1 The Company hereby employs the Employee as Title/Designation Teammate at location 6th Floor,\nC-21 Business Park, Pushp Vihar Colony, Scheme No 131, Indore, Madhya Pradesh 452010 upon the terms and conditions set forth in this Agreement and the Company Policies, with effect from April 01, 2021 or such other date as may be mutually agreed (“Date of Employment”). The\nEmployee shall initially report into Team Leader.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "2.2",
+        "parent_clause": "2",
+        "section": "2",
+        "section_title": "CONDITIONAL EMPLOYMENT, DESIGNATION AND PROBATIONARY PERIOD",
+        "text": "2.2 Notwithstanding the aforesaid or anything to the contrary, the Employee’s employment with the\nCompany is contingent upon (1) successful completion by the Company of the Employee’s background and reference checks; (2) the Employee’s full and complete disclosure to the Company of any and all agreements (non-competition, non-solicitation, employment, confidentiality or otherwise) with any prior employer, clients, principals, partners or others which in any way may limit the Employee either contractually or otherwise from engaging in any business activities required or contemplated by the Company in this Agreement; and (3) there being no pending claims, actions,\nsuits or proceedings against the Employee which might reasonably be expected to have an adverse effect on the Employee’s ability to perform his/her duties towards the Company hereunder and/or on the Company. The Company reserves the right to terminate the Employee’s employment without any obligation whatsoever in the event that it receives any negative background or reference check results or determines that any contractual or other obligation may limit the Employee’s ability to engage in business activities for the Company or if the Employee is found to be part of any pending investigation (whether judicial, quasi-judicial or otherwise).",
+        "type": "clause"
+    },
+    {
+        "clause_id": "2.3",
+        "parent_clause": "2",
+        "section": "2",
+        "section_title": "CONDITIONAL EMPLOYMENT, DESIGNATION AND PROBATIONARY PERIOD",
+        "text": "2.3 The Employee’s employment with the Company will be subject to a probationary period of 3 months. After 3 months, an employee shall be deemed to be confirmed and out of probationary period unless the Company extends the period of probation in writing. The Company may, at its sole discretion, extend this probationary period for whatever period the Company deems appropriate. Notwithstanding anything aforesaid, if the Employee is serving his/her probationary period, the employment can be terminated by the Company immediately, without giving any notice to the Employee. However, in case the Employee wishes to terminate the Employment during such period, the Employee shall give at least seven (7) days’ written notice to the Company. In such an event, the Company may, at its sole discretion, permit the Employee to leave service during the period of notice without any salary in lieu of notice or pro-rated salary for the balance notice period as per this Clause.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "3.1",
+        "parent_clause": "3",
+        "section": "3",
+        "section_title": "DUTIES AND RESPONSIBILITIES, TRANSFER, CONFLICTS, ETC",
+        "text": "3.1 The Employee hereby agrees and undertakes to perform various duties and undertake various responsibilities as may be required by the Employee’s reporting officers, from time to time. The\nEmployee is expected and required to devote the whole of his/her working time and attention to the\nCompany to the best of his/her skills and abilities to promote the interests and welfare of the\nCompany.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "3.2",
+        "parent_clause": "3",
+        "section": "3",
+        "section_title": "DUTIES AND RESPONSIBILITIES, TRANSFER, CONFLICTS, ETC",
+        "text": "3.2 The Employee’s regular expected working hours shall be up to 10 hours per day and 48 hours per week. The Employee acknowledges and agrees that his/her remuneration detailed in Clause 4 sufficiently covers any and all working hours necessary for the successful completion of the job duties and the business needs of the Company.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "3.3",
+        "parent_clause": "3",
+        "section": "3",
+        "section_title": "DUTIES AND RESPONSIBILITIES, TRANSFER, CONFLICTS, ETC",
+        "text": "3.3 The Company may, at its sole discretion, second, depute, assign and/or transfer the Employee to any other office of Company in India or overseas or to any Affiliates of the Company or to any third\n\nparties. The Employee may also be required to make visits and travel both within India and overseas, as may be necessary for the proper discharge of his/her duties.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "3.4",
+        "parent_clause": "3",
+        "section": "3",
+        "section_title": "DUTIES AND RESPONSIBILITIES, TRANSFER, CONFLICTS, ETC",
+        "text": "3.4 While in the employment of the Company, the Employee is not allowed to be employed in any other organization on a permanent, temporary or part-time basis or offer his/her services with or without consideration to any physical person, legal entity or public authority or be occupied in the\nEmployee’s own business, without the prior written consent of the Company. The Employee shall comply with all directions given to the Employee by the Company and faithfully observe all the rules, regulations, and arrangements applicable to the Employee.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "3.5",
+        "parent_clause": "3",
+        "section": "3",
+        "section_title": "DUTIES AND RESPONSIBILITIES, TRANSFER, CONFLICTS, ETC",
+        "text": "3.5 The Employee is required to disclose in writing to the Company all of the Employee’s business interests, if any, whether or not they are similar to or in conflict with the business(es) or activities of the Company and all circumstances, in respect of which there is or there might in the future be a conflict of interest between the Company and the Employee or any of Employee’s immediate relatives. The Employee agrees to disclose fully to the Company in writing any such interests or circumstances, which may arise during Employee’s employment immediately upon accruing of such interest or occurring of any such circumstances.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "3.6",
+        "parent_clause": "3",
+        "section": "3",
+        "section_title": "DUTIES AND RESPONSIBILITIES, TRANSFER, CONFLICTS, ETC",
+        "text": "3.6 During the term of the Employee’s employment with the Company, the Employee is required to be medically fit to perform the services assigned to the Employee from time to time. As to whether the\nEmployee is medically fit, is an issue, which will be professionally determined, by the Company and the Employee shall be bound by such determination. The Employee may accordingly be required to undergo periodical medical examination as and when directed by the Company.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "3.7",
+        "parent_clause": "3",
+        "section": "3",
+        "section_title": "DUTIES AND RESPONSIBILITIES, TRANSFER, CONFLICTS, ETC",
+        "text": "3.7 During the term of employment and at all times thereafter, the Employee will not make any false,\ndefamatory or disparaging statements about the Company, or the employees, officers or directors of the Company that are reasonably likely to cause damage to any such entity or person.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "3.8",
+        "parent_clause": "3",
+        "section": "3",
+        "section_title": "DUTIES AND RESPONSIBILITIES, TRANSFER, CONFLICTS, ETC",
+        "text": "3.8 The Employee will also be governed by statutory laws enacted by the government or local authorities as may be applicable from time to time. The Employee shall comply with all applicable laws, regulations, and governmental orders of India, now or hereafter in effect, relating to the\nEmployee’s employment by the Company, including but not limited to the provisions of the\nPrevention of Corruption Act, 1988 of India, the Foreign Corrupt Practices Act, 1977 of the United\nStates of America and the Bribery Act 2010 of the United Kingdom. Without limiting the generality of the foregoing, the Employee represents and covenants that the Employee has not, and shall not,\nat any time, during his employment with the Company, pay, give, or offer or promise to pay or give,\nany money or any other thing of value, directly or indirectly, to, or for the benefit of: (i) any public servant, government official, political party or candidate for political office; or (ii) any other person,\nfirm, corporation or other entity, with knowledge that some, or all of that money, or other thing of value will be paid, given, offered or promised to a public servant, government official, political party or candidate for political office, for the purpose of obtaining or retaining any business, or to obtain any other unfair advantage, in connection with the Company’s business.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "4.1",
+        "parent_clause": "4",
+        "section": "4",
+        "section_title": "REMUNERATION AND BENEFITS",
+        "text": "4.1 The Employee shall be entitled to an all-inclusive remuneration and a detailed break-up of remuneration has been provided in Annexure \n1. The Company may change the remuneration package or compensation structure from time to time.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "4.2",
+        "parent_clause": "4",
+        "section": "4",
+        "section_title": "REMUNERATION AND BENEFITS",
+        "text": "4.2 The Company may withhold or deduct from any amounts payable under the Agreement such taxes and/or contributions as may be required to be withheld or deducted pursuant to any applicable law or regulation. In case of any under-withholding, the Employee shall be responsible to pay the necessary tax or contributions and any interest / penalty thereon.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "4.3",
+        "parent_clause": "4",
+        "section": "4",
+        "section_title": "REMUNERATION AND BENEFITS",
+        "text": "4.3 If, during the Employee’s employment under this Agreement, the Employee becomes indebted to the Company for any reason, the Company may, if it so elects, set off any sum due to the Company from the Employee against the compensation payable to the Employee and collect any remaining balance from him/her.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "4.4",
+        "parent_clause": "4",
+        "section": "4",
+        "section_title": "REMUNERATION AND BENEFITS",
+        "text": "4.4 The Company may offer the Employee certain employee benefits, subject to and in accordance with the applicable benefit plan(s), as may be amended from time to time. The Company reserves the right to amend, alter or cease to provide (without compensation) any benefit (including any commission plan or incentive based pay) at any time.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "4.5",
+        "parent_clause": "4",
+        "section": "4",
+        "section_title": "REMUNERATION AND BENEFITS",
+        "text": "4.5 The Employee is entitled to leaves and public holidays in accordance with applicable law and the\nCompany’s policies as implemented and/or amended from time to time.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "4.6",
+        "parent_clause": "4",
+        "section": "4",
+        "section_title": "REMUNERATION AND BENEFITS",
+        "text": "4.6 You may be offered a relocation benefit plan on company’s discretion. In such an event, if you leave the company before completion of one (1) year of service from the date of your joining the company.\nThe company is entitled to deduct and recover such relocation benefit from your full and final settlement.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "4.7",
+        "parent_clause": "4",
+        "section": "4",
+        "section_title": "REMUNERATION AND BENEFITS",
+        "text": "4.7 The company as part of the recruitment process may offer to buy your existing notice period. In such an event, if you leave the company before completion of one (1) year of service from the date of your joining the company. The company is entitled to deduct and recover such from your full and final settlement.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "5.1",
+        "parent_clause": "5",
+        "section": "5",
+        "section_title": "NON-SOLICITATION",
+        "text": "5.1 The Employee hereby agrees and undertakes that during the term of the employment with the\nCompany and for a period of two years following the date of termination of Employee’s employment with the Company (“Termination Date”), the Employee shall not, directly or indirectly, either as an individual on his own account or as a partner, employee, consultant, advisor, agent, contractor,\ndirector, trustee, committee member, office bearer, or shareholder (or in a similar capacity or function):",
+        "type": "clause"
+    },
+    {
+        "clause_id": "5.1.1",
+        "parent_clause": "5.1",
+        "section": "5",
+        "section_title": "NON-SOLICITATION",
+        "text": "5.1.1 Solicit and/or attempt to solicit employment of or advise any of the Company’s existing employees or any person who was employed by the Company within six months prior to such solicitation or any person or organization providing services to or through Company and/or its Affiliates to terminate his/her contract or relationship with Company or to accept any contract (directly or indirectly) or other arrangement for providing services to any other person or organization; or",
+        "type": "clause"
+    },
+    {
+        "clause_id": "5.1.2",
+        "parent_clause": "5.1",
+        "section": "5",
+        "section_title": "NON-SOLICITATION",
+        "text": "5.1.2 Contact and/or attempt to contact any of the existing or prospective clients (i.e. any person or organization with whom the Company and/or its Affiliates is in advanced stages of exploring a professional or business relationship) of the Company and/or its Affiliates to entice such clients away from the Company and/or its Affiliates or to damage in any way their business relationship with the Company and/or its Affiliates or for the provision of substantially the same services provided to such clients by the Company and/or its\nAffiliates.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "5.2",
+        "parent_clause": "5",
+        "section": "5",
+        "section_title": "NON-SOLICITATION",
+        "text": "5.2 It is agreed by and between the Parties that the employment with the Company and the compensation payable under this Agreement shall be sufficient consideration for this Clause.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "5.3",
+        "parent_clause": "5",
+        "section": "5",
+        "section_title": "NON-SOLICITATION",
+        "text": "5.3 The Employee hereby acknowledges and agrees that the limitations as to time and the limitations of the character or nature placed in this Clause 5 are reasonable and fair and will not preclude the\nEmployee from earning a livelihood, nor will they unreasonably impose limitations on the\nEmployee’s ability to earn a living. In addition, the Employee agrees and acknowledges that the potential harm to the Company of the non-enforcement of this Clause outweighs any potential harm\n\nto the Employee by this Agreement and has given careful consideration to the restraints imposed upon the Employee by this Agreement, and is in full accord as to their necessity for the reasonable and proper protection of Confidential Information and Intellectual Property of the Company now existing or to be developed in the future. The Employee expressly acknowledges and agrees that each and every restraint imposed by this Agreement is reasonable with respect to subject matter,\ntime period and geographical area.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "5.4",
+        "parent_clause": "5",
+        "section": "5",
+        "section_title": "NON-SOLICITATION",
+        "text": "5.4 It is expressly understood and agreed by the Parties that although the Employee and the Company consider the restrictions contained in this Clause 5 to be reasonable, if a final judicial determination is made by a court of competent jurisdiction that the time or territory or any other restriction contained in this Agreement is an unenforceable restriction against the Employee, the provisions of this Agreement shall not be rendered void but shall be deemed amended to apply as to such maximum time and territory and to such maximum extent as such court may judicially determine or indicate to be enforceable. Alternatively, if any court of competent jurisdiction finds that any restriction contained in this Agreement is unenforceable, and such restriction cannot be amended so as to make it enforceable, such finding shall not affect the enforceability of any of the other restrictions contained herein.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "5.5",
+        "parent_clause": "5",
+        "section": "5",
+        "section_title": "NON-SOLICITATION",
+        "text": "5.5 Notwithstanding the foregoing, nothing herein shall prevent the Employee from directly or indirectly owning, solely as an investment, securities of any person engaged in the business of the Company which are publicly traded on a national or regional stock exchange or on the over-the-counter market, if the Employee (i) is not a controlling person of, or a member of a group which controls,\nsuch person, and (ii) does not, directly or indirectly, own 1% or more of any class of securities of such person.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "5.6",
+        "parent_clause": "5",
+        "section": "5",
+        "section_title": "NON-SOLICITATION",
+        "text": "5.6 For all purposes of this Clause 5, the Company shall be construed to include the Company and its\nAffiliates.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "6.1",
+        "parent_clause": "6",
+        "section": "6",
+        "section_title": "CONFIDENTIAL INFORMATION",
+        "text": "6.1 The Employee shall forever hold the Confidential Information in confidence and shall not publish,\ndisclose or disseminate, any time, to any Person or competitor of the Company/ Affiliates; or use for any purpose any Confidential Information other than such purposes as shall be required to fulfill the Employee’s duties with the Company, or remove any Confidential Information, in whole or in part, from the Company’s premises, without the Company’s prior written permission.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "6.2",
+        "parent_clause": "6",
+        "section": "6",
+        "section_title": "CONFIDENTIAL INFORMATION",
+        "text": "6.2 The Employee shall forever hold the Confidential Information in confidence and shall not publish,\ndisclose or disseminate, any time, to any Person or competitor of the Company/ Affiliates; or use for any purpose any Confidential Information other than such purposes as shall be required to fulfill the Employee’s duties with the Company, or remove any Confidential Information, in whole or in part, from the Company’s premises, without the Company's prior written permission.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "6.3",
+        "parent_clause": "6",
+        "section": "6",
+        "section_title": "CONFIDENTIAL INFORMATION",
+        "text": "6.3 Notwithstanding the aforesaid provisions, the Employee may disclose Confidential Information where ordered to do so, by any government, judicial or quasi-judicial authority; provided however,\nthat the Employee shall in such a case give the Company a reasonable notice of any prospective disclosure and shall assist the Company in obtaining an exemption or protective order preventing such disclosure.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "6.4",
+        "parent_clause": "6",
+        "section": "6",
+        "section_title": "CONFIDENTIAL INFORMATION",
+        "text": "6.4 The Employee shall return to the Company or to its nominees Confidential Information, including copies thereof irrespective of storage or presentation medium, including all electronic and hard copies thereof, and any other material containing or disclosing any Confidential Information which is in the Employee’s possession, power and control as and when called upon by the Company and upon termination, not later than the Termination Date or at the option of the Company, as the case may be, destroy the same and will not make or retain any copies of such Confidential Information.\nUntil such time as all such Confidential Information is returned or destroyed, the Company shall, in addition to initiating legal proceedings for recovery of the same, be entitled to withhold any salary,\n\nemoluments or other dues of the Employee. Further, the Employee shall compensate the Company for any misuse of the Confidential Information. On or immediately after the Termination Date, the\nEmployee shall certify (as per the format provided by the Company) that the Employee has complied with the obligations imposed under this Clause.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "6.5",
+        "parent_clause": "6",
+        "section": "6",
+        "section_title": "CONFIDENTIAL INFORMATION",
+        "text": "6.5 The Employee understands that access to the Company’s databases and table structures,\nincluding but not limited to databases or tables relating to clients, salary information, benefits, or stock of Company employees, is only on a “need to know basis”. The Employee understands that he is not permitted to access any database and tables, unless the database or table directly relates to the work being performed by the Employee, and the Employee agrees that he will not access any databases or tables other than those necessary to perform the Employee’s duties. The\nEmployee understands that accessing a Company database or table that does not directly relate to the work required to be performed by the Employee may, at the sole option of the Company,\nresult in disciplinary action, up to and including termination of employment. The Employee also understands and agrees that sharing passwords, using another employee’s password, or allowing someone to use a password that has been designated solely as the password of the Employee,\nmay, at the sole option of the Company, result in disciplinary action up to and including termination.\nThe Employee also understands that the Company may monitor and review which databases and tables that the Employee has been accessing at any time without prior notice to the Employee.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "6.6",
+        "parent_clause": "6",
+        "section": "6",
+        "section_title": "CONFIDENTIAL INFORMATION",
+        "text": "6.6 During the term of employment, the Employee will not improperly use or disclose any confidential information or trade secrets, if any, of any former employer or any other person to whom the\nEmployee has an obligation of confidentiality, and the Employee will not bring onto the premises of the Company or Company’s clients any unpublished documents or any property belonging to any former employer or any other person to whom the Employee has an obligation of confidentiality,\nunless consented to in writing by such former employer or person.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "7.1",
+        "parent_clause": "7",
+        "section": "7",
+        "section_title": "INTELLECTUAL PROPERTY",
+        "text": "7.1 Prior Developments: The Employee has submitted to the Company a complete report with all supporting documents relating to all the Confidential Information, Intellectual Property and all other information developed by the Employee on or prior to the Date of Employment, which would be excluded from the scope of this Agreement. To preclude any possible uncertainty, the Employee sets forth in Annexure 2 attached hereto a complete list of all Intellectual Property, that the\nEmployee has, alone or jointly with others, conceived, developed or reduced to practice or caused to be conceived, developed or reduced to practice prior to the Date of Employment, that the\nEmployee considers to be his/her property or the property of third parties and that the Employee wishes to have excluded from the scope of this Employment. If any such disclosure has not been made in Annexure 2, the Employee represents that he does not own any Intellectual Property prior to the Date of Employment.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "7.2",
+        "parent_clause": "7",
+        "section": "7",
+        "section_title": "INTELLECTUAL PROPERTY",
+        "text": "7.2 Acknowledgment: The Employee acknowledges and agrees that the Intellectual Property as well as any portion thereof developed by the Employee shall be the sole property of the Company from date of creation thereof.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "7.3",
+        "parent_clause": "7",
+        "section": "7",
+        "section_title": "INTELLECTUAL PROPERTY",
+        "text": "7.3 Disclosure: During the term of the Employee’s employment and for six (6) months after termination of the Employee’s employment with the Company, the Employee agrees to maintain adequate and current written records on the development of all Intellectual Property and to disclose promptly upon its creation to the Company all Intellectual Property and relevant records, which records will remain the sole property of the Company. The Employee further agrees that all information and records pertaining to any idea, process, trademark, service mark, invention, technology, computer program, original work of authorship, design, formula, discovery, patent or copyright that the\nEmployee does not believe to be Intellectual Property, but is conceived, developed, reduced to practice by the Employee (alone or with others) during the period of employment, shall be promptly disclosed to the Company.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "7.4",
+        "parent_clause": "7",
+        "section": "7",
+        "section_title": "INTELLECTUAL PROPERTY",
+        "text": "7.4 Handing-over: The Employee agrees that all originals and all copies of any and all material containing, representing, evidencing, recording, or constituting all or part of the Intellectual\nProperty, however and whenever produced (whether by the Employee or others) and whether or not protected under copyright law or patentable or protected under other intellectual property law,\nshall be immediately handed over to the Company upon its creations and any copies thereof returned to the Company upon termination of the Employee’s employment for any reason.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "7.5",
+        "parent_clause": "7",
+        "section": "7",
+        "section_title": "INTELLECTUAL PROPERTY",
+        "text": "7.5 Ownership: The Employee agrees that the exclusive ownership of all content and/or part of\nIntellectual Property that is not protected under copyright laws and /or other intellectual property law and/or that is not patentable shall be automatically and irrevocably transferred to the Company from date of creation. The Employee hereby waives all moral rights in relation to the Intellectual\nProperty.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "7.6",
+        "parent_clause": "7",
+        "section": "7",
+        "section_title": "INTELLECTUAL PROPERTY",
+        "text": "7.6 Assignment: The Employee hereby irrevocably, absolutely and perpetually assigns to the\nCompany worldwide rights in respect of all of the Employee’s right, title, and interest, including\nIPRs, in respect of the Intellectual Property developed by the Employee, free from encumbrances of any kind for the full term of each and every such right, including renewal or extension of any such term. Notwithstanding the provisions of Section 19(4) of the Copyright Act, 1957, any assignment in so far as it relates to copyrightable material shall not lapse nor the rights transferred therein revert to the Employee, even if the Company does not exercise the rights under the assignment within a period of one year from the date of assignment. The Employee hereby agrees to waive any right to and refrain from raising any objection or claims to the Copyright Board with respect to any assignment, pursuant to Section 19A of the Copyright Act, 1957. The Employee further agrees to assist and cooperate with the Company in perfecting the Company's rights in any of its\nIntellectual Property.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "7.7",
+        "parent_clause": "7",
+        "section": "7",
+        "section_title": "INTELLECTUAL PROPERTY",
+        "text": "7.7 Agreement to Assign: To the extent any assignment of Intellectual Property cannot be made to the Company or its designees, for any reason whatsoever, the Employee hereby irrevocably,\nabsolutely and perpetually agrees to assign to the Company or its designees, all of the Employee’s right, title and interest including IPRs therein or any part thereof.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "7.8",
+        "parent_clause": "7",
+        "section": "7",
+        "section_title": "INTELLECTUAL PROPERTY",
+        "text": "7.8 Co-operation: During and after the term of the Employee’s employment by the Company, the\nEmployee shall and undertakes to assist the Company, at the Company’s expense, in every proper way to (i) secure and maintain the Company’s rights hereunder and to carry out the intent of this\nAgreement and for vesting the Company with full title of the Intellectual Property and all rights, titles and interest including IPR therein; (ii) to apply and prosecute registration applications in respect of\nIPRs relating to Intellectual Property for the Company’s benefit, in any and all countries; (iii) sign,\nexecute, affirm all documents, including, without limitation, all applications, forms, instruments of assignment and supporting documentation and perform all other acts as may be required for the above mentioned purposes.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "7.9",
+        "parent_clause": "7",
+        "section": "7",
+        "section_title": "INTELLECTUAL PROPERTY",
+        "text": "7.9 Power of Attorney: Should the Company be unable to secure the signature on any document necessary to apply for, prosecute, obtain, protect or enforce any IPRs, due to any cause, the\nEmployee hereby irrevocably designates and appoints the Company and each of its duly authorized officers and agents as the Employee’s agent and attorneys to do all lawfully permitted acts to further the prosecution, issuance, and enforcement of IPRs or protection in respect of the Intellectual\nProperty, with the same force and effect as if executed and delivered by the Employee. The\nCompany reserves the right to appoint another attorney in lieu of the attorney as appointed hereinabove.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "7.10",
+        "parent_clause": "7",
+        "section": "7",
+        "section_title": "INTELLECTUAL PROPERTY",
+        "text": "7.10 Third-Party Material: The Employee represents and warrants that he/she will not use or integrate in the Intellectual Property any third party materials or data that are not validly licensed to the\nCompany unless previously authorized by the Employee’s reporting officer in the Company. The\nEmployee represents and warrants that the Employee has not violated the Intellectual Property\nRights of any third party, and covenants that he shall not violate the Intellectual Property Rights of any third party in the course of his/her employment with the Company. Provided that in the event\n\nthe Company is held liable for the Employee’s violation of any Intellectual Property Rights, the\nEmployee undertakes to indemnify the Company or Affiliate as the case may be against any and all losses, liabilities, claims, actions, costs and expenses, including reasonable attorney’s fees and court fees resulting therefrom.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "7.11",
+        "parent_clause": "7",
+        "section": "7",
+        "section_title": "INTELLECTUAL PROPERTY",
+        "text": "7.11 License: If, in the course of the Employee’s employment with the Company, the Employee incorporates Intellectual Property into the Company’s product, process or machine, the Company is hereby granted and shall have a nonexclusive, royalty-free, irrevocable, perpetual, worldwide license (with rights to sublicense through multiple tiers of sub-licensees) to make, have made,\nmodify, use and sell such Intellectual Property.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "8.1",
+        "parent_clause": "8",
+        "section": "8",
+        "section_title": "TERMINATION OF EMPLOYMENT",
+        "text": "8.1 Termination by either Party: Either Party may terminate the Employee’s employment upon written notice to the other Party. The termination can be initiated by providing Thirty (30) days written notice and is enforceable from the date of the receipt (by the other Party) of such notice (hereinafter referred to as the “Notice Period”). Alternatively, the Company may terminate the Employee’s employment with immediate effect, upon giving the Employee salary in lieu of notice or pro-rated salary for the balance of the Notice Period in case the Employee has been permitted to work during some portion of the Notice Period. In case the Employee has given a notice to resign from services,\nthe Employee is expected and required to diligently serve the entire notice period. However, in such a resignation situation, the Company may, at its sole discretion, without being obligated to do so,\n(i) require the Employee to leave service at any time during the notice period without any payment for the balance unexpired portion of the notice period or (ii) upon the Employee’s request allow\nEmployee to leave service during the notice period only upon the Employee making payment to the Company in the form of damages for breach, the amount equivalent to the Employee’s salary for the balance unexpired portion of the Notice Period.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "8.2",
+        "parent_clause": "8",
+        "section": "8",
+        "section_title": "TERMINATION OF EMPLOYMENT",
+        "text": "8.2 Termination during probationary period: Notwithstanding anything aforesaid, if the Employee is serving his/her probationary period, this Agreement can be terminated by the Company immediately, without giving any notice to the Employee. However, in case the Employee wishes to terminate this Agreement during such period, the Employee shall give at least seven (7) days’\nwritten notice to the Company. In such an event, the Company may, at its sole discretion, permit the Employee to leave service during the period of notice without any salary in lieu of notice or pro-rated salary for the balance notice period as per this Clause.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "8.3",
+        "parent_clause": "8",
+        "section": "8",
+        "section_title": "TERMINATION OF EMPLOYMENT",
+        "text": "8.3 Termination by Company due to the Employee’s misconduct: Notwithstanding anything mentioned in above Clauses 8.1 and 8.2, the Company may terminate the Employee’s employment with immediate effect by a notice in writing (without salary in lieu of notice), in the event of (i)\nfraudulent, dishonest or undisciplined conduct of the Employee, (ii) the Employee’s breach of integrity, or embezzlement, or misappropriation or misuse or causing damage to the Company’s property, (iii) insubordination or failure to comply with the directions given to the Employee by persons so authorized, (iv) the Employee’s insolvency or conviction for any offence involving moral turpitude, (v) breach by the Employee of any terms of this Agreement or the Company’s Policies or other documents or directions of the Company, (vi) irregularity in the Employee’s attendance, or his/her unauthorized or unapproved absence from the place of work for more than three (3)\nconsecutive working days may call for initiation of process, (vii) the Employee going on or abetting a strike in contravention of any law for the time being in force, (viii) the Employee conducting himself/herself in a manner which is regarded by the Company as prejudicial to its own interests or to the interests of its clients or (ix) the Employee’s misconduct as provided under the labour laws or Company Policies.\nIn case you are charged with any act of misconduct, you may be suspended from service pending enquiry. During the suspension period, you will be entitled only to 50% of your salary towards suspension allowance. While claiming suspension allowance you will tender an undertaking or\n\naffidavit every month in writing that you were neither employed nor self-employed during such period.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "8.4",
+        "parent_clause": "8",
+        "section": "8",
+        "section_title": "TERMINATION OF EMPLOYMENT",
+        "text": "8.4 Termination upon Total Permanent Disability or Death of Employee: This Agreement shall automatically terminate upon the Employee's total permanent disability, or death.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "8.5",
+        "parent_clause": "8",
+        "section": "8",
+        "section_title": "TERMINATION OF EMPLOYMENT",
+        "text": "8.5 Retirement: The Employee will automatically retire from the Company on attaining the age of 60\n(sixty) years. An extension may however, be given at the discretion of the Company.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "8.6",
+        "parent_clause": "8",
+        "section": "8",
+        "section_title": "TERMINATION OF EMPLOYMENT",
+        "text": "8.6 Offer on Liquidation: If the employment of the Employee is terminated by reason of the liquidation of the Company in case of reconstruction, merger, spin-off, acquisition, amalgamation or by reason of any reorganisation of the Company or any other corporate action (including a transfer of establishment / unit / undertaking) and the Employee shall have been offered employment with the entity succeeding to the Company upon such event on terms no less favourable to the Employee than the terms in effect under this Agreement then the Employee shall have no legal or contractual claim against the Company by reason of the termination of the employment.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "8.7",
+        "parent_clause": "8",
+        "section": "8",
+        "section_title": "TERMINATION OF EMPLOYMENT",
+        "text": "8.7 Garden Leave during Notice Period: The Company may, in its absolute discretion, require the\nEmployee at any time during the Notice Period not to attend the Employee’s place of work and/or not to perform any duties for the Company or to perform any such duties, projects or tasks as are expressly assigned to the Employee by the Company. The Employee shall continue to be employed by the Company during such period and therefore shall be eligible to receive the Employee’s full pay and benefits during any such period. During any such period, the Employee shall (i) notify the\nCompany of any change of address or contact details, (ii) if requested by the Company, refrain from contacting employees, clients and professional contacts of the Company, (iii) cease to be an authorized signatory of the Company or hold a power of attorney for the Company, and (iv) continue to be bound by the express and implied duties of the Employee’s employment, including, without limitation, by the duty of fidelity and good faith owed to the Company. The garden leave shall be offset against any annual leave of the Employee.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "8.8",
+        "parent_clause": "8",
+        "section": "8",
+        "section_title": "TERMINATION OF EMPLOYMENT",
+        "text": "8.8 Liability: The Parties hereby agree that if the termination is found to be wrongful by an appropriate\nCourt in India, based on a non-appealable order, the maximum liability of Company shall not exceed Employee's thirty (30) days’ salary and statutory benefits for every year of service, in case the Company does not reinstate the Employee.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "8.9",
+        "parent_clause": "8",
+        "section": "8",
+        "section_title": "TERMINATION OF EMPLOYMENT",
+        "text": "8.9 Separation and Release: Upon termination of the Employee’s employment with the Company for any reason, the Company may require the Employee to sign a Separation and Release Agreement with the Company at no additional consideration or payment.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "9.1",
+        "parent_clause": "9",
+        "section": "9",
+        "section_title": "COMPANY’S PROPERTY - EMPLOYEE’S DUTY TO RETURN",
+        "text": "9.1 Any and all of the Company’s Property, Confidential Information and Intellectual Property of the\nCompany acquired by or in the possession of the Employee under this Agreement, shall be returned to the Company immediately upon termination of this Agreement.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "9.2",
+        "parent_clause": "9",
+        "section": "9",
+        "section_title": "COMPANY’S PROPERTY - EMPLOYEE’S DUTY TO RETURN",
+        "text": "9.2 In the event the Employee’s employment with the Company is terminated, the Employee shall sign and deliver to the Company a termination and/or release certificate as provided by the Company,\nwithout any additional consideration or benefit.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "9.3",
+        "parent_clause": "9",
+        "section": "9",
+        "section_title": "COMPANY’S PROPERTY - EMPLOYEE’S DUTY TO RETURN",
+        "text": "9.3 It is further agreed and understood that until such time as all of the Company’s Property,\nConfidential Information and Intellectual Property are returned and the termination certificate is provided as above mentioned, the Company shall, in addition to initiating legal proceedings for recovery (and without prejudice to any other rights or remedies that Company may have under law or equity), be entitled to withhold any salary, emoluments or other dues of the Employee then or in\n\nfuture payable to the Employee, and may further, at its discretion, deduct therefrom the full value of the said property/properties calculated at its then replacement price. The Employee recognizes and agrees that the Company shall be entitled to recover from the Employee and the Employee shall be bound and liable to make good to the Company any loss suffered by the Company on account of misuse of the Company’s Property, Confidential Information and Intellectual Property by the Employee and/or any damage occasioned to the Company’s Property, Confidential\nInformation and Intellectual Property whilst in the custody of or entrusted to the Employee.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "10.1",
+        "parent_clause": "10",
+        "section": "10",
+        "section_title": "COMPANY POLICIES",
+        "text": "10.1 The Employee agrees and undertakes that the Employee shall be bound by all the policies and procedures of the Company, including those contained in the Employee Handbook and Global\nCode of conduct, as may be drafted, revised, amended and/or updated from time to time by the\nCompany.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "10.2",
+        "parent_clause": "10",
+        "section": "10",
+        "section_title": "COMPANY POLICIES",
+        "text": "10.2 The Employee may be entitled to receive compensation under the Employees’ Compensation Act, 1923 (if applicable) in case any personal injury is caused to the Employee by way of an accident arising out of and in the course of Employee’s employment with the Company, unless the payment obligation is covered by the insurance policies taken by the Company on the Employee’s behalf.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "10.3",
+        "parent_clause": "10",
+        "section": "10",
+        "section_title": "COMPANY POLICIES",
+        "text": "10.3 The Company provides for maternity benefits to eligible employees in accordance with the\nMaternity Benefit Act, 1961 (if applicable). Please refer to the Company polices for further information in this regard.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "11.1",
+        "parent_clause": "11",
+        "section": "11",
+        "section_title": "NOTICES",
+        "text": "11.1 All notices, requests and other communications hereunder must be in writing and will be deemed to have been duly given only if delivered personally or by facsimile transmission or mailed (first class postage prepaid) or by electronic mail to the Parties at the following email addresses:\nIf to the Company:\nAttention: Manmeet Kaur\nEmail address: manmeet.kaur@taskus.com\n\nAlong with a copy by email to: benefitsadministration.rgz@taskus.com\n\nIf to the Employee:\nAt the address provided in this Agreement or the address as available in the Company’s records, or at the following email address [kanaknagar7@gmail.com].",
+        "type": "clause"
+    },
+    {
+        "clause_id": "11.2",
+        "parent_clause": "11",
+        "section": "11",
+        "section_title": "NOTICES",
+        "text": "11.2 Any change in the address of either the Company or the Employee shall be notified to the other\nParty in the same manner mentioned hereinabove.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "12.1",
+        "parent_clause": "12",
+        "section": "12",
+        "section_title": "REPRESENTATIONS AND COVENANTS",
+        "text": "12.1 The Employee hereby represents to, and covenants with, the Company that:",
+        "type": "clause"
+    },
+    {
+        "clause_id": "12.1.1",
+        "parent_clause": "12.1",
+        "section": "12",
+        "section_title": "REPRESENTATIONS AND COVENANTS",
+        "text": "12.1.1 (i) he/she has been provided with a copy of this Agreement for review prior to signing it (ii)\nthat he/she has reviewed the Agreement and that he/she understands the terms, purposes and effects of this Agreement, (iii) he/she has signed the Agreement only after having had the opportunity to seek clarifications; (iv) he/she has not been subjected to duress or undue influence of any kind to execute this Agreement and this Agreement will not impose an undue hardship upon him/her (v) he/she has executed this Agreement of his own free will and without relying upon any statements made by the Company or any of its representatives, agents or employees (vi) this Agreement is in all respects reasonable and\n\nnecessary to protect the legitimate business interests of the Company; (vi) he/she has all requisite power and authority, and does not require the consent of any third party to enter into this Agreement and grant the rights provided herein; (vii) the execution, delivery, and performance of this Agreement by him/her does not and will not conflict with, breach,\nviolate or cause a default under any agreement, contract or instrument to which he/she is a party or any judgment, order or decree to which he/she is subject; (ix) he/she is not a party to or bound by any employment agreement, consulting agreement, non-compete agreement, confidentiality agreement or similar agreement with any other Person; and (ix)\nthe services performed by him/her and all items and/or materials furnished by him/her in connection with or as a result of such services shall not infringe upon or violate the personal, civil or property rights, or the rights of privacy of, or constitute a libel, slander or unfair competition against or violate or infringe upon any common law right, copyright,\ntrademark, trade name or patent or any other right of any person or entity;",
+        "type": "clause"
+    },
+    {
+        "clause_id": "12.1.2",
+        "parent_clause": "12.1",
+        "section": "12",
+        "section_title": "REPRESENTATIONS AND COVENANTS",
+        "text": "12.1.2 He/she will not execute any instrument or grant or transfer any rights, titles and interests inconsistent with the terms and conditions of this Agreement;",
+        "type": "clause"
+    },
+    {
+        "clause_id": "12.1.3",
+        "parent_clause": "12.1",
+        "section": "12",
+        "section_title": "REPRESENTATIONS AND COVENANTS",
+        "text": "12.1.3 He/she is legally permitted to reside and be employed in India, and shall remain so during the term of his/her employment with the Company.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "13.1",
+        "parent_clause": "13",
+        "section": "13",
+        "section_title": "DISPUTE RESOLUTION",
+        "text": "13.1 The Company and the Employee hereby agree that they will, at all times, act in good faith, and make all attempts to resolve all differences howsoever arising out of or in connection with this\nAgreement by discussion. If within fifteen (15) days of the commencement of the discussions the dispute is not resolved the dispute shall be referred to binding arbitration, provided that:",
+        "type": "clause"
+    },
+    {
+        "clause_id": "13.1.1",
+        "parent_clause": "13.1",
+        "section": "13",
+        "section_title": "DISPUTE RESOLUTION",
+        "text": "13.1.1 The Employee’s employment with the Company shall be governed and construed in accordance with the laws of India. Any dispute that may arise with respect to the\nEmployee’s employment or its terms shall be submitted for resolution by a sole arbitrator appointed as per the rules of the Mumbai Centre for International Arbitration (“MCIA”). The arbitration shall be governed by the MCIA Rules and the Indian Arbitration & Conciliation\nAct, 1996 (“Arbitration Act”).",
+        "type": "clause"
+    },
+    {
+        "clause_id": "13.1.2",
+        "parent_clause": "13.1",
+        "section": "13",
+        "section_title": "DISPUTE RESOLUTION",
+        "text": "13.1.2 There shall be a sole arbitrator appointed as per the rules of the MCIA. The award made by the sole arbitrator shall be binding on both Parties. The language of the arbitration shall be English. The seat and venue of the arbitration shall be Indore. The Employee agrees to sign such further documents as required by the Company for the purposes of resolving any dispute by way of arbitration.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "13.1.1",
+        "parent_clause": "13.1",
+        "section": "13",
+        "section_title": "DISPUTE RESOLUTION",
+        "text": "13.1.1 The Parties agree that until the arbitration proceedings are complete, they shall not take their disputes to a court of law.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "13.2",
+        "parent_clause": "13",
+        "section": "13",
+        "section_title": "DISPUTE RESOLUTION",
+        "text": "13.2 The Employee hereby agrees to sign all further document and/or forms as may be required by the\nCompany for or in relation to such arbitration.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "13.3",
+        "parent_clause": "13",
+        "section": "13",
+        "section_title": "DISPUTE RESOLUTION",
+        "text": "13.3 Notwithstanding the aforesaid provisions of this Agreement, in the event of any breach or apprehended breach by the Employee of the provisions of this Agreement, the Company shall be entitled, in addition to all other remedies, to an injunction, whether interlocutory or preliminary,\nrestraining any such breach, without recourse to arbitration.\n\nMISCELLANEOUS",
+        "type": "clause"
+    },
+    {
+        "clause_id": "14.1",
+        "parent_clause": "14",
+        "section": "14",
+        "section_title": "Entire Agreement",
+        "text": "14.1 Entire Agreement: The terms of this Agreement are the entire agreement and understanding with respect to the subject matter hereof and supersedes all prior discussions or representations\n\nbetween the Company and the Employee including, but not limited to, any representations made during the Employee’s interview(s) or relocation negotiations, whether written or oral. This\nAgreement shall constitute the complete and exclusive statement of its terms and no extrinsic evidence whatsoever may be introduced in any judicial, administrative, or other legal proceeding involving this Agreement. Any subsequent change or changes in the Employee’s duties, salary or compensation will not affect the validity or scope of this Agreement.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "14.2",
+        "parent_clause": "14",
+        "section": "14",
+        "section_title": "Entire Agreement",
+        "text": "14.2 Amendments: No change, modification, or termination of any of the terms, provisions, or conditions of this Agreement shall be effective unless made in writing and signed or initialed by all signatories to this Agreement.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "14.3",
+        "parent_clause": "14",
+        "section": "14",
+        "section_title": "Entire Agreement",
+        "text": "14.3 Survival: Termination of this Agreement shall not affect those provisions hereof that by their nature are intended to survive such termination.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "14.4",
+        "parent_clause": "14",
+        "section": "14",
+        "section_title": "Entire Agreement",
+        "text": "14.4 Assignment: Except as otherwise provided in this paragraph, this Agreement shall inure to the benefit of and be binding upon the parties hereto and their respective heirs, representatives,\nsuccessors and assigns. Neither this Agreement nor any right or interest hereunder shall be assignable by the Employee, his/her beneficiaries, or legal representatives without the Company’s prior written consent; provided, however, that nothing in this Clause 14.4 shall preclude the\nEmployee from designating a beneficiary to receive any benefit payable hereunder upon his/her death, or the executors, administrators, or other legal representatives of the Employee or his/her estate from assigning any rights hereunder to the person or persons entitled thereunto. This\nAgreement shall be assignable by the Company to a subsidiary or affiliate of the Company; to any corporation, partnership, or other entity that may be organized by the Company, its general partners, or its officers, as a separate business unit in connection with the business activities of the\nCompany or of its general partners or officers; or to any corporation, partnership, or other entity resulting from the reorganization, merger or consolidation of the Companybreach with any other corporation, partnership, or other entity or any corporation, partnership, or other entity to or with which all or any portion of the Company’s business or assets may be sold, exchanged or transferred.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "14.5",
+        "parent_clause": "14",
+        "section": "14",
+        "section_title": "Entire Agreement",
+        "text": "14.5 Indemnification: The Employee shall indemnify the Company for any and all losses, liabilities,\nclaims, actions, costs and expenses, reasonable attorney’s fees and court fees resulting to\nCompany as a result of any wrongful act or omission on the Employee’s part done while serving as an employee of the Company.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "14.6",
+        "parent_clause": "14",
+        "section": "14",
+        "section_title": "Entire Agreement",
+        "text": "14.6 Authorisation: In the event of termination of the employment of the Employee, the Employee hereby grants consent to the Company to notify any new employer of the Employee and/or any third party about the obligations of the Employee under this Agreement. If necessary, the Company has a right to disclose this Agreement to any new employer or third parties.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "14.7",
+        "parent_clause": "14",
+        "section": "14",
+        "section_title": "Entire Agreement",
+        "text": "14.7 Governing Law and Jurisdiction: This Agreement shall be governed and construed in accordance with the laws of India in relation to any legal action or proceedings to enforce this\nAgreement. Subject to arbitration, the Parties irrevocably submit to the exclusive jurisdiction of any competent courts situated at Indore and waive any objection to such proceedings on grounds of venue or on the grounds that the proceedings have been brought in an inconvenient forum.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "14.8",
+        "parent_clause": "14",
+        "section": "14",
+        "section_title": "Entire Agreement",
+        "text": "14.8 Waiver: No waiver by the Company of any breach of this Agreement shall be a waiver of any preceding or succeeding breach. No waiver by the Company of any right under this Agreement shall be construed as a waiver of any other right. The Company shall not be required to give notice to enforce strict adherence to all terms of this Agreement.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "14.9",
+        "parent_clause": "14",
+        "section": "14",
+        "section_title": "Entire Agreement",
+        "text": "14.9 Severability: If any paragraph, sub-paragraph, or provision of this Agreement, or the application of such paragraph, sub-paragraph, or provision, is held invalid or excessively broad by a court of competent jurisdiction, the remainder of this Agreement, and the application of such paragraph,\n\nsub-paragraph, or provision to Persons, or circumstances other than those with respect to which it is held invalid shall not be affected.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "14.10",
+        "parent_clause": "14",
+        "section": "14",
+        "section_title": "Entire Agreement",
+        "text": "14.10 Data Privacy: The Company may, in connection with the Employee’s employment, collect personal data including sensitive personal data relating to him/her. Such data may be received from the\nEmployee and some limited personal data may be recorded directly or indirectly by internal security systems or by other means. The Company may process such data for relevant and limited purposes. By signing this Agreement, the Employee expressly consents to the following:\na.\nthe collection, use, processing and storage of sensitive personal data by the Company for relevant and limited purposes;\nb.\nthe transfer worldwide of personal data held about him/her by the Company to other employees and offices of the Company’s worldwide organization and to third parties where disclosure to such third parties is required in the normal course of business or by law; and use of his/her personal images and voices in marketing material, videos, etc.;\nc.\nreading and understanding the Company’s Privacy Policy in relation to the collection,\nprocessing, use, storage and transfer of personal and sensitive data and agreeing to the terms thereof; and d.\ntreating any personal data to which the Employee has access in the course of his/her employment strictly in accordance with Company policies and procedures and not using any such data other than in connection with and except to the extent necessary for the purposes for which it was disclosed to him/her.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "14.11",
+        "parent_clause": "14",
+        "section": "14",
+        "section_title": "Entire Agreement",
+        "text": "14.11 No Attachments: Except as required by law, no right to receive payments under this Agreement shall be subject to anticipation, commutation, alienation, sale, assignment, encumbrance, charge,\npledge, or hypothecation, or to execution, attachment, levy, or similar process or assignment by operation of law, and any attempt, voluntary or involuntary, to effect any such action shall be null,\nvoid and of no effect.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "14.12",
+        "parent_clause": "14",
+        "section": "14",
+        "section_title": "Entire Agreement",
+        "text": "14.12 Documents: Upon execution of this Agreement, the Employee shall be required to provide to the\nCompany copies of the following documents:\na. 2 recent passport-sized photographs b. Relieving letter issued by your most recent employer c. Copy of most recent passport d. Relevant educational certificates e. Last 3 months salary drawn payslips f.\nPermanent Account Number (PAN) (For statutory purpose only)\ng. Provident Fund UAN (For statutory purpose only)\nh. Aadhar card (For statutory purpose only)\ni.\nBank Account Details (For salary purposes only)\nj.\nEmergency contact address with mobile number (For safety reasons)\nIN WITNESS WHEREOF, the Parties hereto have duly executed this Agreement as of the day and year first above written.\nTaskUs India Private Limited\nSign:\n\nName: Manmeet Kaur\nDesignation: People Director\n[Kanak Nagar]\nSign:\n\nName:\nPlace:",
+        "type": "clause"
+    },
+    {
+        "clause_id": "Annexure 1",
+        "parent_clause": null,
+        "section": "Annexure 1",
+        "section_title": "Annexure 1",
+        "text": "ANNEXURE 1\nREMUNERATION AND BENEFITS\nEmployee’s total all-inclusive gross annual compensation on a cost-to-company basis will be as below,\nwhich shall include Employee’s basic salary and various allowances and statutory contributions, which may be claimed in compliance with and subject to limits under the applicable tax laws and the Company’s policies and practices, set forth below:\nRemuneration Break up\n\nName of the Employee: Kanak Nagar\n\nDesignation: Teammate\nS.N.\nSalary Structure\nAmount (per month)\nAmount (per annum)\nA\nFixed Components\nBasic Salary\n12,602\n151,224\nHRA\n5,040\n60,484\nGROSS SALARY (Includes Employee's contribution to statutory deductions)\n17,642\n211,708\nB\nAdvance/Interim Statutory Bonus\nStatutory Bonus\n2,200\n26,400\nC\nEmployer Contributions\nESIC - Employer Contribution (3.25% of Gross\nSalary + Stat. Bonus)\n\n7,740\nPF - Employer Contribution (12% of Basic)\n1,512\n18,144\nCOST TO COMPANY ( A + B + C)\n21,999\n263,992\n\n(Two Lacs Sixty Three Thousand Nine Hundred Ninety Two Rupees and No Paise Per Annum)\n\nBenefits Schedule Cont.\n\nThis document will give you clarity on terms associated with compensation and benefits as per organisation policies in effect. Kindly go through and provide your acceptance for the same.\n\n1. Retirals (Whichever is applicable)\n●\nYou will participate in the Employees Provident Fund (‘EPF”) as set out in the Employees\nProvident Fund Scheme, 1952 (“The Scheme”). The company’s total employer contribution to the Scheme shall be equivalent to 12% of your basic salary irrespective of the maximum statutory limit)\n●\nEligible employees will participate in the Employees State Insurance (‘ESI”) as set out in the Employees State Insurance Scheme, 1948 (“The Insurance Scheme”). The company’s total employer contribution to the Scheme shall be equivalent to 3.25% of your gross salary.\n●\nCost to company (CTC) excludes the component of gratuity benefit which is payable on cessation of employment after a minimum of five years continuous employment as per the provisions of ‘The Payment of Gratuity Act 1972’.\n●\nNotwithstanding what is stated under statutory schemes hereinbefore these are subject to change as per the applicable law in India from time to time.\n\n2. Insurance\n\n●\nThe Employee will be eligible to participate in the company group personal accident, group medical insurance policies upon onboarding.\n●\nThe Employee will be eligible to participate in the company group term life insurance policy upon onboarding.\n\n3. Relocation (Only If applicable and approved as part of offer)\n\n●\nPlease refer to the clause no. 4.6 and 4.7 for deductions policy if benefits are granted.\n\nRelocation Benefits (If Applicable)\nDesignation\nTravel\nAccommodation\nRelocation Lump-sum Allowance\nTeam Mates\nNA\nNA\nRs. 10,000\nAll other than\nTeamMates and\nBelow Manager level\nUpto Rs. 1500 or actual whichever is lesser\n15 days stay in company provided accommodation\nRs. 25,000\nManager & above\nEconomy class Flight Tickets for self, Spouse and upto 2 kids. Maximum of Rs. 5,000 per ticket or actual whichever is lesser\n15 days stay in company provided accommodation\n50% of Monthly\nGross Salary\n\nTerms of Relocation allowance -\n●\nTravel ticket reimbursement is provisioned for expenses incurred on travel tickets and does not include other ancillary expenses like transit from airport, food at the airport, excess baggage etc.\nas the same must be considered as part of relocation lump sum allowance.\n●\nTravel tickets must be booked by the candidate and claim for reimbursement needs to be submitted within 60 days of joining the organisation to the Finance team\n●\nIn case an employee leaves the company before 1 year, Relocation Expenses including Travel,\naccommodation and lump-sum allowance will be deducted from full & final settlement\n●\nIn case of any candidate moving back to work location as his/her hometown, Accommodation from company will not be applicable for any level. In such scenarios, Relocation lump-sum allowance will be applicable for Managers & above only\n●\nAny extension to accommodation would not be allowed and in case of any emergency extension scenario, additional expenses over and above 15 days will be borne by employee on direct payment basis\n●\nRelocation lump-sum allowance amount would be disbursed by the company along with the first month salary provided the employee relocates to the place of posting.\n●\nIn case of Director & above, travel tickets can be booked by TaskUs logistics team based on request and subject to prior approval of Vice President Operations\n●\nIn the case of Travel, actual bills must be submitted at the time of claim through TaskUs India\nFinance Form - In case of travel through Personal vehicle, fuel cost would be reimbursed at INR.\n10/Km considering the entitlement, whichever is low.\n\n4. Salary Bank Account\n\n●\nThe current banking partner for TaskUs is HDFC Bank & ICICI Bank. Your account for salary credit shall be with the banking partner as decided by TaskUs. There will be no option to choose the bank for crediting the salary. TaskUs shall not be in any way responsible for any previous transactions with the banking partner thus decided and any past or future liability shall be owned by the\nEmployee.\n●\nThe company is not liable for any salary credits in any manner except what is stated hereinbefore,\nnotwithstanding in case an employee is unable to fulfill the bank account details at the time of onboarding/joining the company, the company at its sole discretion may also initiate separation proceedings.",
+        "type": "annexure"
+    },
+    {
+        "clause_id": "Annexure 2",
+        "parent_clause": null,
+        "section": "Annexure 2",
+        "section_title": "Annexure 2",
+        "text": "ANNEXURE 2\nTO:\n\nTaskUs India Private Limited\nFROM:\n\nDATE:\n\nSUBJECT:\nIntellectual Property\n1.\nExcept as listed in Section 2 below, the following is a complete list of all inventions or improvements relevant to the subject matter of my employment by TaskUs India Private\nLimited(the \"Company\"), that have been made or conceived or first reduced to practice by me alone or jointly with others prior to my engagement by the Company:\n❏ No inventions or improvements.\n❏ See below:\n\n_____________________________________________\n\n_____________________________________________\n\n_____________________________________________\n\n❏ Additional sheets attached.\n\n2.\nDue to a prior confidentiality agreement, I cannot complete the disclosure under Section 1 above with respect to inventions or improvements generally listed below, the proprietary rights and duty of confidentiality with respect to which I owe to the following party (ies):\nInvention or Improvement\nParty (ies)\nRelationship\n\n1.\n\n2.\n\n3.\n\n❏ Additional sheets attached.\n\nSignature _________________________________\n\nUndertaking:\n\n1. You agree and understand that the SIM card and Enterprise Dongle as issued to you is for strictly official purposes only to ensure proper work, communication and flow of official information.\n2. You agree and understand that while exiting from the company or whenever desired by the\nCompany to handover/post/ship the dongle with SIM card to the Facilities team.\n3. You agree and understand to keep SIM card and enterprise dongle in your personal custody always.\n4. You agree and understand to compensate for any loss of company provided enterprise dongle and SIM card.\n5. You agree and understand that any non-adherences to stated conditions will absolve\nTaskUs India Private Limited from any liability whatsoever and you shall be liable for any consequences in your personal capacity.",
+        "type": "annexure"
+    }
+]

@@ -1,0 +1,138 @@
+[
+    {
+        "clause_id": null,
+        "parent_clause": null,
+        "section": null,
+        "section_title": null,
+        "text": "RENT AGREEMENT\nExecuted on this ___ day of ____________, 2026 at Bengaluru,\nKarnataka.\n1. PARTIES\nLandlord: Sachin Kulkarni, [Father/Spouse Name: Not Provided],\nAge: [Not Provided], Occupation: [Not Provided], PAN: [Not\nProvided], Aadhaar (last 4 digits): [Not Provided], Address: [Not\nProvided]. Hereinafter referred to as the \"Landlord\".\nTenant: Sneha K, [Father/Spouse Name: Not Provided], Age: [Not\nProvided], Occupation: [Not Provided], PAN: [Not Provided],\nAadhaar (last 4 digits): [Not Provided], Address: [Not Provided].\nHereinafter referred to as the \"Tenant\".",
+        "type": "document"
+    },
+    {
+        "clause_id": "2",
+        "parent_clause": null,
+        "section": "2",
+        "section_title": "RECITALS",
+        "text": "2. RECITALS\nWHEREAS the Landlord is the absolute and sole owner of the property described herein;\nAND WHEREAS the Tenant has expressed a desire to take the said property on rent for residential purposes;\nAND WHEREAS the Landlord has agreed to let the said property to the Tenant on the terms and conditions contained herein;\nNOW THEREFORE, in consideration of the mutual covenants and promises herein contained, the parties agree as follows:",
+        "type": "section"
+    },
+    {
+        "clause_id": "3",
+        "parent_clause": null,
+        "section": "3",
+        "section_title": "SCHEDULE OF PROPERTY",
+        "text": "3. SCHEDULE OF PROPERTY\nThe property subject to this Agreement is a Flat/Apartment bearing postal address: Happy Ngar Sunrise Apartments, Bengaluru,\nKarnataka.\nDetails:\nType: Flat/Apartment\nFloor: [Not Provided]\nCarpet Area: [Not Provided] sq.ft.\nNumber of Rooms: [Not Provided]\n1 / 6\n\nFurnishing Status: [Not Provided]\nParking Slot: Parking Space No. 24 allotted to Tenant",
+        "type": "section"
+    },
+    {
+        "clause_id": "4",
+        "parent_clause": null,
+        "section": "4",
+        "section_title": "TERM, RENT & DEPOSIT",
+        "text": "4. TERM, RENT & DEPOSIT\n1. Term: The tenancy shall commence on 6th September\n2026 and shall continue for a period of 11 months, ending on 5th August 2027, unless terminated earlier in accordance with this Agreement.\n2. Rent: The Tenant shall pay a monthly rent of ₹35,000\n(Rupees Thirty-Five Thousand only) to the Landlord.\n3. Security Deposit: The Tenant shall pay a refundable security deposit of ₹500,000 (Rupees Five Lakh only) at the commencement of the tenancy.\n4. Rent Due Date: Rent shall be paid on or before the 5th day of each calendar month.",
+        "type": "section"
+    },
+    {
+        "clause_id": "5",
+        "parent_clause": null,
+        "section": "5",
+        "section_title": "Rent Escalation: Annual escalation of rent shall be 5% to",
+        "text": "5. Rent Escalation: Annual escalation of rent shall be 5% to\n10%, subject to mutual agreement prior to renewal.",
+        "type": "section"
+    },
+    {
+        "clause_id": "6",
+        "parent_clause": null,
+        "section": "6",
+        "section_title": "Mode of Payment: Rent shall be paid by bank transfer to the account designated by the Landlord",
+        "text": "6. Mode of Payment: Rent shall be paid by bank transfer to the account designated by the Landlord.",
+        "type": "section"
+    },
+    {
+        "clause_id": "7",
+        "parent_clause": null,
+        "section": "7",
+        "section_title": "Late Payment Penalty: If rent is not paid within 7 days from the due date, a late payment charge of ₹500 per week of delay shall be payable by the Tenant, subject to applicable law",
+        "text": "7. Late Payment Penalty: If rent is not paid within 7 days from the due date, a late payment charge of ₹500 per week of delay shall be payable by the Tenant, subject to applicable law.",
+        "type": "section"
+    },
+    {
+        "clause_id": "8",
+        "parent_clause": null,
+        "section": "8",
+        "section_title": "Deposit Refund: The security deposit shall be refunded within 30 days of vacating the Premises, after deducting any lawful dues or damages",
+        "text": "8. Deposit Refund: The security deposit shall be refunded within 30 days of vacating the Premises, after deducting any lawful dues or damages.\n5. TERMS & CONDITIONS\nA. Use & Restrictions\n1. The Premises shall be used solely for residential purposes by the Tenant and persons authorized herein.\n2. The Tenant shall not sublet, assign, license or transfer possession of the Premises in whole or in part without prior written consent of the Landlord.\n3. No structural alterations, additions, drilling, or permanent modifications shall be made by the Tenant\n2 / 6\n\nwithout prior written consent of the Landlord.\n4. The Premises shall not be used for any unlawful,\nimmoral, commercial, hazardous, or nuisance activities.\n5. The Tenant shall not keep pets without prior written consent of the Landlord. If permitted, the Tenant shall be liable for any damage or cleaning costs caused by the pet.\nB. Financial Obligations\n6. The Tenant shall be responsible for payment of regular maintenance charges relating to electricity, water,\ninternet, and other utilities consumed exclusively by the\nTenant.\n7. Structural repairs shall be the responsibility of the\nLandlord unless damage is caused by the Tenant's negligence or misuse.\n8. Society maintenance charges, if any, shall be borne by the\nTenant.",
+        "type": "section"
+    },
+    {
+        "clause_id": "9",
+        "parent_clause": null,
+        "section": "9",
+        "section_title": "The Tenant shall ensure painting and whitewashing of the Premises upon vacating, subject to reasonable wear and tear",
+        "text": "9. The Tenant shall ensure painting and whitewashing of the Premises upon vacating, subject to reasonable wear and tear.",
+        "type": "section"
+    },
+    {
+        "clause_id": "10",
+        "parent_clause": null,
+        "section": "10",
+        "section_title": "The Tenant shall insure their own belongings and personal effects kept at the Premises",
+        "text": "10. The Tenant shall insure their own belongings and personal effects kept at the Premises.\nC. Tenure & Termination",
+        "type": "section"
+    },
+    {
+        "clause_id": "11",
+        "parent_clause": null,
+        "section": "11",
+        "section_title": "Lock-in Period: The parties agree to a lock-in period of six months from the commencement date, during which termination is not permitted except for material breach",
+        "text": "11. Lock-in Period: The parties agree to a lock-in period of six months from the commencement date, during which termination is not permitted except for material breach.",
+        "type": "section"
+    },
+    {
+        "clause_id": "12",
+        "parent_clause": null,
+        "section": "12",
+        "section_title": "Notice Period: Either party may terminate this Agreement by providing thirty (30) days prior written notice to the other party",
+        "text": "12. Notice Period: Either party may terminate this Agreement by providing thirty (30) days prior written notice to the other party.",
+        "type": "section"
+    },
+    {
+        "clause_id": "13",
+        "parent_clause": null,
+        "section": "13",
+        "section_title": "The Landlord may inspect the Premises upon giving at least 24 hours’ prior notice, except in emergencies",
+        "text": "13. The Landlord may inspect the Premises upon giving at least 24 hours’ prior notice, except in emergencies.\nInspections shall be at reasonable times without undue disturbance.",
+        "type": "section"
+    },
+    {
+        "clause_id": "14",
+        "parent_clause": null,
+        "section": "14",
+        "section_title": "Each party shall indemnify and hold harmless the other against any claims, losses or damages arising from breach of this Agreement",
+        "text": "14. Each party shall indemnify and hold harmless the other against any claims, losses or damages arising from breach of this Agreement.\n3 / 6",
+        "type": "section"
+    },
+    {
+        "clause_id": "15",
+        "parent_clause": null,
+        "section": "15",
+        "section_title": "Upon termination or expiry, the Tenant shall hand over peaceful possession of the Premises and the Landlord shall refund the security deposit after lawful deductions",
+        "text": "15. Upon termination or expiry, the Tenant shall hand over peaceful possession of the Premises and the Landlord shall refund the security deposit after lawful deductions.\nD. Governing Law",
+        "type": "section"
+    },
+    {
+        "clause_id": "16",
+        "parent_clause": null,
+        "section": "16",
+        "section_title": "This Agreement shall be governed by and construed in accordance with the laws of India and the State of",
+        "text": "16. This Agreement shall be governed by and construed in accordance with the laws of India and the State of\nKarnataka.",
+        "type": "section"
+    },
+    {
+        "clause_id": "17",
+        "parent_clause": null,
+        "section": "17",
+        "section_title": "Any dispute arising out of or in connection with this",
+        "text": "17. Any dispute arising out of or in connection with this\nAgreement shall be subject to the exclusive jurisdiction of the courts at Bengaluru.\n6. SPECIAL CLAUSES\n1. Rent and Payment: The Tenant shall pay monthly rent of\n₹35,000 on or before the 5th day of each calendar month by bank transfer to the Landlord’s designated account.\n2. Security Deposit: The Tenant shall pay a refundable security deposit of ₹175,000 at the commencement of tenancy, refundable upon expiry or termination subject to lawful deductions.\n3. Late Payment: Late payment beyond 7 days from due date shall attract a charge of ₹500 per week of delay.\n4. Maintenance Charges: Tenant responsible for electricity,\nwater, internet, and other utilities; Landlord responsible for structural repairs except where damage is due to\nTenant’s negligence.\n5. Parking: Tenant entitled to use Parking Space No. 24 for one private vehicle and shall comply with building parking rules.\n6. Use of Premises: Residential use only; no unlawful,\ncommercial, or hazardous activities permitted.\n7. Subletting: Prohibited without Landlord’s prior written consent.\n8. Inspection: Landlord may inspect with 24 hours’ notice except emergencies.\n9. Pets: Not allowed without prior written consent; Tenant liable for damages caused by pets.\n4 / 6\n\n10. Handover: Tenant to vacate, remove belongings, return keys, and hand over peaceful possession upon termination or expiry.\n11. Security Deposit Deductions: Landlord may deduct unpaid rent, utility charges, repair costs, and replacement costs from deposit with statement to Tenant.\n12. Renewal: Tenancy may be renewed on mutually agreed terms by written agreement prior to expiry.\n13. Dispute Resolution: Parties shall attempt amicable settlement; unresolved disputes subject to Bengaluru courts.\n14. Governing Law: Laws of India and State of Karnataka shall govern this Agreement.\n7. SIGNATURES & WITNESSES\nIN WITNESS WHEREOF, the parties hereto have executed this Rent\nAgreement on the day, month and year first above written.\n_________________________\nSachin Kulkarni\nLandlord\nDate: ____________\nPlace: Bengaluru\n_________________________\nSneha K\nTenant\nDate: ____________\nPlace: Bengaluru\nWitness 1:\nName: _____________________\nAddress: ___________________\nSignature: _________________\nDate: ____________\n5 / 6\n\nWitness 2:\nName: _____________________\nAddress: ___________________\nSignature: _________________\nDate: ____________\n6 / 6",
+        "type": "section"
+    }
+]

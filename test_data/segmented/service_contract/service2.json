@@ -1,0 +1,106 @@
+[
+    {
+        "clause_id": null,
+        "parent_clause": null,
+        "section": null,
+        "section_title": null,
+        "text": "SERVICEAGREEMENT\n\nThis Service Agreement (hereinafter referred to as “Agreement”) lays down the terms of engagement,\nagreed upon by the Electrical Contractor and the Supervisor and Workmen’.\n\nThis Service Agreement is executed on 9th day of July, 2024(“09.07.2024”)\n\nBY AND BETWEEN\n\nMIRACLE ELECTRICALS, a Proprietorship Firm, of Tanmoy Singh (Proprietor) and having its registered office at G.N.B. Road, Bamunimaidam, Chandmari, Guwahati (herein after referred to as the “FIRM / ORGANIZATION” which expression shallunless it be repugnant to the context or meaning thereof, be deemed to mean and include its successors and permitted assigns)of the FIRST PART;\n\nAND\n\nEmployees as follows:\n\n1) Supervisor Certificate: Nayan Das, S/C-11223, Mahaniati, Bebejia, Raha, Nagaon, Assam (herein after referred to as the “Supervisor”, which expression shall, unless repugnant to the meaning or context here of, be deemed to include all heirs, executors and administrators) of the SECOND\nPART.\n\n2) WorkmenPermit:\n\n(i)\nPranab Rabha, H/T-22335, Bhekulajan, Dibrugarh, Assam (herein after referred to as the “H/T”, which expression shall, unless repugnant to the meaning or context hereof, be deemed to include all heirs, executors and administrators) of the THIRD PART.\n\n(ii)\nMostafa Ahmed, W/P-33221, Bhaluk Kandi, Patakata, South Salmara, Mankachar,\nAssam (herein after referred to as the “Workmen”, which expression shall, unless repugnant to the meaning or context hereof, be deemed to include all heirs, executors and administrators) of the FOURTH PART.\n\n(iii)\nRaham Ali Ahmed, W/P-44112, Bhaluk Kandi, Patakata, South Salmara, Mankachar,\nAssam (herein after referred to as the “Workmen”, which expression shall, unless repugnant to the meaning or context hereof, be deemed to include all heirs, executors and administrators) of the FIFTH PART.\n\nThe Electrical Contractor (Tanmoy Singh) and the Electrical Supervisor (Nayan Das), HT (Pranab\nRabha), Workmen (Mostafa Ahmed), Workmen (Raham Ali Ahmed), are herein after individually referred to as the “Party” and collectively as the “Parties”.\n\nWHERE AS the parties here to desire to enter into this Agreement to define and set forth the terms and conditions of the engagement of the employees by the Firm;\n\nNOW, THEREFORE, IN CONSIDERATION OF THE MUTUAL PROMISES AND COVENANTS\nHEREIN CONTAINED, THE PARTIES HERE TO AGREE AS FOLLOWS:",
+        "type": "document"
+    },
+    {
+        "clause_id": "1.1",
+        "parent_clause": "1",
+        "section": "1",
+        "section_title": "Terms and conditions of Engagement",
+        "text": "1.1. The Employees has been engaged from 12.07.2024 which shall also be deemed as date of the acceptance of these terms to provide the Electrical Contractor / Firm/ Organization with the services described in Schedule A (the “Scope of Services”), together with such other services as may be reasonably requested in connection with this Agreement.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.2",
+        "parent_clause": "1",
+        "section": "1",
+        "section_title": "Terms and conditions of Engagement",
+        "text": "1.2. The employees agrees to perform the Services in a timely manner, and to exercise all reasonable skill and care in the performance of the Services.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.3",
+        "parent_clause": "1",
+        "section": "1",
+        "section_title": "Terms and conditions of Engagement",
+        "text": "1.3. He shall provide the Electrical Contractor / Firm/ Organization promptly with any information,\ndata or documents which may be reasonably required in connection with the Services under this\nAgreement.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.4",
+        "parent_clause": "1",
+        "section": "1",
+        "section_title": "Terms and conditions of Engagement",
+        "text": "1.4. Unless otherwise agreed by the parties in writing, the Electrical Contractor / Firm/ Organization shall at its own expense supply the employees with all necessary documents and materials, and all necessary data or other information (“Data”) relating to the Services, within sufficient time to enable the employees to provide the Services in accordance with this Agreement.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.5",
+        "parent_clause": "1",
+        "section": "1",
+        "section_title": "Terms and conditions of Engagement",
+        "text": "1.5. The Electrical Contractor / Firm /Organization shall provide reasonable co-operation to the employees in relation to the performance of the Services by the employees mentioned under this\nAgreement.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.6",
+        "parent_clause": "1",
+        "section": "1",
+        "section_title": "Terms and conditions of Engagement",
+        "text": "1.6.The employees declare that they are not engaged with any other Firm or Organization. If found submitting joining report to more than one Firm/Organization at a time they will be held responsible and necessary action will be initiated against the employees.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "2",
+        "parent_clause": null,
+        "section": "2",
+        "section_title": "Tenure",
+        "text": "2. Tenure\n\nThe initial tenure of this Agreement will be for 1(One) year i.e. from 12.07.2024 till 11.07.2025 (“Initial\nTerm).",
+        "type": "section"
+    },
+    {
+        "clause_id": "3.1",
+        "parent_clause": "3",
+        "section": "3",
+        "section_title": "Fees & Expenses",
+        "text": "3.1. Subject to any special terms agreed in writing by the parties, the Firm/Organizations hall pay the employees fees and charges from time to time for the provision of the Services provided by them.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "3.2",
+        "parent_clause": "3",
+        "section": "3",
+        "section_title": "Fees & Expenses",
+        "text": "3.2. The tax will be deducted as per the applicable laws.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "3.3",
+        "parent_clause": "3",
+        "section": "3",
+        "section_title": "Fees & Expenses",
+        "text": "3.3. The Firm/ Organization shall reimburse the employees for all the out of pocket expenses incurred by him in connection with the Services, provided the employees shall issue proper receipts of such expenditure.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "4.1",
+        "parent_clause": "4",
+        "section": "4",
+        "section_title": "Termination",
+        "text": "4.1. The Firm/ Organization may terminate this Agreement immediately upon written notice to the employees if:\n\na. The employees is unable to perform the Services or has materially or repeatedly breached any of the terms of this Agreement; or\n\nb. He fails to meet the required qualifications or any act that demonstrates a disregard on his part for the reputation or legitimate business interests of the Firm/ Organization as determined in the reasonable discretion of the Firm/Organization Proprietor/Partner.\n\nc. He is unable to perform the services or any part of them in a manner which is unsatisfactory to the Firm/ Organization. In case, where the Firm/ Organization reasonably considers the default in performance to be remediable, they will give 30(thirty) days to remedy the problem of their satisfaction;\n\nor\nSuch termination shall be without prejudice to any rights which might have been accrued prior to termination.\na. Without reason, by giving 15 days, notice during the initial 6 (six) months;\nb. After 6 (six) months, without reason, by giving 30 days, notice to the other party.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "5",
+        "parent_clause": null,
+        "section": "5",
+        "section_title": "Entire Agreement",
+        "text": "5. Entire Agreement\n\nThe Parties here to confirm and acknowledge that this Agreement shall constitute the entire agreement between them and all earlier agreements, arrangements, letters,correspondence, understandings etc.,\neither written or verbal communication with respect to the subject matter herein stand superseded by this\nAgreement and no amendment, modification or addition to this Agreement shall be binding on either of the Parties hereto unless set forth in writing and executed by the Parties through their duly authorized representatives.\n\nIN WITNESS WHEREOF the Parties hereto have executed this Agreement on the day and year first above written.\n\nSigned and delivered for and on behalf of:\n\nFor and on behalf of FIRM/ORGANIZATION]\n[Insert Signature (& seal, where applicable)]\n\nAuthorised\nSignatory\nName: Tanmoy Singh\nDesignation: Proprietor\nFor and on behalf of [Supervisor]\n[Insert Signature (& seal, where applicable)]\n\nAuthorised Signatory\nName: Nayan Das\nDesignation: Supervisor-(11223)\n\nFor and on behalf of [Workmen]\n[Insert Signature (& seal, where applicable)]\nAuthorised Signatory\nName: Pranab Rabha\nDesignation: H/T-22335\n\nAuthorised Signatory\nName: Mostafa Ahmed\nDesignation: Workman-(33221)\n\nAuthorised Signatory\nName: Raham Ali Ahmed\nDesignation: Workman-(44112)",
+        "type": "section"
+    }
+]

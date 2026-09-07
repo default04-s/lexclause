@@ -1,86 +1,217 @@
 import chromadb
 
-# Persistent ChromaDB client
-client = chromadb.PersistentClient(path="chroma_storage")
 
+# ---------------------------------------------------
+# PERSISTENT CHROMADB CLIENT
+# ---------------------------------------------------
 
-# ===== CHANGED =====
-# Returns (or creates) the contract collection requested.
-# Example:
-# employment_contract
-# rental_contract
-# nda_contract
-# service_contract
-def get_contract_collection(collection_name):
-    return client.get_or_create_collection(
-        name=collection_name
-    )
-
-
-# Legal knowledge collection
-legal_collection = client.get_or_create_collection(
-    name="legal_knowledge"
+client = chromadb.PersistentClient(
+    path="chroma_storage"
 )
 
 
-# ===== CHANGED =====
-# Checks whether a collection exists and contains documents.
+# ---------------------------------------------------
+# COLLECTION NAMES
+# ---------------------------------------------------
+
+CONTRACT_COLLECTION = "current_contract"
+LEGAL_COLLECTION = "legal_knowledge"
+
+
+# ---------------------------------------------------
+# CURRENT CONTRACT COLLECTION
+# ---------------------------------------------------
+
+def get_contract_collection():
+    """
+    Return the collection containing the currently
+    uploaded contract.
+    """
+
+    return client.get_or_create_collection(
+        name=CONTRACT_COLLECTION
+    )
+
+
+# ---------------------------------------------------
+# LEGAL KNOWLEDGE COLLECTION
+# ---------------------------------------------------
+
+def get_legal_collection():
+    """
+    Return the permanent Indian Contract Act
+    knowledge collection.
+    """
+
+    return client.get_or_create_collection(
+        name=LEGAL_COLLECTION
+    )
+
+
+# ---------------------------------------------------
+# COLLECTION CHECK
+# ---------------------------------------------------
+
 def collection_has_data(collection_name):
+    """
+    Check whether a ChromaDB collection exists
+    and contains documents.
+    """
 
     try:
-        collection = client.get_collection(name=collection_name)
+        collection = client.get_collection(
+            name=collection_name
+        )
+
         return collection.count() > 0
-    except:
+
+    except Exception:
         return False
 
 
-# ===== CHANGED =====
-# Store clauses in the selected contract collection.
-def store_clauses(clauses, embeddings, collection_name):
+# ---------------------------------------------------
+# CLEAR CURRENT CONTRACT
+# ---------------------------------------------------
 
-    contract_collection = get_contract_collection(collection_name)
+def clear_contract_collection():
+    """
+    Remove all clauses from the current contract
+    collection.
 
-    for i, (clause, embedding) in enumerate(zip(clauses, embeddings)):
+    This is called before ingesting a new document so
+    clauses from a previous contract cannot contaminate
+    retrieval for the new document.
+    """
+
+    try:
+        client.delete_collection(
+            name=CONTRACT_COLLECTION
+        )
+
+    except Exception:
+        pass
+
+
+# ---------------------------------------------------
+# STORE CONTRACT CLAUSES
+# ---------------------------------------------------
+
+def store_clauses(clauses, embeddings):
+    """
+    Store clauses belonging to the currently uploaded
+    contract.
+
+    Each clause receives a unique ID.
+    """
+
+    contract_collection = get_contract_collection()
+
+    documents = []
+    vectors = []
+    ids = []
+
+    for i, (clause, embedding) in enumerate(
+        zip(clauses, embeddings),
+        start=1
+    ):
+
+        documents.append(clause)
+
+        vectors.append(
+            embedding.tolist()
+        )
+
+        ids.append(
+            f"contract_clause_{i}"
+        )
+
+    if documents:
 
         contract_collection.add(
-            documents=[clause],
-            embeddings=[embedding.tolist()],
-            ids=[f"contract_clause_{i+1}"]
+            documents=documents,
+            embeddings=vectors,
+            ids=ids
         )
 
 
-# Store legal sections
-def store_legal_sections(sections, embeddings):
+# ---------------------------------------------------
+# STORE LEGAL SECTIONS
+# ---------------------------------------------------
 
-    for i, (section, embedding) in enumerate(zip(sections, embeddings), start=1):
+def store_legal_sections(sections, embeddings):
+    """
+    Store Indian Contract Act sections in the
+    permanent legal knowledge collection.
+    """
+
+    legal_collection = get_legal_collection()
+
+    documents = []
+    vectors = []
+    ids = []
+
+    for i, (section, embedding) in enumerate(
+        zip(sections, embeddings),
+        start=1
+    ):
+
+        documents.append(section)
+
+        vectors.append(
+            embedding.tolist()
+        )
+
+        ids.append(
+            f"legal_section_{i}"
+        )
+
+    if documents:
 
         legal_collection.add(
-            documents=[section],
-            embeddings=[embedding.tolist()],
-            ids=[f"legal_section_{i}"]
+            documents=documents,
+            embeddings=vectors,
+            ids=ids
         )
 
 
-# ===== CHANGED =====
-# Search only within the selected contract collection.
-def search_clauses(query_embedding, collection_name):
+# ---------------------------------------------------
+# SEARCH CONTRACT CLAUSES
+# ---------------------------------------------------
 
-    contract_collection = get_contract_collection(collection_name)
+def search_clauses(query_embedding, n_results=5):
+    """
+    Search only within the currently uploaded contract.
+    """
+
+    contract_collection = get_contract_collection()
 
     results = contract_collection.query(
-        query_embeddings=[query_embedding.tolist()],
-        n_results=5
+        query_embeddings=[
+            query_embedding.tolist()
+        ],
+        n_results=n_results
     )
 
     return results
 
 
-# Search legal sections
-def search_legal_sections(query_embedding):
+# ---------------------------------------------------
+# SEARCH LEGAL SECTIONS
+# ---------------------------------------------------
+
+def search_legal_sections(query_embedding, n_results=5):
+    """
+    Search the permanent Indian Contract Act
+    knowledge collection.
+    """
+
+    legal_collection = get_legal_collection()
 
     results = legal_collection.query(
-        query_embeddings=[query_embedding.tolist()],
-        n_results=5
+        query_embeddings=[
+            query_embedding.tolist()
+        ],
+        n_results=n_results
     )
 
     return results

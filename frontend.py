@@ -1,3 +1,7 @@
+import hashlib
+import os
+import tempfile
+
 import streamlit as st
 
 from utils.reranker import rerank_results
@@ -9,44 +13,18 @@ from utils.vectordb import (
     collection_has_data
 )
 
-from ingest import ingest_contracts
+from ingest import ingest_contract
 from legal_ingest import ingest_legal
 
-# ---------------------------------------------------
-# DATABASE CHECK
-# ---------------------------------------------------
-
-contracts = {
-    "employment_contract": "data/employment_contract.txt",
-    "rental_contract": "data/rental_contract.txt",
-    "nda_contract": "data/nda_contract.txt",
-    "service_contract": "data/service_contract.txt"
-}
-
-for collection_name, contract_path in contracts.items():
-
-    if not collection_has_data(collection_name):
-
-        print(f"{collection_name} missing. Running ingestion...")
-
-        ingest_contracts({
-            collection_name: contract_path
-        })
-
-if not collection_has_data("legal_knowledge"):
-
-    print("legal_knowledge missing. Running legal ingestion...")
-
-    ingest_legal()
-
 from utils.prompt_builder import build_prompt
-
 from utils.llm import generate_answer
 
 from utils.source_formatter import (
     extract_clause_titles,
     extract_legal_titles
 )
+
+
 # ---------------------------------------------------
 # PAGE CONFIG
 # ---------------------------------------------------
@@ -56,6 +34,7 @@ st.set_page_config(
     page_icon="⚖️",
     layout="wide"
 )
+
 
 # ---------------------------------------------------
 # CUSTOM STYLING
@@ -72,6 +51,7 @@ MAIN BACKGROUND
     background-color: #0b1120;
 }
 
+
 /* ---------------------------------------------------
 GLOBAL SPACING
 --------------------------------------------------- */
@@ -82,6 +62,7 @@ GLOBAL SPACING
     padding-left: 3rem;
     padding-right: 3rem;
 }
+
 
 /* ---------------------------------------------------
 TYPOGRAPHY
@@ -103,6 +84,7 @@ h2, h3 {
     line-height: 1.6;
 }
 
+
 /* ---------------------------------------------------
 MODE BADGE
 --------------------------------------------------- */
@@ -119,6 +101,7 @@ MODE BADGE
     margin-bottom: 1.2rem;
 }
 
+
 /* ---------------------------------------------------
 TEXT INPUT
 --------------------------------------------------- */
@@ -131,6 +114,7 @@ TEXT INPUT
     padding: 14px;
     font-size: 1rem;
 }
+
 
 /* ---------------------------------------------------
 SELECT BOX
@@ -146,6 +130,7 @@ SELECT BOX
 .stSelectbox div[data-baseweb="select"] * {
     cursor: pointer !important;
 }
+
 
 /* ---------------------------------------------------
 BUTTON
@@ -166,6 +151,7 @@ BUTTON
     transform: translateY(-1px);
 }
 
+
 /* ---------------------------------------------------
 ANSWER CARD
 --------------------------------------------------- */
@@ -182,6 +168,7 @@ ANSWER CARD
     box-shadow: 0 0 0 1px rgba(255,255,255,0.02);
 }
 
+
 /* ---------------------------------------------------
 SOURCE CARDS
 --------------------------------------------------- */
@@ -195,10 +182,6 @@ SOURCE CARDS
     color: #e2e8f0;
     line-height: 1.7;
 }
-
-/* ---------------------------------------------------
-SOURCE HEADER CARD
---------------------------------------------------- */
 
 .source-card {
     background-color: #111827;
@@ -219,6 +202,7 @@ SOURCE HEADER CARD
     color: #94a3b8;
     margin-top: 0.2rem;
 }
+
 
 /* ---------------------------------------------------
 SESSION BANNER
@@ -245,11 +229,10 @@ SESSION BANNER
 }
 
 .status-ready {
-
     color: #4ade80;
     font-weight: 600;
-
 }
+
 
 /* ---------------------------------------------------
 CLAUSE PANEL
@@ -259,6 +242,7 @@ CLAUSE PANEL
     border-left: 4px solid #2563eb;
 }
 
+
 /* ---------------------------------------------------
 LEGAL PANEL
 --------------------------------------------------- */
@@ -266,6 +250,7 @@ LEGAL PANEL
 .legal-panel {
     border-left: 4px solid #d4a017;
 }
+
 
 /* ---------------------------------------------------
 HISTORY
@@ -281,6 +266,7 @@ HISTORY
     color: #e2e8f0;
 }
 
+
 /* ---------------------------------------------------
 EMPTY STATE
 --------------------------------------------------- */
@@ -295,6 +281,20 @@ EMPTY STATE
     line-height: 1.8;
 }
 
+
+/* ---------------------------------------------------
+UPLOAD AREA
+--------------------------------------------------- */
+
+.upload-box {
+    background-color: #111827;
+    border: 1px solid #334155;
+    border-radius: 18px;
+    padding: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+
 /* ---------------------------------------------------
 EXPANDERS
 --------------------------------------------------- */
@@ -306,6 +306,51 @@ EXPANDERS
 
 </style>
 """, unsafe_allow_html=True)
+
+
+# ---------------------------------------------------
+# SESSION STATE
+# ---------------------------------------------------
+
+if "conversation_history" not in st.session_state:
+    st.session_state.conversation_history = []
+
+if "latest_answer" not in st.session_state:
+    st.session_state.latest_answer = ""
+
+if "latest_clause_titles" not in st.session_state:
+    st.session_state.latest_clause_titles = []
+
+if "latest_clauses" not in st.session_state:
+    st.session_state.latest_clauses = []
+
+if "latest_legal_titles" not in st.session_state:
+    st.session_state.latest_legal_titles = []
+
+if "latest_legal_sections" not in st.session_state:
+    st.session_state.latest_legal_sections = []
+
+if "uploaded_file_hash" not in st.session_state:
+    st.session_state.uploaded_file_hash = None
+
+if "current_document_name" not in st.session_state:
+    st.session_state.current_document_name = None
+
+if "current_contract_type" not in st.session_state:
+    st.session_state.current_contract_type = None
+
+
+# ---------------------------------------------------
+# LEGAL KNOWLEDGE INITIALIZATION
+# ---------------------------------------------------
+
+if not collection_has_data("legal_knowledge"):
+
+    with st.spinner(
+        "Initializing Indian Contract Act knowledge base..."
+    ):
+        ingest_legal()
+
 
 # ---------------------------------------------------
 # SIDEBAR
@@ -333,16 +378,19 @@ with st.sidebar:
         ]
     )
 
-    collection_map = {
-        "Employment Agreement": "employment_contract",
-        "Residential Rental Agreement": "rental_contract",
-        "Mutual Non-Disclosure Agreement (NDA)": "nda_contract",
-        "Service Agreement": "service_contract"
-    }
-
-    selected_collection = collection_map[contract_type]
-
     st.markdown("---")
+
+    st.markdown(
+        """
+        **Supported documents**
+
+        - PDF
+        - DOCX
+
+        Scanned PDFs are processed using OCR when required.
+        """
+    )
+
 
 # ---------------------------------------------------
 # TITLE
@@ -363,97 +411,273 @@ st.markdown(
 
 st.markdown("---")
 
+
+# ---------------------------------------------------
+# DOCUMENT UPLOAD
+# ---------------------------------------------------
+
 st.markdown(
-    f"""
-<div class="session-banner">
-    <span>📄 <b>{contract_type}</b></span>
-    <span>•</span>
-    <span>⚖️ <b>{mode}</b></span>
-    <span>•</span>
-    <span class="status-ready">🟢 Knowledge Base Ready</span>
-</div>
-""".strip(),
+    "### 📄 Upload Contract"
+)
+
+st.markdown(
+    """
+    <div class="small-muted">
+    Upload the contract you want to analyze. The uploaded document becomes
+    the active contract for this session.
+    </div>
+    """,
     unsafe_allow_html=True
 )
 
+uploaded_file = st.file_uploader(
+    "Choose a contract",
+    type=["pdf", "docx"],
+    label_visibility="collapsed"
+)
+
+
+# ---------------------------------------------------
+# PROCESS UPLOADED DOCUMENT
+# ---------------------------------------------------
+
+if uploaded_file is not None:
+
+    file_bytes = uploaded_file.getvalue()
+
+    file_hash = hashlib.sha256(
+        file_bytes
+    ).hexdigest()
+
+    # Process only when a genuinely new document is uploaded.
+    if file_hash != st.session_state.uploaded_file_hash:
+
+        extension = os.path.splitext(
+            uploaded_file.name
+        )[1].lower()
+
+        with tempfile.NamedTemporaryFile(
+            delete=False,
+            suffix=extension
+        ) as temp_file:
+
+            temp_file.write(file_bytes)
+            temp_path = temp_file.name
+
+        try:
+
+            with st.spinner(
+                "Processing contract..."
+            ):
+
+                segments = ingest_contract(
+                    temp_path
+                )
+
+            st.session_state.uploaded_file_hash = file_hash
+
+            st.session_state.current_document_name = (
+                uploaded_file.name
+            )
+
+            st.session_state.current_contract_type = (
+                contract_type
+            )
+
+            # New document means a new conversation.
+            st.session_state.conversation_history = []
+
+            st.session_state.latest_answer = ""
+
+            st.session_state.latest_clause_titles = []
+
+            st.session_state.latest_clauses = []
+
+            st.session_state.latest_legal_titles = []
+
+            st.session_state.latest_legal_sections = []
+
+            st.success(
+                f"'{uploaded_file.name}' processed successfully."
+            )
+
+        except Exception as error:
+
+            st.error(
+                f"Could not process the document: {error}"
+            )
+
+        finally:
+
+            if os.path.exists(temp_path):
+                os.remove(temp_path)
+
+
+# ---------------------------------------------------
+# SESSION STATUS
+# ---------------------------------------------------
+
+if st.session_state.current_document_name is not None:
+
+    document_name = st.session_state.current_document_name
+
+    displayed_type = (
+        st.session_state.current_contract_type
+        or contract_type
+    )
+
+    st.markdown(
+        f"""
+        <div class="session-banner">
+            <span>📄 <b>{document_name}</b></span>
+            <span>•</span>
+            <span>📑 <b>{displayed_type}</b></span>
+            <span>•</span>
+            <span>⚖️ <b>{mode}</b></span>
+            <span>•</span>
+            <span class="status-ready">
+                🟢 Contract Ready
+            </span>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+else:
+
+    st.markdown(
+        """
+        <div class="session-banner">
+            <span>📄 <b>No contract uploaded</b></span>
+            <span>•</span>
+            <span>⚖️ <b>Legal Knowledge Ready</b></span>
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+
 st.markdown("<br>", unsafe_allow_html=True)
 
-
-
-
-# ---------------------------------------------------
-# SESSION STATE
-# ---------------------------------------------------
-
-if "conversation_history" not in st.session_state:
-    st.session_state.conversation_history = []
-
-if "latest_answer" not in st.session_state:
-    st.session_state.latest_answer = ""
-
-if "latest_clause_titles" not in st.session_state:
-    st.session_state.latest_clause_titles = []
-
-if "latest_clauses" not in st.session_state:
-    st.session_state.latest_clauses = []
-
-if "latest_legal_titles" not in st.session_state:
-    st.session_state.latest_legal_titles = []
-
-if "latest_legal_sections" not in st.session_state:
-    st.session_state.latest_legal_sections = []
 
 # ---------------------------------------------------
 # CHAT INPUT
 # ---------------------------------------------------
 
-question = st.chat_input(
-    "Ask a question about the selected contract..."
-)
+if st.session_state.current_document_name is not None:
 
-submitted = question is not None
+    question = st.chat_input(
+        "Ask a question about the uploaded contract..."
+    )
+
+else:
+
+    question = None
+
+    st.markdown(
+        """
+        <div class="empty-state">
+
+        <h3>Upload a contract to begin</h3>
+
+        LexClause can analyze:
+
+        <ul>
+        <li>Employment agreements</li>
+        <li>Residential rental agreements</li>
+        <li>Non-disclosure agreements (NDAs)</li>
+        <li>Service agreements</li>
+        </ul>
+
+        Upload a PDF or DOCX document above to start asking questions.
+
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
 
 # ---------------------------------------------------
 # GENERATION PIPELINE
 # ---------------------------------------------------
 
-if submitted and question:
+if question:
 
     with st.spinner(
         "Analyzing contract and legal provisions..."
     ):
 
-        # Embedding
+        # ---------------------------------------------------
+        # QUERY EMBEDDING
+        # ---------------------------------------------------
+
         query_embedding = generate_query_embedding(
             question
         )
 
-        # Clause retrieval
+
+        # ---------------------------------------------------
+        # CONTRACT RETRIEVAL
+        # ---------------------------------------------------
+
         clause_results = search_clauses(
             query_embedding,
-            selected_collection
+            n_results=5
         )
 
-        retrieved_clauses = clause_results["documents"][0]
-        retrieved_clauses = rerank_results(
-            question,
-            retrieved_clauses,
-            top_k=3
+        retrieved_clauses = (
+            clause_results["documents"][0]
+            if clause_results["documents"]
+            else []
         )
 
-        # Legal retrieval
+
+        # ---------------------------------------------------
+        # CONTRACT RERANKING
+        # ---------------------------------------------------
+
+        if retrieved_clauses:
+
+            retrieved_clauses = rerank_results(
+                question,
+                retrieved_clauses,
+                top_k=3
+            )
+
+
+        # ---------------------------------------------------
+        # LEGAL RETRIEVAL
+        # ---------------------------------------------------
+
         legal_results = search_legal_sections(
-            query_embedding
+            query_embedding,
+            n_results=5
         )
 
-        retrieved_legal_sections = legal_results["documents"][0]
-        retrieved_legal_sections = rerank_results(
-            question,
-            retrieved_legal_sections,
-            top_k=2
-   )
+        retrieved_legal_sections = (
+            legal_results["documents"][0]
+            if legal_results["documents"]
+            else []
+        )
 
-        # Prompt
+
+        # ---------------------------------------------------
+        # LEGAL RERANKING
+        # ---------------------------------------------------
+
+        if retrieved_legal_sections:
+
+            retrieved_legal_sections = rerank_results(
+                question,
+                retrieved_legal_sections,
+                top_k=2
+            )
+
+
+        # ---------------------------------------------------
+        # PROMPT
+        # ---------------------------------------------------
+
         prompt = build_prompt(
             question,
             retrieved_clauses,
@@ -462,27 +686,49 @@ if submitted and question:
             mode
         )
 
-        # LLM Answer
-        answer = generate_answer(prompt)
 
-        # Conversation memory
-        st.session_state.conversation_history.append(
-            {
-                "user": question,
-                "assistant": answer
-            }
+        # ---------------------------------------------------
+        # LLM ANSWER
+        # ---------------------------------------------------
+
+        answer = generate_answer(
+            prompt
         )
 
-        # Source titles
+
+        # ---------------------------------------------------
+        # SOURCE TITLES
+        # ---------------------------------------------------
+
         clause_titles = extract_clause_titles(
             retrieved_clauses
         )
-    
+
         legal_titles = extract_legal_titles(
             retrieved_legal_sections
         )
 
-        # Persist UI state
+
+        # ---------------------------------------------------
+        # CONVERSATION MEMORY
+        # ---------------------------------------------------
+
+        st.session_state.conversation_history.append(
+            {
+                "user": question,
+                "assistant": answer,
+                "clauses": retrieved_clauses,
+                "clause_titles": clause_titles,
+                "legal_sections": retrieved_legal_sections,
+                "legal_titles": legal_titles
+            }
+        )
+
+
+        # ---------------------------------------------------
+        # LATEST UI STATE
+        # ---------------------------------------------------
+
         st.session_state.latest_answer = answer
 
         st.session_state.latest_clause_titles = (
@@ -492,7 +738,7 @@ if submitted and question:
         st.session_state.latest_clauses = (
             retrieved_clauses
         )
-        
+
         st.session_state.latest_legal_titles = (
             legal_titles
         )
@@ -501,37 +747,7 @@ if submitted and question:
             retrieved_legal_sections
         )
 
-# ---------------------------------------------------
-# EMPTY STATE
-# ---------------------------------------------------
 
-if not st.session_state.latest_answer:
-
-    st.markdown(
-        """
-        <div class="empty-state">
-
-        <h3>Welcome to LexClause</h3>
-
-        Ask questions about:
-        <ul>
-        <li>Employment agreements</li>
-        <li>Residential rental agreements</li>
-        <li>Non-disclosure agreements (NDAs)</li>
-        <li>Service agreements</li>
-        <li>Contract obligations, payments, confidentiality, termination, and dispute resolution</li>
-        </ul>
-
-        The assistant retrieves:
-        <ul>
-        <li>Relevant contract clauses</li>
-        <li>Applicable provisions of the Indian Contract Act, 1872</li>
-        </ul>
-
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
 # ---------------------------------------------------
 # RENDER CONVERSATION
 # ---------------------------------------------------
@@ -554,6 +770,7 @@ if st.session_state.conversation_history:
             unsafe_allow_html=True
         )
 
+
         # ---------------------------------------------------
         # ASSISTANT MESSAGE
         # ---------------------------------------------------
@@ -567,6 +784,7 @@ if st.session_state.conversation_history:
             """,
             unsafe_allow_html=True
         )
+
 
         # ---------------------------------------------------
         # CONTRACT SOURCES
@@ -607,6 +825,7 @@ if st.session_state.conversation_history:
                         """,
                         unsafe_allow_html=True
                     )
+
 
         # ---------------------------------------------------
         # LEGAL SOURCES
@@ -649,4 +868,3 @@ if st.session_state.conversation_history:
                     )
 
         st.markdown("---")
-   

@@ -1,0 +1,114 @@
+[
+    {
+        "clause_id": null,
+        "parent_clause": null,
+        "section": null,
+        "section_title": null,
+        "text": "*** Please be informed that this is only a template and is subject to modifications based on requirement of each project.",
+        "type": "document"
+    },
+    {
+        "clause_id": "MUTUAL NON-DISCLOSURE AGREEMENT",
+        "parent_clause": null,
+        "section": null,
+        "section_title": "MUTUAL NON-DISCLOSURE AGREEMENT",
+        "text": "MUTUAL NON-DISCLOSURE AGREEMENT\nThis Mutual Non-Disclosure Agreement (hereinafter the “Agreement”) is made and entered into as of this ___ day of month in the year (day/month/year) also referred to as an ‘Effective Date’.\nbetween:\nIndian Institute of Science, a Trust governed by the Charitable Endowments Act, 1890 and a centrally funded technical institution, a deemed to be University and an autonomous body funded by Ministry of Education, Government of India, having its registered office at Sir CV Raman Road, Malleshwaram, Bengaluru – 560 012, Karnataka, India (hereinafter referred to as “IISc”, which expression shall wherever the context requires or admits, unless repugnant thereto, mean and include its successors-in-interest and permitted assigns) of the ONE PART;\nand:\nXYZ, a company incorporated under the Companies Act, 1956 having its registered office at [Address] (hereinafter referred to as “Company”, which expression shall wherever the context requires or admits, unless repugnant thereto, mean and include its administrators, executors, successors-in-interest and permitted assigns) of the OTHER PART;\nBoth the IISc and Company may each be referred to individually as a ‘Party’ and collectively as ‘the Parties’\nRECITALS:\nWHEREAS the Company is desirous of collaborating with IISc and its researchers and to explore a possible collaborative relationship for research and development in the field of……………………. (hereinafter referred to as the “Purpose”) (Please define the purpose appropriately);\nWHEREAS in connection with the Purpose and even for initial feasibility studies, each of the Parties may exchange or disclose certain confidential information, material, documents, etc. (hereinafter referred to as “Confidential Information” as described in Clause 1 hereinbelow) to the other Party;\nWHEREAS both Parties are desirous of protecting their Confidential Information disclosed and both Parties wish to agree to the terms and conditions of use, disclosure, protection, etc. of the Confidential Information and the rules governing the same by means of this Agreement.\nIn consideration of the mutual promises and covenants contained in this Agreement and the mutual disclosure of confidential information, the Parties hereto agree as follows:",
+        "type": "section"
+    },
+    {
+        "clause_id": "CONFIDENTIAL INFORMATION",
+        "parent_clause": null,
+        "section": null,
+        "section_title": "CONFIDENTIAL INFORMATION",
+        "text": "CONFIDENTIAL INFORMATION\nFor purposes of this Agreement, the Party receiving Confidential Information and such Party’s affiliates, as applicable, shall be referred to as the “Receiving Party” and the Party providing the Confidential Information and such Party’s affiliates, as applicable will be referred to as the “Disclosing Party”.\nFor the purpose of this Agreement all information provided by the Disclosing Party that is disclosed to the Receiving Party or to which the Receiving Party obtains access, for the Purpose, shall be presumed to be “Confidential Information” and shall mean and include any or all information identified and disclosed either in written or oral format by the Disclosing Party to the Receiving Party directly or indirectly and shall without limitation, include, specifications, trade secrets, computer software, circuits designs, schematics, data and know-how, drawings, copyrightable materials, programs, process techniques, formulae, inventions, marketing plans, strategies, business, financial, any or all intellectual property rights, product development plans, marketing, sales leads and work in progress; engineering, technical, manufacturing, service, commercial, client, customer, financial and personnel information relating to present and future business; and all nonpublic information furnished, disclosed, or transmitted, regardless of form.\nConfidential Information also includes such information disclosed to the Receiving Party by third parties on behalf of the Disclosing Party. Information will not be considered as Confidential Information unless (a) marked “CONFIDENTIAL” at the time of disclosure or (b) disclosed orally or visually but identified as confidential at the time of disclosure and thereafter designated as confidential in writing sent to the Receiving Party within thirty (30) days of disclosure summarizing the Confidential Information sufficiently for identification.",
+        "type": "section"
+    },
+    {
+        "clause_id": "EXCEPTIONS TO CONFIDENTIAL INFORMATION",
+        "parent_clause": null,
+        "section": null,
+        "section_title": "EXCEPTIONS TO CONFIDENTIAL INFORMATION",
+        "text": "EXCEPTIONS TO CONFIDENTIAL INFORMATION\nNotwithstanding anything to the contrary, Confidential Information of a Party shall not include any information, which the Receiving Party can demonstrate:\nis at the time of disclosure, in the public domain (e.g., by publication of a patent or by any other means) or later becomes part of the public domain for reasons not attributable to any unauthorized or wrongful act or omission of the Receiving Party or was in the Receiving Party’s possession at the time of disclosure or is independently developed by the Receiving Party, without access/use or reference to the Disclosing Party's Confidential Information and where such development can be evidenced by the records of the Receiving Party as kept in the ordinary course of it’s business;\nis disclosed to the Receiving Party by a third party and Receiving Party was not aware that the third party had a duty of confidentiality to Disclosing Party in respect of the information;\nis used or disclosed by the Receiving Party with Disclosing Party’s prior written approval; or\nNotwithstanding the foregoing, each Party may disclose the other party’s Confidential Information to the extent required by the order of a court of competent jurisdiction, administrative agency or any other government body or by applicable laws, rules or regulations or pursuant to governmental proceedings, provided, however, that to the extent possible, each Party shall give the other Party prior written notice of such disclosure and reasonably cooperates and assists the other Party in its efforts to oppose or mitigate such disclosure. Each Party shall however, strictly limit the content of such disclosure to that portion of Confidential Information that it is strictly compelled to disclose.",
+        "type": "section"
+    },
+    {
+        "clause_id": "USE AND MAINTENANCE OF CONFIDENTIAL INFORMATION",
+        "parent_clause": null,
+        "section": null,
+        "section_title": "USE AND MAINTENANCE OF CONFIDENTIAL INFORMATION",
+        "text": "USE AND MAINTENANCE OF CONFIDENTIAL INFORMATION\nThe Receiving Party agrees not to use any Confidential Information for any purpose except for the Purpose hereunder. Receiving Party agrees not to disclose any Confidential Information to third parties or to its employees, excepting those employees who are required to have the information in order to evaluate or engage in discussions concerning the contemplated research-based relationship, provided that they are advised of the confidential nature of the Confidential Information and are under an obligation to maintain its confidentiality. The Receiving Party shall immediately notify the Disclosing Party in the event of any unauthorized use or disclosure of the Confidential Information. The Receiving Party shall not reverse-engineer, disassemble or decompile any prototypes, software or other tangible objects which embody the Disclosing Party's Confidential Information provided to the Receiving Party hereunder. The Receiving Party shall not use the Confidential Information to procure a commercial advantage over Disclosing Party.",
+        "type": "section"
+    },
+    {
+        "clause_id": "RETURN OF CONFIDENTIAL INFORMATION",
+        "parent_clause": null,
+        "section": null,
+        "section_title": "RETURN OF CONFIDENTIAL INFORMATION",
+        "text": "RETURN OF CONFIDENTIAL INFORMATION\nAny material/s, document/s or information that has/have been furnished by the Disclosing Party to the Receiving Party in connection with this Agreement shall be promptly returned by the Receiving Party, accompanied by all copies of such documentation and any derivative works thereof to the Disclosing Party, upon expiration of this Agreement or upon the Disclosing Party’s written request or at the completion of the collaboration between the Parties. In case of such Confidential Information that can only be destroyed and cannot be physically handed over/returned, then the Receiving Party shall destroy their Confidential Information and issue a written certificate certifying that destruction has taken place by listing out the details thereof. The Receiving Party shall not make any copies of Confidential Information unless the same are previously approved in writing by the Disclosing Party.",
+        "type": "section"
+    },
+    {
+        "clause_id": "NO LICENSE OR OTHER RIGHTS",
+        "parent_clause": null,
+        "section": null,
+        "section_title": "NO LICENSE OR OTHER RIGHTS",
+        "text": "NO LICENSE OR OTHER RIGHTS\nThe Parties recognize and agree that nothing contained in this Agreement shall be construed as granting any property rights, by license or otherwise, to any Confidential Information of the other Party disclosed pursuant to this Agreement or to any invention or any patent, copyright, trademark or other intellectual property right that has issued or that may issue, based on such Confidential Information except the limited entitlement to use such Confidential Information in accordance with the Purpose under this Agreement. Neither Party shall make, use, assign, duplicate, apportion or sell for any purpose any product or other item using, incorporating, or deriving from any Confidential Information of the other Party.",
+        "type": "section"
+    },
+    {
+        "clause_id": "NO WARRANTY",
+        "parent_clause": null,
+        "section": null,
+        "section_title": "NO WARRANTY",
+        "text": "NO WARRANTY\nAll Confidential Information is provided “as is”. Neither Party makes any warranties, express, implied, or otherwise, regarding its accuracy, completeness or performance, including any warranty as to merchantability, fitness for a particular purpose, accuracy, completeness or violation of third party intellectual property rights. Neither Party shall be liable to the other hereunder for amounts representing alleged loss of profits, loss of business, direct or indirect or consequential loss or damages to the other Party in connection with the provision or use of Information hereunder, except in cases which constitutes a breach of this Agreement. In no event shall either Party be liable to the other for punitive damages.",
+        "type": "section"
+    },
+    {
+        "clause_id": "TERM",
+        "parent_clause": null,
+        "section": null,
+        "section_title": "TERM",
+        "text": "TERM\nThis Agreement shall remain in effect for a period of one (1) year from the Effective Date unless otherwise terminated by either Party giving 30 days’ notice to the other of its desire to terminate this Agreement. The terms may be extended by mutual agreement of the Parties, in writing. The obligations set forth in this Agreement shall bind the Parties for a period of three (3) years from the date of termination of this Agreement. Upon expiry or earlier termination, both Parties shall take all steps as provided for in Clause 4, above.\nNotwithstanding anything to the contrary herein, protection of personal data and information constituting a trade secret (confirmed as such in writing by the Disclosing Party to the Receiving Party within 30 days from date of disclosure) shall never expire and shall be subject to the provisions of this Agreement until it no longer constitutes a trade secret under law.",
+        "type": "section"
+    },
+    {
+        "clause_id": "REMEDIES",
+        "parent_clause": null,
+        "section": null,
+        "section_title": "REMEDIES",
+        "text": "REMEDIES\nThe Receiving Party agrees that any violation or threatened violation of this Agreement will cause irreparable injury to the Disclosing Party, entitling the Disclosing Party to obtain injunctive relief in addition to all legal remedies.",
+        "type": "section"
+    },
+    {
+        "clause_id": "NO OBLIGATION",
+        "parent_clause": null,
+        "section": null,
+        "section_title": "NO OBLIGATION",
+        "text": "NO OBLIGATION\nNothing herein shall a) obligate either Party to proceed with any transaction, whether contemplated or not, between them, and each Party reserves the right, in its sole discretion, to terminate the discussions contemplated by this Agreement, if any, and to also cease further disclosures, communications or other activities under this Agreement upon written notice to the other Party b) preclude either Party from engaging in discussions with any third Party(ies) regarding the Purpose, provided that the terms of this Agreement are strictly complied with during such discussions.",
+        "type": "section"
+    },
+    {
+        "clause_id": "APPLICABLE LAW",
+        "parent_clause": null,
+        "section": null,
+        "section_title": "APPLICABLE LAW",
+        "text": "APPLICABLE LAW\nThis Agreement shall be construed, interpreted and governed by the laws of India and shall be subject to the jurisdiction of the Courts in Bengaluru.",
+        "type": "section"
+    },
+    {
+        "clause_id": "SURVIVAL OF AGREEMENT",
+        "parent_clause": null,
+        "section": null,
+        "section_title": "SURVIVAL OF AGREEMENT",
+        "text": "SURVIVAL OF AGREEMENT\nThe Parties acknowledge and agree that the undertakings given about the Confidential Information shall survive the termination of this or any other Agreement between the Parties and shall continue to be in force in accordance with Clause 7 above, until such Confidential Information becomes public knowledge other than by breach of this Agreement.",
+        "type": "section"
+    },
+    {
+        "clause_id": "MISCELLANEOUS",
+        "parent_clause": null,
+        "section": null,
+        "section_title": "MISCELLANEOUS",
+        "text": "MISCELLANEOUS\nThis document contains the entire agreement between the Parties with respect to the subject matter hereof and supersedes all prior discussions.\nAny failure to enforce any provision of this Agreement shall not constitute a waiver thereof or of any other provision hereof.\nThis Agreement shall not be amended, nor any obligation waived, except by a writing signed by both Parties hereto.\nThe rights of the Parties under this Agreement shall not be assigned or transferred to any third person/s without the express prior written consent of the other Party.\nEach Representative signing this Agreement warrants that he/she is authorized to sign for and bind the organization he/she is representing.\nThis Agreement is valid and binding on the successors-in-title and permitted assigns of the respective Parties. The spirit of mutual trust and confidence shall be the underlying principle of this undertaking and the Parties agree to adhere thereto.\nThis Agreement may be executed in 2 (two) counterparts, each of which shall be an original and with each Party in possession of one such original, but both together shall constitute one instrument.\nIN WITNESS WHEREOF, the Parties hereto have caused this Mutual Non-Disclosure Agreement to be executed as of the Effective Date.",
+        "type": "section"
+    }
+]

@@ -1,0 +1,610 @@
+[
+    {
+        "clause_id": null,
+        "parent_clause": null,
+        "section": null,
+        "section_title": null,
+        "text": "ANNEXURE 1: Scope of Services\nANNEXURE 2: Compensation Schedule\n\nEMPLOYMENT AGREEMENT\nThis Employment Agreement (from now on referred to as this \"Agreement\") is made on this DDMMYYYY:\nBY AND BETWEEN:\nCompany Name, a company incorporated under the provisions of the Companies Act, 1956 and having its registered office at Address, City - Pincode, State, India,\n(hereinafter referred to as the “Company”, which expression shall, unless repugnant to the context or meaning thereof, be deemed to mean and include its successors in interest, administrators and permitted assigns), of the FIRST PART and\nName, a citizen of India and presently residing at address, city – Pincode, (from now on referred to as the “Employee”).\nWHEREAS:\n1. The Company is in the business of ….....\n2. The Company, in the course of its business, has acquired or may acquire confidential property, information, and trade secrets, made or will make discoveries and improvements or developments, which it desires to keep confidential.\n3. The Company undertakes several assignments on behalf of clients that involve the development of Intellectual Property (as defined hereinafter) and which also entail confidentiality obligations. The Company must respect the Intellectual Property and confidentiality obligations of its clients and therefore, in turn, the employees are also expected to respect the same.\n4. The Company wishes to safeguard its goodwill, business and proprietary information to which the Employee may have access.\n5. The Company desires to engage the Employee on the terms and conditions outlined in this Agreement.\nNOW, THEREFORE, in consideration of the mutual promises set forth herein, the\nCompany and the Employee at this moment agree as follows:",
+        "type": "document"
+    },
+    {
+        "clause_id": "1.1",
+        "parent_clause": "1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.1 \"Agreement\" means this Agreement including any Annexures and Schedules attached to this Agreement and as may be amended and modified from time to time.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.2",
+        "parent_clause": "1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.2 “Business” means …......",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.3",
+        "parent_clause": "1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.3 “Compensation Letter” means the letter issued by the Company to the\nEmployee setting out the details and manner of the compensation, as amended from time to time.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.4",
+        "parent_clause": "1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.4 \"Competitor” means and includes all such Persons (as defined hereinafter)\nwhether domestic or foreign, which carry on or which are likely to carry on similar Business.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.5",
+        "parent_clause": "1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.5 “Confidential Information” includes but is not limited to information which is or fairly be considered to be of a confidential nature, which is obtained whether\n(without limitation) in graphic, written, electronic or machine readable form or orally, by the Employee; and whether or not the information is expressly stated to be confidential or marked as such, in writing, and also includes all Intellectual\nProperty, but is not limited to:",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.5.1",
+        "parent_clause": "1.5",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.5.1 Information of value or significance to the Company or its competitors\n(present or potential) such as:",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.5.1.1",
+        "parent_clause": "1.5.1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.5.1.1 Customer data, in particular, names, addresses, sales figures and sales conditions of the Company and its clients.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.5.1.2",
+        "parent_clause": "1.5.1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.5.1.2 Distribution data, in particular, names, addresses, sales figures and sales conditions of distributors, agents and licensees of the Company.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.5.1.3",
+        "parent_clause": "1.5.1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.5.1.3 Manufacturing data, in particular, procurement and manufacturing procedures,\nthe fees, discounts, commissions and other credits relating to the software.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.5.1.4",
+        "parent_clause": "1.5.1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.5.1.4 Supplier’s data, in particular, names, addresses, sales figures, and sales condition of suppliers of software and hardware to the Company, whether in\nIndia or abroad.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.5.1.5",
+        "parent_clause": "1.5.1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.5.1.5 Business data, particularly data relating to new products, promotion campaigns,\ndistribution strategies, license agreements and joint ventures in which the\nCompany is involved.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.5.1.6",
+        "parent_clause": "1.5.1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.5.1.6 Software data, particularly information relating to the software and the modules thereof as well as any devices designed by the Company to prevent unauthorized\n\ncopying.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.5.1.7",
+        "parent_clause": "1.5.1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.5.1.7 Research and development data, particularly information relating to the software and hardware developments of the Company.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.5.1.8",
+        "parent_clause": "1.5.1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.5.1.8 Financial data, in particular, concerning budgets, the fees and revenue calculations, sales figures, financial statements, profit expectations and inventories of the Company.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.5.2",
+        "parent_clause": "1.5",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.5.2 Original information supplied by the Company;",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.5.3",
+        "parent_clause": "1.5",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.5.3 Information not known to competitors of the Company nor intended by the\nCompany for general dissemination, including but not limited to, policies,\nstrategies, the identity of various product-suppliers or service-providers,\nbilling schedules, needs of its clients, information as to the profitability of specific accounts, and information about the Company itself and its executives,\nofficers,\ndirectors and employees;",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.5.4",
+        "parent_clause": "1.5",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.5.4 Any business or technical information relating to the Company, including but not limited to financial information, equipment, documentation, strategies,\nmarketing plans, prospective leads or target accounts, pricing information, information relating to existing, previous and potential customers and contracts disclosed by the Company to the Employee;",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.5.5",
+        "parent_clause": "1.5",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.5.5 Any copies of the above-mentioned information; but do not include:\na) that which is in the public domain other than by the Employee’s breach,\nof this\nThe agreement, or of any other confidentiality agreement;\nb) that which was previously known as established by written records of the\nEmployee prior to receipt from the Company;\nc) that which was lawfully obtained by the Employee from a third Party; and d) that which was developed independently by the Employee who had no access to the Confidential Information provided by the Company.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.6",
+        "parent_clause": "1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.6 \"Intellectual Property\" includes:",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.6.1",
+        "parent_clause": "1.6",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.6.1 all patents, trademarks, business processes, domain names, works of authorship, designs, utility models, copyrights whether registered or\n\nunregistered, which are owned by the Company or acquired or developed by the\nCompany in the course of its business, including, but not limited to moral rights and any similar rights in any country, whether negotiable or not and also includes any applications for any of the preceding and the right to apply for them in any part of the world; and",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.6.2",
+        "parent_clause": "1.6",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.6.2 all processes, inventions, ideas, programs, codes, software, algorithms,\ndiscoveries, correspondence, trade secrets, databases, know-how, creations or improvements upon, additions or any research effort relating to any of the above,\nwhether registrable or not.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.7",
+        "parent_clause": "1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.7 “Person” means an individual, corporation, partnership, limited liability company,\nassociation, trust or other entity or organization, including a government or the political subdivision or an agency or instrumentality thereof.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.8",
+        "parent_clause": "1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.8 “Property” includes, but is not limited to the following:",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.8.1",
+        "parent_clause": "1.8",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.8.1 internal memoranda, computer equipment (including software), training materials,\nrules, books, and all other like property, including all copies, duplications,\nreplications, and derivatives of such property;",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.8.2",
+        "parent_clause": "1.8",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.8.2 any residential accommodation, furniture, fixtures, fittings and furnishings,\ncommunication equipment, automobile and all other items; and,",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.8.3",
+        "parent_clause": "1.8",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.8.3 any tangible expression of Confidential Information, including, without limitation,\nphotographs, plans, notes, renderings, journals, notebooks, computer programs and samples relating thereto.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.9",
+        "parent_clause": "1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.9 “Rules” means the Company’s manual, which lays down the policies,\nprocedures, rules etc. in connection with the day-to-day operations of the\nCompany, the behavior of its employees, the overall management of the\nCompany and its clients/customers, as amended from time to time by the\nCompany.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.10",
+        "parent_clause": "1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.10 “Termination Date” means the date on which the employment of the\nEmployee is ended and which shall in the case of termination by the Company be effective\n\nfrom the date on which the Notice Period (as defined hereinafter), if any, is over and in the case of termination by the Employee, be effective from the date on which Notice period is over or, in the event the Notice Period is waived under\nSection 8.3, the date of which the Company permits the Employee to leave service.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "1.11",
+        "parent_clause": "1",
+        "section": "1",
+        "section_title": "DEFINITIONS AND INTERPRETATION",
+        "text": "1.11 Unless the context otherwise requires, (a) words importing one gender include the other gender; (b) words importing the singular include the plural and vice versa; (c) any reference to a statutory provision shall be deemed to include a reference to any statutory modification or re-enactment; (d) the Section headings do not form part of this Agreement and shall not be taken into account in its construction or interpretation and (e) any reference to the Employee shall,\nif appropriate, include his personal representatives.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "2.1",
+        "parent_clause": "2",
+        "section": "2",
+        "section_title": "EMPLOYMENT",
+        "text": "2.1 The Company hereby employs the Employee, upon the terms and conditions set forth in this Agreement and in the Rules of the Company.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "2.2",
+        "parent_clause": "2",
+        "section": "2",
+        "section_title": "EMPLOYMENT",
+        "text": "2.2 The Company can transfer the Employee to any other office of the Company in\nIndia or overseas or to any associate or subsidiary of the Company, at the discretion of the Company. In such case, the Employee shall also be bound by any policy of the Company, in existence at the date of this Agreement or that may be subsequently framed by the Company.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "2.3",
+        "parent_clause": "2",
+        "section": "2",
+        "section_title": "EMPLOYMENT",
+        "text": "2.3 The Employee shall perform such duties and obligations as may from time to time be assigned to him by the Company. Annexure 1 hereto describes the scope of services of the Employee). During the term of the Agreement, the Employee shall be bound by the Agreement, the Rules of the Company and other documents of the Company, as amended from time to time.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "3.1",
+        "parent_clause": "3",
+        "section": "3",
+        "section_title": "NON-COMPETITION AND NON-SOLICITATION",
+        "text": "3.1 During the term of the employment with the Company and for a period of one (1)\nyear following the Termination Date in case of Competitors world wide, the\nEmployee shall not, directly or indirectly, either as an individual on his own account or as a partner, employee, consultant, advisor, agent, contractor,\ndirector,\ntrustee, committee member, office bearer, or shareholder (or in a similar capacity or function)",
+        "type": "clause"
+    },
+    {
+        "clause_id": "3.1.1",
+        "parent_clause": "3.1",
+        "section": "3",
+        "section_title": "NON-COMPETITION AND NON-SOLICITATION",
+        "text": "3.1.1 own or operate in India a business in competition with the business of the\nCompany;",
+        "type": "clause"
+    },
+    {
+        "clause_id": "3.1.2",
+        "parent_clause": "3.1",
+        "section": "3",
+        "section_title": "NON-COMPETITION AND NON-SOLICITATION",
+        "text": "3.1.2 solicit the employment of or advise any other employee of the Company to terminate his contract or relationship with the Company or accept any contract (directly or indirectly) or another arrangement for providing services to any other person or organization; or,",
+        "type": "clause"
+    },
+    {
+        "clause_id": "3.1.3",
+        "parent_clause": "3.1",
+        "section": "3",
+        "section_title": "NON-COMPETITION AND NON-SOLICITATION",
+        "text": "3.1.3 contact any of the existing or prospective clients of the Company, to entice such clients away from the Company or to damage in any way their business relationship with the Company.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "3.2",
+        "parent_clause": "3",
+        "section": "3",
+        "section_title": "NON-COMPETITION AND NON-SOLICITATION",
+        "text": "3.2 The Company may, however, relieve the Employee, from complying with the provisions of this Section in whole or in part.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "4.1",
+        "parent_clause": "4",
+        "section": "4",
+        "section_title": "CONFIDENTIALITY",
+        "text": "4.1 The Employee shall not disclose, any time, to any Person or Competitor who is not employed, part of or associated with the Company; or use for any purpose that is not within the scope of his services, any Confidential Information,\nexcept in accordance with any written exception made by the Company.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "4.2",
+        "parent_clause": "4",
+        "section": "4",
+        "section_title": "CONFIDENTIALITY",
+        "text": "4.2 Notwithstanding the aforesaid provisions of this Section, the Employee may disclose Confidential Information were compelled to do so, by any government,\njudicial or quasi-judicial authority;\nProvided however, that the Employee shall in such a case give the Company reasonable notice of any prospective disclosure and shall assist the Company in obtaining an exemption or protective order preventing such disclosure.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "5.1",
+        "parent_clause": "5",
+        "section": "5",
+        "section_title": "INTELLECTUAL PROPERTY",
+        "text": "5.1 All Intellectual Property conceived (whether during regular business hours or not),\ndiscovered, or made by Employee during the course of his employment with the\nCompany, and other ideas, techniques or principles related to the business of the\nCompany, shall be promptly disclosed in writing to the Company.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "5.2",
+        "parent_clause": "5",
+        "section": "5",
+        "section_title": "INTELLECTUAL PROPERTY",
+        "text": "5.2 All rights in the Intellectual Property shall belong to the Company immediately upon the formation of such rights, whether or not the final work / mark /\ninvention in which the Intellectual Property vests is formed or completed, for the full term of each and every such right, including renewal or extension of any such term.\nThe\nEmployee shall perform all acts, including execution of documents and assistance in legal proceedings that are necessary to defend or establish the rights of the\nCompany in the Intellectual Property in any country.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "5.3",
+        "parent_clause": "5",
+        "section": "5",
+        "section_title": "INTELLECTUAL PROPERTY",
+        "text": "5.3 The Employee irrevocably assigns to the Company, the Intellectual Property in all works developed during the course of his employment, free from encumbrances of any kind.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "5.4",
+        "parent_clause": "5",
+        "section": "5",
+        "section_title": "INTELLECTUAL PROPERTY",
+        "text": "5.4 The Employee explicitly waives all moral rights in any of the works developed for the company during the course of his employment with the Company.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "5.5",
+        "parent_clause": "5",
+        "section": "5",
+        "section_title": "INTELLECTUAL PROPERTY",
+        "text": "5.5 The Employee represents and warrants that he has not violated the Intellectual\n\nProperty rights of any Person and covenants that he shall not violate the\nIntellectual Property rights of any person in the course of his employment with the Company.\nProvided that in the event the Company is held liable for the violation of any\nIntellectual Property rights by the Employee, the Employee undertakes to indemnify the Company against any and all losses, liabilities, claims, actions, costs, and expenses, including reasonable attorney’s fees and court fees resulting therefrom.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "6",
+        "parent_clause": null,
+        "section": "6",
+        "section_title": "TERM",
+        "text": "6. TERM\nSubject to the provisions of termination as from now on provided, the term of this\nAgreement shall begin on DDMMYYY and shall continue until terminated by either\nParty following either Section 8 or Section 2 hereof. The obligations of the Employee under this Agreement will survive both the execution of this Agreement and the\nTermination Date.",
+        "type": "section"
+    },
+    {
+        "clause_id": "7",
+        "parent_clause": null,
+        "section": "7",
+        "section_title": "COMPENSATION",
+        "text": "7. COMPENSATION\nThe Company shall compensate the Employee as per the Compensation Letter attached hereto as Annexure 2 (as revised from time to time) for the services of the\nEmployee by this Agreement.",
+        "type": "section"
+    },
+    {
+        "clause_id": "8.1",
+        "parent_clause": "8",
+        "section": "8",
+        "section_title": "TERMINATION OF EMPLOYMENT",
+        "text": "8.1 The Company may terminate the Employee’s employment with the Company under this Agreement, with immediate effect, in the event of misconduct, or fraudulent,\ndishonest or undisciplined conduct of the Employee, or insolvency or conviction of the Employee for any offense involving moral turpitude, or breach of any terms of this Agreement or Rules of the Company or other documents or directions of the\nA company by the Employee, or any unauthorized absence of the Employee from the place of work for more than seven (7) consecutive working days, or closure of\n\nthe business of the Company, or redundancy of the post of the Employee in the\nCompany.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "8.2",
+        "parent_clause": "8",
+        "section": "8",
+        "section_title": "TERMINATION OF EMPLOYMENT",
+        "text": "8.2 Notwithstanding anything mentioned in this Agreement, the Company may,\nby giving reasonable cause, terminate the Employee’s employment under this\nAgreement upon written notice to the Employee, following the provisions of this Section:",
+        "type": "clause"
+    },
+    {
+        "clause_id": "8.2.1",
+        "parent_clause": "8.2",
+        "section": "8",
+        "section_title": "TERMINATION OF EMPLOYMENT",
+        "text": "8.2.1 The termination would be effective after thirty (30) days from the date of the receipt (by the Employee) of such notice (from now on referred to as the\n“Notice\nPeriod”). Alternatively, the Company may terminate the Employee’s employment with immediate effect, upon giving the Employee one (1) months’ salary in lieu of notice or pro-rated salary for the balance Notice Period in case the\nEmployee has been permitted to work during the Notice Period.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "8.2.2",
+        "parent_clause": "8.2",
+        "section": "8",
+        "section_title": "TERMINATION OF EMPLOYMENT",
+        "text": "8.2.2 If the Employee has been in continuous employment with the Company for a period of not less than one year, the Company may at its sole discretion, give the\nEmployee a service compensation amounting to fifteen days average salary for each year of continuous employment.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "8.2.3",
+        "parent_clause": "8.2",
+        "section": "8",
+        "section_title": "TERMINATION OF EMPLOYMENT",
+        "text": "8.2.3 If the employee is on probation, the Notice Period referred to in Section",
+        "type": "clause"
+    },
+    {
+        "clause_id": "8.2.1",
+        "parent_clause": "8.2",
+        "section": "8",
+        "section_title": "TERMINATION OF EMPLOYMENT",
+        "text": "8.2.1 is dispensed with and the Company may, without assigning a cause,\nterminate the\nEmployee’s employment with immediate effect.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "8.3",
+        "parent_clause": "8",
+        "section": "8",
+        "section_title": "TERMINATION OF EMPLOYMENT",
+        "text": "8.3 The Employee may, without assigning any cause, resign from his/her employment under this Agreement upon written notice to the Company and completion of the Notice Period. However, the Employee may have to give an exit interview, at the request of the Company. The Company may, at its sole discretion, permit the\nEmployee to leave service during the Notice Period.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "8.4",
+        "parent_clause": "8",
+        "section": "8",
+        "section_title": "TERMINATION OF EMPLOYMENT",
+        "text": "8.4 If the termination is found to be wrongful, the maximum liability of the\nCompany shall be equivalent to the Employee's three (3) months' salary.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "9.1",
+        "parent_clause": "9",
+        "section": "9",
+        "section_title": "THE COMPANY PROPERTY – EMPLOYEE’S DUTY TO RETURN",
+        "text": "9.1 The Company’s Intellectual Property and Property acquired by the Employee after signing this Agreement shall be returned to the Company not later than the final date of his employment with the Company.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "9.2",
+        "parent_clause": "9",
+        "section": "9",
+        "section_title": "THE COMPANY PROPERTY – EMPLOYEE’S DUTY TO RETURN",
+        "text": "9.2 Until such time as all the Property is returned to the Company, the Company shall,\nin addition to initiating legal proceedings for recovery, be entitled to withhold any salary, emoluments or other dues of the Employee and may further, at its discretion, deduct therefrom, the full value of the Property calculated at it is then replacement price. In addition, the Company may also take any other legal action against the Employee and shall have the right to recover the full amount of the replacement price, if the dues of the Employee are not sufficient to cover the replacement price. Further, the Employee shall compensate the Company for any misuse or damage to the property of the Company.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "10",
+        "parent_clause": null,
+        "section": "10",
+        "section_title": "INDEBTEDNESS",
+        "text": "10. INDEBTEDNESS\nIf, during the Employee’s employment under this Agreement, the Employee becomes indebted to the Company for any reason, the Company may, if it so elects, set off any sum due to the Company from the Employee against the compensation payable to the\nEmployee and collect any remaining balance from him.",
+        "type": "section"
+    },
+    {
+        "clause_id": "11.1",
+        "parent_clause": "11",
+        "section": "11",
+        "section_title": "NOTICES",
+        "text": "11.1 All notices given pursuant to this Agreement shall be in writing and shall be\n\ndeemed to be served as follows: (a) in the case of any notice delivered by hand,\nwhen so delivered; (b) if sent by pre-paid post or courier, on the third clear day after the date of posting; (c) in the case of any notice sent by facsimile, upon the receipt of a confirmation copy at the sender’s facsimile machine; and (d) if sent by e-mail, 24 hours after the e-mail is sent.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "11.2",
+        "parent_clause": "11",
+        "section": "11",
+        "section_title": "NOTICES",
+        "text": "11.2 Any notice to the company to be given by any Party to this Agreement shall be deemed to be duly served if delivered by prepaid registered post or through a delivery service/courier, by hand delivery, by fax or by email to the following address:\n\nIf to the Company:\n\nCompany Address :\nDesignation :\nE-mail:\n\nIf to the Employee:\nAddress with pin code\n\nAny change in the address of either party shall be notified to the other party in the same manner mentioned hereinabove.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "12",
+        "parent_clause": null,
+        "section": "12",
+        "section_title": "WAIVER",
+        "text": "12. WAIVER\nAny waiver by the Company of a breach or threatened breach of this Agreement by\nEmployee shall not be construed as a waiver of any subsequent breach by Employee.",
+        "type": "section"
+    },
+    {
+        "clause_id": "13",
+        "parent_clause": null,
+        "section": "13",
+        "section_title": "ACKNOWLEDGMENTS",
+        "text": "13. ACKNOWLEDGMENTS\n\nEmployee acknowledges that he has been provided with a copy of this Agreement for review prior to signing it, that he has reviewed it and that he understands the purposes and effects of this Agreement, and that he has been given a signed copy of this\nAgreement for his own records.",
+        "type": "section"
+    },
+    {
+        "clause_id": "14.1",
+        "parent_clause": "14",
+        "section": "14",
+        "section_title": "DISPUTE RESOLUTION",
+        "text": "14.1 The Company and the Employee hereby agree that they intend to discharge their obligations in the utmost good faith. They, therefore, agree that they will, at all times,\nact in good faith, and make all attempts to resolve all differences howsoever arising out of or in connection with this Agreement by discussion failing which,\nfifteen (15) days of the commencement of the discussions, by arbitration.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "14.2",
+        "parent_clause": "14",
+        "section": "14",
+        "section_title": "DISPUTE RESOLUTION",
+        "text": "14.2 The Parties shall be bound to submit all disputes and differences howsoever arising out of and in connection with this Agreement to arbitration in accordance with the Arbitration and Conciliation, provided that:",
+        "type": "clause"
+    },
+    {
+        "clause_id": "14.2.1",
+        "parent_clause": "14.2",
+        "section": "14",
+        "section_title": "DISPUTE RESOLUTION",
+        "text": "14.2.1 There shall be one arbitrator nominated jointly by the Parties, failing which there shall be three (3) arbitrators, one each nominated by the Company and\nEmployee and the other chosen by the two (2) arbitrators so nominated shall be persons of professional repute and who are not directly or indirectly connected with the parties) whose appointment shall be agreed between the parties within seven (7) days of the service of an arbitration notice;",
+        "type": "clause"
+    },
+    {
+        "clause_id": "14.2.2",
+        "parent_clause": "14.2",
+        "section": "14",
+        "section_title": "DISPUTE RESOLUTION",
+        "text": "14.2.2 The Parties agree that until the arbitration proceedings are complete, they shall not take their disputes to a court of law.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "14.2.3",
+        "parent_clause": "14.2",
+        "section": "14",
+        "section_title": "DISPUTE RESOLUTION",
+        "text": "14.2.3 All hearings shall be held in Mumbai, India, in English.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "14.3",
+        "parent_clause": "14",
+        "section": "14",
+        "section_title": "DISPUTE RESOLUTION",
+        "text": "14.3 Notwithstanding anything contained in this Agreement the Company may approach any court within India for injunctive relief when it feels that any of the terms of this Agreement are breached or likely to be breached by the\nEmployee.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "15.1",
+        "parent_clause": "15",
+        "section": "15",
+        "section_title": "MISCELLANEOUS",
+        "text": "15.1 Entire Agreement: This Agreement constitutes the entire agreement between the signatories and shall supersede all negotiations, preliminary agreements, and all prior and contemporaneous discussions and understandings of the signatories connection with the subject matter hereof.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "15.2",
+        "parent_clause": "15",
+        "section": "15",
+        "section_title": "MISCELLANEOUS",
+        "text": "15.2 Amendments: No change, modification, or termination of any of the terms,\nprovisions, or conditions of this Agreement shall be effective unless made in writing and signed or initialed by all signatories to this Agreement.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "15.3",
+        "parent_clause": "15",
+        "section": "15",
+        "section_title": "MISCELLANEOUS",
+        "text": "15.3 Severability: If any paragraph, subparagraph, or provision of this\nAgreement, or the application of such paragraph, sub-paragraph, or provision, is held invalid by a court of competent jurisdiction, the remainder of this Agreement, and the application of such paragraph, sub-paragraph, or provision to persons, or circumstances other than those with respect to which it is held invalid shall not be affected.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "15.4",
+        "parent_clause": "15",
+        "section": "15",
+        "section_title": "MISCELLANEOUS",
+        "text": "15.4 Parties To Act With Due Diligence And In Good Faith: The Parties hereto shall dutifully perform all covenants of this Agreement in letter and spirit and shall otherwise act with due diligence and in good faith.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "16.1",
+        "parent_clause": "16",
+        "section": "16",
+        "section_title": "GOVERNING LAW AND JURISDICTION",
+        "text": "16.1 This Agreement shall, in all respects, be governed by and construed in all respects in accordance with the laws of India.",
+        "type": "clause"
+    },
+    {
+        "clause_id": "16.2",
+        "parent_clause": "16",
+        "section": "16",
+        "section_title": "GOVERNING LAW AND JURISDICTION",
+        "text": "16.2 In relation to any legal action or proceeding to enforce this Agreement, the\nEmployee irrevocably submits to the exclusive jurisdiction of any competent court and waives any objection to such proceedings on grounds of venue or on the grounds that the proceedings have been brought in an inconvenient forum.\n\nIN WITNESS WHEREOF, the signatories have executed this Employment\nAgreement as the day and year first above written.\n\nFor Company Name\nCandidate Name\n\nName:\n\nTitle:",
+        "type": "clause"
+    },
+    {
+        "clause_id": "Annexure 1",
+        "parent_clause": null,
+        "section": "Annexure 1",
+        "section_title": "Annexure 1",
+        "text": "ANNEXURE 1\nSCOPE OF SERVICES\nThe Employee of the Company shall be bound by this Agreement to fulfill the following services for the Company:\nTitle:\nResponsibilities & Duties:",
+        "type": "annexure"
+    },
+    {
+        "clause_id": "Annexure 2",
+        "parent_clause": null,
+        "section": "Annexure 2",
+        "section_title": "Annexure 2",
+        "text": "ANNEXURE 2\nCOMPENSATION LETTER\nThe Employee shall be entitled to receive compensation in accordance with the terms set forth in this Compensation Letter for any and all the services of every nature rendered and to be rendered by the Employee in connection with his employment with the Company as laid down in this Agreement in India. The\nEmployee shall be bound by the terms and conditions set forth in this Agreement.\nAnnual Compensation\nYour total annual compensation and benefits (the total cost to company) shall be equivalent to Rs. In figures (Rupees In words) as specifically defined below:\n\ns Company name\nCTC Breakup (With PF)\nName of Employee:\n\nDesignation\n\nLevel\n\nDate of Joining:\n\nSr. No.\nParticulars\n\nAmount\n(Monthly)\n\nAmount\n(Yearly)\n\nBasic Salary\n\nHouse Rent Allowance\n\nConveyance Allowance\n\nMedical reimbursement\n\nSpecial allowance\n\nMonthly\nGross\n\nMedical reimbursement\n(Quarterly)\n\nLeave Travel Allowance\n\nProvident\nFund\n(Employer\nContribution)\n\nAnnual Gross\n\nGratuity (Payable after 5 years service)\n\nCost to Company\n\nOther Benefits\nAs applicable",
+        "type": "annexure"
+    }
+]
